@@ -265,6 +265,100 @@ const initialData = {
 };
 
 /* ════════════════════════════════════════════════════════════════════════
+   LOCAL + REMOTE DATA HYDRATION
+   Fix: app must not always start from hardcoded initialData.
+   It loads the last saved state from localStorage, preserves GitHub settings,
+   and normalizes older remote JSON shapes before applying them to React state.
+   ════════════════════════════════════════════════════════════════════════ */
+
+const STORAGE_KEY = 'life-os:data:v8';
+
+function stripGithubToken(appData) {
+  const { githubToken, ...safeSettings } = appData.settings || {};
+  return {
+    ...appData,
+    settings: safeSettings,
+  };
+}
+
+function normalizeAppData(incoming = {}, currentSettings = {}) {
+  const merged = {
+    ...initialData,
+    ...incoming,
+    nova: {
+      ...initialData.nova,
+      ...(incoming.nova || {}),
+      categories: incoming.nova?.categories || initialData.nova.categories,
+      tasks: incoming.nova?.tasks || [],
+    },
+    jobs: {
+      ...initialData.jobs,
+      ...(incoming.jobs || {}),
+      columns: incoming.jobs?.columns || initialData.jobs.columns,
+      cards: incoming.jobs?.cards || [],
+    },
+    habits: {
+      ...initialData.habits,
+      ...(incoming.habits || {}),
+      list: incoming.habits?.list || initialData.habits.list,
+      weeks: incoming.habits?.weeks || {},
+    },
+    finance: {
+      ...initialData.finance,
+      ...(incoming.finance || {}),
+      months: incoming.finance?.months || initialData.finance.months,
+      expenseCategories: incoming.finance?.expenseCategories || initialData.finance.expenseCategories,
+      budgets: incoming.finance?.budgets || {},
+      notes: incoming.finance?.notes ?? initialData.finance.notes,
+    },
+    generalTasks: incoming.generalTasks || [],
+    activity: incoming.activity || [],
+    settings: {
+      ...initialData.settings,
+      ...(incoming.settings || {}),
+      ...currentSettings,
+    },
+  };
+
+  // Normalize old month objects where transfers did not exist yet.
+  const months = { ...(merged.finance.months || {}) };
+  Object.keys(months).forEach((key) => {
+    const m = months[key] || {};
+    months[key] = {
+      income: m.income || [],
+      expenses: m.expenses || [],
+      transfers: m.transfers || [],
+    };
+  });
+  merged.finance.months = months;
+
+  return merged;
+}
+
+function loadLocalData() {
+  if (typeof window === 'undefined') return initialData;
+
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return initialData;
+    return normalizeAppData(JSON.parse(raw));
+  } catch (e) {
+    console.warn('Failed to load local data:', e);
+    return initialData;
+  }
+}
+
+function saveLocalData(appData) {
+  if (typeof window === 'undefined') return;
+
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(appData));
+  } catch (e) {
+    console.warn('Failed to save local data:', e);
+  }
+}
+
+/* ════════════════════════════════════════════════════════════════════════
    ACTIVITY LOG — append-only, capped
    ════════════════════════════════════════════════════════════════════════ */
 
@@ -4757,7 +4851,7 @@ function Toasts({ toasts, dismiss }) {
    ════════════════════════════════════════════════════════════════════════ */
 
 export default function App() {
-  const [data, setData] = useState(initialData);
+  const [data, setData] = useState(() => loadLocalData());
   const [view, setView] = useState('dashboard');
   const [syncing, setSyncing] = useState(false);
   const [toasts, setToasts] = useState([]);
@@ -4766,6 +4860,11 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
   const [bulkImportOpen, setBulkImportOpen] = useState(false);
+
+  // Persist every state change locally so refreshes and manual GitHub pulls keep data visible.
+  useEffect(() => {
+    saveLocalData(data);
+  }, [data]);
 
   // Live clock
   useEffect(() => {
@@ -4790,60 +4889,62 @@ export default function App() {
   /* ───── GitHub sync ───── */
 
   const pushToGitHub = useCallback(async () => {
-    // ВАЖЛИВО: Використовуємо токен, який зараз введений в інпут
-    const token = data.settings.githubToken;
-    const repo = data.settings.githubRepo;
+    const token = data.settings.githubToken?.trim();
+    const repo = data.settings.githubRepo?.trim();
 
     if (!token || !repo) {
       showToast('Set GitHub token and repo first', 'error');
       return;
     }
-    
+
     setSyncing(true);
+    const syncedAt = new Date().toISOString();
+
     try {
-      // 1. Отримуємо SHA
       let sha;
-      try {
-        const r = await fetch(ghUrl(repo), { headers: ghHeaders(token) });
-        if (r.ok) { const j = await r.json(); sha = j.sha; }
-      } catch (_) {}
+      const metaRes = await fetch(`${ghUrl(repo)}?t=${Date.now()}`, {
+        headers: ghHeaders(token),
+        cache: 'no-store',
+      });
 
-      // 2. Готуємо дані (очищаємо від токена перед збереженням у JSON)
-      const { githubToken, ...safeSettings } = data.settings;
-      const dataToSave = { 
-        ...data, 
-        settings: { ...safeSettings, lastSync: new Date().toISOString() } 
-      };
+      if (metaRes.ok) {
+        const meta = await metaRes.json();
+        sha = meta.sha;
+      } else if (metaRes.status !== 404) {
+        const err = await metaRes.json().catch(() => ({}));
+        throw new Error(err.message || `GET failed: HTTP ${metaRes.status}`);
+      }
 
-      // 3. Радикальне очищення рядка
-      let jsonString = JSON.stringify(dataToSave, null, 2);
-      jsonString = jsonString.replace(/(ghp|github_pat)_[a-zA-Z0-9_]+/g, '***hidden_token***');
+      const dataToSave = stripGithubToken({
+        ...data,
+        settings: {
+          ...(data.settings || {}),
+          lastSync: syncedAt,
+        },
+      });
 
-      // 4. Відправляємо
       const body = {
-        message: `Sync ${new Date().toISOString()}`,
-        content: utf8ToBase64(jsonString),
+        message: `Sync ${syncedAt}`,
+        content: utf8ToBase64(JSON.stringify(dataToSave, null, 2)),
         ...(sha ? { sha } : {}),
       };
-      
-      const r = await fetch(ghUrl(repo), {
+
+      const putRes = await fetch(ghUrl(repo), {
         method: 'PUT',
         headers: { ...ghHeaders(token), 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
       });
-      
-      if (!r.ok) {
-        const err = await r.json().catch(() => ({}));
-        throw new Error(err.message || `HTTP ${r.status}`);
+
+      if (!putRes.ok) {
+        const err = await putRes.json().catch(() => ({}));
+        throw new Error(err.message || `PUT failed: HTTP ${putRes.status}`);
       }
-      
+
+      setData((prev) => normalizeAppData(
+        { ...prev, settings: { ...prev.settings, lastSync: syncedAt } },
+        { githubToken: token, githubRepo: repo }
+      ));
       showToast('Synced to GitHub successfully', 'success');
-      // Оновлюємо тільки lastSync, щоб не затерти токен в стані
-      setData(prev => ({
-        ...prev,
-        settings: { ...prev.settings, lastSync: new Date().toISOString() }
-      }));
-      
     } catch (e) {
       showToast(`Sync failed: ${e.message}`, 'error');
     } finally {
@@ -4852,31 +4953,44 @@ export default function App() {
   }, [data, showToast]);
 
   const pullFromGitHub = useCallback(async () => {
-    if (!data.settings.githubToken || !data.settings.githubRepo) {
+    const token = data.settings.githubToken?.trim();
+    const repo = data.settings.githubRepo?.trim();
+
+    if (!token || !repo) {
       showToast('Set GitHub token and repo first', 'error');
       return;
     }
+
     setSyncing(true);
     try {
-      const r = await fetch(ghUrl(data.settings.githubRepo), { 
-        headers: { ...ghHeaders(data.settings.githubToken), 'Cache-Control': 'no-cache' } 
+      const res = await fetch(`${ghUrl(repo)}?t=${Date.now()}`, {
+        headers: ghHeaders(token),
+        cache: 'no-store',
       });
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      
-      const j = await r.json();
-      const text = base64ToUtf8(j.content);
-      const loaded = JSON.parse(text);
 
-      // Оновлюємо стейт, об'єднуючи нові дані з актуальними налаштуваннями
-      setData(prev => ({
-        ...loaded,
-        settings: {
-          ...loaded.settings,
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.message || `HTTP ${res.status}`);
+      }
+
+      const file = await res.json();
+      const loaded = JSON.parse(base64ToUtf8(file.content));
+      const syncedAt = new Date().toISOString();
+
+      setData((prev) => normalizeAppData(
+        {
+          ...loaded,
+          settings: {
+            ...(loaded.settings || {}),
+            lastSync: syncedAt,
+          },
+        },
+        {
           githubToken: prev.settings.githubToken,
           githubRepo: prev.settings.githubRepo,
-          lastSync: new Date().toISOString(),
         }
-      }));
+      ));
+
       showToast('Data synced from GitHub', 'success');
     } catch (e) {
       showToast('Pull failed: ' + e.message, 'error');
