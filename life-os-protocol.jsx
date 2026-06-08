@@ -1352,7 +1352,7 @@ function SettingsModal({ open, onClose, data, setData, showToast }) {
 
 function BulkImportModal({ open, onClose, setData, showToast, monthHint, cur }) {
   const [text, setText] = useState('');
-  const [defaultDate, setDefaultDate] = useState((monthHint || getMonthKey()) + '-15');
+  const [defaultDate, setDefaultDate] = useState(new Date().toISOString().slice(0, 10));
 
   const parsed = useMemo(() => {
     if (!text.trim()) return { ok: [], skipped: [], sectionMap: {} };
@@ -3974,7 +3974,7 @@ function Finance({ data, setData, showToast, openBulkImport }) {
 
   const parsed = useMemo(() => {
     if (!quickInput.trim()) return null;
-    return parseFinanceLine(quickInput, monthKey + '-15T12:00:00.000Z');
+    return parseFinanceLine(quickInput, new Date().toISOString());
   }, [quickInput, monthKey]);
 
   const commitQuick = () => {
