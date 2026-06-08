@@ -20,6 +20,7 @@ const uid = () => Math.random().toString(36).slice(2, 11) + Date.now().toString(
 const cls = (...a) => a.filter(Boolean).join(' ');
 const clamp = (n, lo, hi) => Math.max(lo, Math.min(hi, n));
 const pad = (n) => String(n).padStart(2, '0');
+const todayLocalISO = (d = new Date()) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 
 const fmtNum = (n) =>
   new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(Math.round(n || 0));
@@ -52,7 +53,7 @@ function parseFinanceLine(rawLine, defaultDateISO) {
   if (/^\d{1,2}\.\d{1,2}\s*\([+\-]?\d+\/[+\-]?\d+/.test(line)) return null;
 
   // Today as ISO date
-  const today = (defaultDateISO || new Date().toISOString()).slice(0, 10);
+  const today = (defaultDateISO || todayLocalISO()).slice(0, 10);
   let txDate = today;
 
   // Trailing (D.M)
@@ -1347,7 +1348,7 @@ function SettingsModal({ open, onClose, data, setData, showToast }) {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `life-os-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `life-os-${todayLocalISO()}.json`;
     document.body.appendChild(a);
     a.click();
     a.remove();
@@ -3981,8 +3982,8 @@ function Finance({ data, setData, showToast, openBulkImport }) {
   const [quickInput, setQuickInput] = useState('');
   const [showBudgets, setShowBudgets] = useState(false);
   const [showAdvanced, setShowAdvanced] = useState(false);
-  const [incInput, setIncInput] = useState({ source: '', amount: '', date: new Date().toISOString().slice(0, 10) });
-  const [expInput, setExpInput] = useState({ desc: '', amount: '', category: 'Food', date: new Date().toISOString().slice(0, 10) });
+  const [incInput, setIncInput] = useState({ source: '', amount: '', date: todayLocalISO() });
+  const [expInput, setExpInput] = useState({ desc: '', amount: '', category: 'Food', date: todayLocalISO() });
 
   const cur = data.finance.currency || 'UAH';
   const limit = data.finance.limit || 0;
@@ -4090,7 +4091,7 @@ function Finance({ data, setData, showToast, openBulkImport }) {
 
   const addEntry = (type, amount, desc, dateStr) => {
     if (!amount || amount <= 0) return;
-    const date = dateStr || new Date().toISOString().slice(0, 10);
+    const date = dateStr || todayLocalISO();
     const mk = date.slice(0, 7);
     const isoDate = date.length === 10 ? `${date}T12:00:00.000Z` : date;
     const entry = { id: uid(), amount: Number(amount), date: isoDate };
@@ -4118,7 +4119,7 @@ function Finance({ data, setData, showToast, openBulkImport }) {
 
   const parsed = useMemo(() => {
     if (!quickInput.trim()) return null;
-    return parseFinanceLine(quickInput, new Date().toISOString().slice(0, 10) + 'T12:00:00.000Z');
+    return parseFinanceLine(quickInput, todayLocalISO());
   }, [quickInput]);
 
   const commitQuick = () => {
@@ -4133,13 +4134,13 @@ function Finance({ data, setData, showToast, openBulkImport }) {
     const amt = Number(incInput.amount);
     if (!incInput.source.trim() || !amt) return;
     addEntry('income', amt, incInput.source.trim(), incInput.date);
-    setIncInput({ source: '', amount: '', date: new Date().toISOString().slice(0, 10) });
+    setIncInput({ source: '', amount: '', date: todayLocalISO() });
   };
 
   const addExpense = () => {
     const amt = Number(expInput.amount);
     if (!expInput.desc.trim() || !amt) return;
-    const date = expInput.date || new Date().toISOString().slice(0, 10);
+    const date = expInput.date || todayLocalISO();
     const mk = date.slice(0, 7);
     const isoDate = `${date}T12:00:00.000Z`;
     const entry = { id: uid(), amount: amt, date: isoDate, desc: expInput.desc.trim(), category: expInput.category };
@@ -4156,7 +4157,7 @@ function Finance({ data, setData, showToast, openBulkImport }) {
     });
     
     logActivity(setData, 'finance_out', `−${fmtNum(amt)} ${cur} — ${entry.desc}`);
-    setExpInput({ desc: '', amount: '', category: expInput.category, date: new Date().toISOString().slice(0, 10) });
+    setExpInput({ desc: '', amount: '', category: expInput.category, date: todayLocalISO() });
   };
 
   /* ───── Delete handlers ───── */
