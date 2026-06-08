@@ -2748,9 +2748,100 @@
         "income": [],
         "expenses": [
           {
-            "id": "st8musuc3tdnq",
-            "amount": 5,
-            "date": "2026-06-08T12:00:00.000Z",
+            "id": "4hjsf4j8v36r8",
+            "amount": 47,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "солодка водичка",
+            "category": ""
+          },
+          {
+            "id": "omi337bhu2wg1",
+            "amount": 40,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "пиріжок",
+            "category": ""
+          },
+          {
+            "id": "c46c71ev32b5d",
+            "amount": 119,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "Болгарія",
+            "category": ""
+          },
+          {
+            "id": "qzn5kke8d0ctz",
+            "amount": 37,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "водичка",
+            "category": ""
+          },
+          {
+            "id": "elggv3vbhzflw",
+            "amount": 250,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "урок фно",
+            "category": ""
+          },
+          {
+            "id": "p897fcly3yjtd",
+            "amount": 190,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "рево",
+            "category": ""
+          },
+          {
+            "id": "n30ns9bnvwx8r",
+            "amount": 190,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "шампунь",
+            "category": ""
+          },
+          {
+            "id": "cgi67x0jwv7tg",
+            "amount": 47,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "водичка",
+            "category": ""
+          },
+          {
+            "id": "xl2zena7duu2z",
+            "amount": 559,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "мак",
+            "category": ""
+          },
+          {
+            "id": "umn1rch0zuf4h",
+            "amount": 68,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "солодка водичка",
+            "category": ""
+          },
+          {
+            "id": "fnycei0fvu3ac",
+            "amount": 20,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "друк",
+            "category": ""
+          },
+          {
+            "id": "bbm3lyekstv04",
+            "amount": 19,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "водичка",
+            "category": ""
+          },
+          {
+            "id": "lopmyygwotla4",
+            "amount": 185,
+            "date": "2026-06-09T12:00:00.000Z",
+            "desc": "домашній інтернет",
+            "category": ""
+          },
+          {
+            "id": "w1n1vcyojtbel",
+            "amount": 134,
+            "date": "2026-06-09T12:00:00.000Z",
             "desc": "перекус",
             "category": ""
           },
@@ -2817,6 +2908,90 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "dkc2azkvo36r8",
+      "type": "finance_out",
+      "text": "−47 UAH — солодка водичка",
+      "ts": "2026-06-08T21:28:20.468Z"
+    },
+    {
+      "id": "aa0ybcwcw2wg2",
+      "type": "finance_out",
+      "text": "−40 UAH — пиріжок",
+      "ts": "2026-06-08T21:28:07.106Z"
+    },
+    {
+      "id": "34rx31vl12b5d",
+      "type": "finance_out",
+      "text": "−119 UAH — Болгарія",
+      "ts": "2026-06-08T21:27:39.505Z"
+    },
+    {
+      "id": "lv272kab40ctz",
+      "type": "finance_out",
+      "text": "−37 UAH — водичка",
+      "ts": "2026-06-08T21:26:08.375Z"
+    },
+    {
+      "id": "wnr85139mzflx",
+      "type": "finance_out",
+      "text": "−250 UAH — урок фно",
+      "ts": "2026-06-08T21:25:25.317Z"
+    },
+    {
+      "id": "0kt5727vfyjte",
+      "type": "finance_out",
+      "text": "−190 UAH — рево",
+      "ts": "2026-06-08T21:24:44.114Z"
+    },
+    {
+      "id": "bu4ywfnphwx8r",
+      "type": "finance_out",
+      "text": "−190 UAH — шампунь",
+      "ts": "2026-06-08T21:23:28.203Z"
+    },
+    {
+      "id": "acryocs93v7th",
+      "type": "finance_out",
+      "text": "−47 UAH — водичка",
+      "ts": "2026-06-08T21:22:08.597Z"
+    },
+    {
+      "id": "f1k0dn7y1uu30",
+      "type": "finance_out",
+      "text": "−559 UAH — мак",
+      "ts": "2026-06-08T21:21:50.796Z"
+    },
+    {
+      "id": "karrl6edpuf4h",
+      "type": "finance_out",
+      "text": "−68 UAH — солодка водичка",
+      "ts": "2026-06-08T21:21:31.410Z"
+    },
+    {
+      "id": "a4xpp9f1ou3ac",
+      "type": "finance_out",
+      "text": "−20 UAH — друк",
+      "ts": "2026-06-08T21:21:16.068Z"
+    },
+    {
+      "id": "gpie1lyn2tv05",
+      "type": "finance_out",
+      "text": "−19 UAH — водичка",
+      "ts": "2026-06-08T21:21:05.333Z"
+    },
+    {
+      "id": "uh9wv1e6ytla5",
+      "type": "finance_out",
+      "text": "−185 UAH — домашній інтернет",
+      "ts": "2026-06-08T21:20:52.733Z"
+    },
+    {
+      "id": "h223mnnqmtbem",
+      "type": "finance_out",
+      "text": "−134 UAH — перекус",
+      "ts": "2026-06-08T21:20:39.934Z"
+    },
+    {
       "id": "6k2nguzpmtdnq",
       "type": "finance_out",
       "text": "−5 UAH — перекус",
@@ -2825,6 +3000,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-08T21:04:44.109Z"
+    "lastSync": "2026-06-08T21:29:57.112Z"
   }
 }
