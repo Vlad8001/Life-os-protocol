@@ -4803,7 +4803,10 @@ export default function App() {
         if (r.ok) { const j = await r.json(); sha = j.sha; }
       } catch (_) { /* file doesn't exist yet — that's ok */ }
 
-      const cleanData = { ...data, settings: { ...data.settings, lastSync: new Date().toISOString() } };
+      // ВИРІЗАЄМО githubToken ПЕРЕД ВІДПРАВКОЮ:
+      const { githubToken, ...safeSettings } = data.settings;
+      const cleanData = { ...data, settings: { ...safeSettings, lastSync: new Date().toISOString() } };
+      
       // 2. PUT new content
       const body = {
         message: `Sync from Life OS — ${new Date().toISOString()}`,
