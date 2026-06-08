@@ -272,6 +272,56 @@ const initialData = {
    ════════════════════════════════════════════════════════════════════════ */
 
 const STORAGE_KEY = 'life-os:data:v8';
+const DATA_FILE = 'data.json';
+
+function getPublicDataUrl() {
+  if (typeof window === 'undefined') return DATA_FILE;
+
+  // Same logic as the working HTML example: the public app reads the data file
+  // from the deployed site itself, so incognito/phone get the latest committed data too.
+  const cleanHref = window.location.href.split('#')[0].split('?')[0];
+  const url = new URL(DATA_FILE, cleanHref.endsWith('/') ? cleanHref : cleanHref.replace(/[^/]*$/, ''));
+  url.searchParams.set('t', String(Date.now()));
+  return url.toString();
+}
+
+async function loadPublicData() {
+  if (typeof window === 'undefined') return null;
+
+  try {
+    const res = await fetch(getPublicDataUrl(), {
+      cache: 'no-store',
+      headers: {
+        Accept: 'application/json',
+        'Cache-Control': 'no-cache',
+      },
+    });
+
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) {
+    console.warn('Failed to load public data.json:', e);
+    return null;
+  }
+}
+
+function getDataStamp(appData) {
+  return appData?.settings?.lastSync || appData?.lastUpdated || appData?.updatedAt || '';
+}
+
+function shouldUseRemoteData(remote, local) {
+  if (!remote) return false;
+  if (!local) return true;
+
+  const remoteStamp = getDataStamp(remote);
+  const localStamp = getDataStamp(local);
+
+  // If timestamps exist, use the newer version.
+  if (remoteStamp || localStamp) return remoteStamp >= localStamp;
+
+  // First-run fallback: remote beats hardcoded seed.
+  return true;
+}
 
 function stripGithubToken(appData) {
   const { githubToken, ...safeSettings } = appData.settings || {};
@@ -386,7 +436,7 @@ const ghHeaders = (token) => ({
 });
 
 const ghUrl = (repo) =>
-  `https://api.github.com/repos/${repo.trim()}/contents/data.json`;
+  `https://api.github.com/repos/${repo.trim()}/contents/${DATA_FILE}`;
 
 /* ════════════════════════════════════════════════════════════════════════
    SMALL UI PRIMITIVES
@@ -4861,6 +4911,28 @@ export default function App() {
   const [helpOpen, setHelpOpen] = useState(false);
   const [bulkImportOpen, setBulkImportOpen] = useState(false);
 
+  // On every device, first try to hydrate from the deployed data.json.
+  // This is the missing piece: localStorage is device-only, but data.json is shared.
+  useEffect(() => {
+    let cancelled = false;
+
+    (async () => {
+      const remote = await loadPublicData();
+      if (!remote || cancelled) return;
+
+      setData((current) => {
+        const normalizedRemote = normalizeAppData(remote, {
+          githubToken: current.settings.githubToken,
+          githubRepo: current.settings.githubRepo || remote.settings?.githubRepo || '',
+        });
+
+        return shouldUseRemoteData(normalizedRemote, current) ? normalizedRemote : current;
+      });
+    })();
+
+    return () => { cancelled = true; };
+  }, []);
+
   // Persist every state change locally so refreshes and manual GitHub pulls keep data visible.
   useEffect(() => {
     saveLocalData(data);
@@ -4944,7 +5016,7 @@ export default function App() {
         { ...prev, settings: { ...prev.settings, lastSync: syncedAt } },
         { githubToken: token, githubRepo: repo }
       ));
-      showToast('Synced to GitHub successfully', 'success');
+      showToast('Synced to GitHub. Other devices update after GitHub Pages rebuild/refresh.', 'success');
     } catch (e) {
       showToast(`Sync failed: ${e.message}`, 'error');
     } finally {
