@@ -2748,7 +2748,7 @@
         "income": [],
         "expenses": [
           {
-            "id": "uj3nuywhcm2jp",
+            "id": "i7alva7v357nq",
             "amount": 5,
             "date": "2026-06-08T12:00:00.000Z",
             "desc": "?",
@@ -2817,14 +2817,14 @@
   "generalTasks": [],
   "activity": [
     {
-      "id": "bnn3hr5xam2jq",
+      "id": "s0s6uwnoc57nr",
       "type": "finance_out",
       "text": "−5 UAH — ?",
-      "ts": "2026-06-08T20:19:02.630Z"
+      "ts": "2026-06-08T20:33:55.719Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-08T20:19:25.251Z"
+    "lastSync": "2026-06-08T20:34:19.751Z"
   }
 }
