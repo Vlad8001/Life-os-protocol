@@ -2748,10 +2748,10 @@
         "income": [],
         "expenses": [
           {
-            "id": "i7alva7v357nq",
+            "id": "st8musuc3tdnq",
             "amount": 5,
             "date": "2026-06-08T12:00:00.000Z",
-            "desc": "?",
+            "desc": "перекус",
             "category": ""
           },
           {
@@ -2817,14 +2817,14 @@
   "generalTasks": [],
   "activity": [
     {
-      "id": "s0s6uwnoc57nr",
+      "id": "6k2nguzpmtdnq",
       "type": "finance_out",
-      "text": "−5 UAH — ?",
-      "ts": "2026-06-08T20:33:55.719Z"
+      "text": "−5 UAH — перекус",
+      "ts": "2026-06-08T20:52:43.238Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-08T20:34:19.751Z"
+    "lastSync": "2026-06-08T20:53:05.770Z"
   }
 }
