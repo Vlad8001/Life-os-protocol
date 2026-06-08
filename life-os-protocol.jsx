@@ -20,7 +20,22 @@ const uid = () => Math.random().toString(36).slice(2, 11) + Date.now().toString(
 const cls = (...a) => a.filter(Boolean).join(' ');
 const clamp = (n, lo, hi) => Math.max(lo, Math.min(hi, n));
 const pad = (n) => String(n).padStart(2, '0');
-const todayLocalISO = (d = new Date()) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+const APP_TIME_ZONE = 'Europe/Kyiv';
+
+const todayLocalISO = (d = new Date()) => {
+  // Use Kyiv calendar date explicitly. This avoids showing yesterday when the
+  // device/browser timezone is UTC or another timezone while it is already
+  // the next day in Ukraine.
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: APP_TIME_ZONE,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(d);
+
+  const get = (type) => parts.find((p) => p.type === type)?.value;
+  return `${get('year')}-${get('month')}-${get('day')}`;
+};
 
 const fmtNum = (n) =>
   new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(Math.round(n || 0));
