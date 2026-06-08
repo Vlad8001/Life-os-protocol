@@ -4796,33 +4796,51 @@ export default function App() {
     }
     setSyncing(true);
     try {
-      // 1. Get current SHA if exists
+      // 1. Отримуємо SHA поточного файлу (якщо він є)
       let sha;
       try {
         const r = await fetch(ghUrl(data.settings.githubRepo), { headers: ghHeaders(data.settings.githubToken) });
         if (r.ok) { const j = await r.json(); sha = j.sha; }
       } catch (_) { /* file doesn't exist yet — that's ok */ }
 
-      // ВИРІЗАЄМО githubToken ПЕРЕД ВІДПРАВКОЮ:
+      // 2. Готуємо дані (видаляємо токен з налаштувань)
       const { githubToken, ...safeSettings } = data.settings;
-      const cleanData = { ...data, settings: { ...safeSettings, lastSync: new Date().toISOString() } };
+      const dataToSave = { ...data, settings: { ...safeSettings, lastSync: new Date().toISOString() } };
+
+      // 3. РАДИКАЛЬНЕ ОЧИЩЕННЯ: перетворюємо в рядок і вирізаємо токен з УСІХ можливих місць (логів, нотаток тощо)
+      let jsonString = JSON.stringify(dataToSave, null, 2);
       
-      // 2. PUT new content
+      // Замінюємо конкретний токен на зірочки
+      if (data.settings.githubToken) {
+        jsonString = jsonString.split(data.settings.githubToken).join('***hidden_token***');
+      }
+      // Регулярний вираз для перехоплення будь-яких гітхаб-токенів про всяк випадок
+      jsonString = jsonString.replace(/(ghp|github_pat)_[a-zA-Z0-9_]+/g, '***hidden_token***');
+
+      // 4. Формуємо безпечне тіло запиту
       const body = {
         message: `Sync from Life OS — ${new Date().toISOString()}`,
-        content: utf8ToBase64(JSON.stringify(cleanData, null, 2)),
+        content: utf8ToBase64(jsonString),
         ...(sha ? { sha } : {}),
       };
+      
       const r = await fetch(ghUrl(data.settings.githubRepo), {
         method: 'PUT',
         headers: { ...ghHeaders(data.settings.githubToken), 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
       });
+      
       if (!r.ok) {
         const err = await r.json().catch(() => ({}));
         throw new Error(err.message || `HTTP ${r.status}`);
       }
-      setData(cleanData);
+      
+      // 5. Оновлюємо ТІЛЬКИ час останньої синхронізації (щоб не стерти токен з поля вводу)
+      setData(prev => ({
+        ...prev,
+        settings: { ...prev.settings, lastSync: new Date().toISOString() }
+      }));
+      
       logActivity(setData, 'sync', 'Pushed to GitHub');
       showToast('Synced to GitHub successfully', 'success');
     } catch (e) {
