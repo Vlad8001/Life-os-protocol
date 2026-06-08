@@ -4857,35 +4857,32 @@ export default function App() {
     }
     setSyncing(true);
     try {
-      const r = await fetch(ghUrl(data.settings.githubRepo), { headers: ghHeaders(data.settings.githubToken) });
-      if (!r.ok) {
-        if (r.status === 404) {
-          showToast('No data.json on GitHub yet — push first to create', 'info');
-          return;
-        }
-        throw new Error(`HTTP ${r.status}`);
-      }
+      const r = await fetch(ghUrl(data.settings.githubRepo), { 
+        headers: { ...ghHeaders(data.settings.githubToken), 'Cache-Control': 'no-cache' } 
+      });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      
       const j = await r.json();
       const text = base64ToUtf8(j.content);
       const loaded = JSON.parse(text);
-      setData({
-        ...initialData,
+
+      // Оновлюємо стейт, об'єднуючи нові дані з актуальними налаштуваннями
+      setData(prev => ({
         ...loaded,
         settings: {
-          ...initialData.settings,
-          ...(loaded.settings || {}),
-          githubToken: data.settings.githubToken,
-          githubRepo: data.settings.githubRepo,
+          ...loaded.settings,
+          githubToken: prev.settings.githubToken,
+          githubRepo: prev.settings.githubRepo,
           lastSync: new Date().toISOString(),
-        },
-      });
-      showToast('Pulled from GitHub successfully', 'success');
+        }
+      }));
+      showToast('Data synced from GitHub', 'success');
     } catch (e) {
-      showToast(`Pull failed: ${e.message || 'unknown error'}`, 'error');
+      showToast('Pull failed: ' + e.message, 'error');
     } finally {
       setSyncing(false);
     }
-  }, [data, showToast]);
+  }, [data.settings.githubToken, data.settings.githubRepo, showToast]);
 
   /* ───── Global keyboard shortcuts ───── */
 
