@@ -39,7 +39,34 @@
         "name": "Offer"
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "id": "6nhhl9xrkt6a4",
+        "columnId": "interviewing",
+        "company": "Content Chameleon",
+        "role": "",
+        "notes": "",
+        "salary": "",
+        "url": "",
+        "location": "",
+        "appliedAt": "",
+        "nextFollowUp": "",
+        "createdAt": "2026-06-09T09:28:23.308Z"
+      },
+      {
+        "id": "6frio5qw4uawz",
+        "columnId": "contacted",
+        "company": "HYS Enterprise",
+        "role": "",
+        "notes": "No reason to get this full-time offer, leave it",
+        "salary": "",
+        "url": "",
+        "location": "",
+        "appliedAt": "",
+        "nextFollowUp": "",
+        "createdAt": "2026-06-09T09:29:15.971Z"
+      }
+    ]
   },
   "habits": {
     "list": [
@@ -2908,6 +2935,36 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "voocf4fm9y3em",
+      "type": "job_moved",
+      "text": "HYS Enterprise → Contacted",
+      "ts": "2026-06-09T09:32:12.862Z"
+    },
+    {
+      "id": "8v2a73j79uw2d",
+      "type": "job_moved",
+      "text": "HYS Enterprise → Target List",
+      "ts": "2026-06-09T09:29:43.381Z"
+    },
+    {
+      "id": "3sggq5r8iuawz",
+      "type": "job_added",
+      "text": "Hunt: HYS Enterprise",
+      "ts": "2026-06-09T09:29:15.971Z"
+    },
+    {
+      "id": "vurcectu6t8w1",
+      "type": "job_moved",
+      "text": "Content Chameleon → Interviewing",
+      "ts": "2026-06-09T09:28:26.689Z"
+    },
+    {
+      "id": "06ung8bfnt6a5",
+      "type": "job_added",
+      "text": "Hunt: Content Chameleon",
+      "ts": "2026-06-09T09:28:23.309Z"
+    },
+    {
       "id": "dkc2azkvo36r8",
       "type": "finance_out",
       "text": "−47 UAH — солодка водичка",
@@ -3000,6 +3057,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-08T21:34:43.473Z"
+    "lastSync": "2026-06-09T09:32:23.619Z"
   }
 }
