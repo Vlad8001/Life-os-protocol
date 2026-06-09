@@ -34,7 +34,7 @@
         "title": "Reach out top-management leads from sales Pipeline(Intro-call) via LinkedIn",
         "categoryId": "leadgen",
         "completed": false,
-        "priority": false,
+        "priority": true,
         "createdAt": "2026-06-09T11:21:04.393Z",
         "notes": "",
         "tags": []
@@ -44,7 +44,7 @@
         "title": "Lead Gen Reach out top-management leads from sales Pipeline(Intro-call) via Email",
         "categoryId": "leadgen",
         "completed": false,
-        "priority": false,
+        "priority": true,
         "createdAt": "2026-06-09T11:20:56.905Z",
         "notes": "",
         "tags": []
@@ -3118,6 +3118,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-09T11:22:45.602Z"
+    "lastSync": "2026-06-09T11:26:55.796Z"
   }
 }
