@@ -137,6 +137,9 @@
         "gym": {
           "tue": true,
           "mon": false
+        },
+        "reading": {
+          "tue": true
         }
       }
     }
@@ -2973,6 +2976,12 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "1ae4pbv6udqda",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-09T20:56:13.246Z"
+    },
+    {
       "id": "7zu5m7kdynqs9",
       "type": "habit_check",
       "text": "💪 Gym",
@@ -3137,6 +3146,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-09T13:08:25.944Z"
+    "lastSync": "2026-06-09T20:56:17.686Z"
   }
 }
