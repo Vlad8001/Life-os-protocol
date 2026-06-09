@@ -18,7 +18,38 @@
         "color": "amber"
       }
     ],
-    "tasks": []
+    "tasks": [
+      {
+        "id": "t30zmlqchvl74",
+        "title": "Reach out top-management prospects via Email",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": false,
+        "createdAt": "2026-06-09T11:22:14.416Z",
+        "notes": "",
+        "tags": []
+      },
+      {
+        "id": "4ldpu7pe0u361",
+        "title": "Reach out top-management leads from sales Pipeline(Intro-call) via LinkedIn",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": false,
+        "createdAt": "2026-06-09T11:21:04.393Z",
+        "notes": "",
+        "tags": []
+      },
+      {
+        "id": "wqrfms9vbtxe1",
+        "title": "Lead Gen Reach out top-management leads from sales Pipeline(Intro-call) via Email",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": false,
+        "createdAt": "2026-06-09T11:20:56.905Z",
+        "notes": "",
+        "tags": []
+      }
+    ]
   },
   "jobs": {
     "columns": [
@@ -2935,6 +2966,36 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "bxftd6szovl75",
+      "type": "task_added",
+      "text": "Nova: \"Reach out top-management prospects via Email\"",
+      "ts": "2026-06-09T11:22:14.417Z"
+    },
+    {
+      "id": "5857ssk58u361",
+      "type": "task_added",
+      "text": "Nova: \"Reach out top-management leads from sales Pipeline(Intro-call) via LinkedIn\"",
+      "ts": "2026-06-09T11:21:04.393Z"
+    },
+    {
+      "id": "0g7lqo452txe2",
+      "type": "task_added",
+      "text": "Nova: \"Lead Gen Reach out top-management leads from sales Pipeline(Intro-call) via Email\"",
+      "ts": "2026-06-09T11:20:56.906Z"
+    },
+    {
+      "id": "uimevte4wtb2p",
+      "type": "task_deleted",
+      "text": "Removed: \"Lead Gen\"",
+      "ts": "2026-06-09T11:20:27.985Z"
+    },
+    {
+      "id": "q4y80r60qt03x",
+      "type": "task_added",
+      "text": "Nova: \"Lead Gen\"",
+      "ts": "2026-06-09T11:20:13.773Z"
+    },
+    {
       "id": "voocf4fm9y3em",
       "type": "job_moved",
       "text": "HYS Enterprise → Contacted",
@@ -3057,6 +3118,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-09T09:32:23.619Z"
+    "lastSync": "2026-06-09T11:22:45.602Z"
   }
 }
