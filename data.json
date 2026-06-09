@@ -132,7 +132,14 @@
         "target": 7
       }
     ],
-    "weeks": {}
+    "weeks": {
+      "2026-06-08": {
+        "gym": {
+          "tue": true,
+          "mon": false
+        }
+      }
+    }
   },
   "finance": {
     "months": {
@@ -2966,6 +2973,18 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "7zu5m7kdynqs9",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-09T13:08:06.873Z"
+    },
+    {
+      "id": "phn926tn8npk9",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-09T13:08:05.289Z"
+    },
+    {
       "id": "bxftd6szovl75",
       "type": "task_added",
       "text": "Nova: \"Reach out top-management prospects via Email\"",
@@ -3118,6 +3137,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-09T11:26:55.796Z"
+    "lastSync": "2026-06-09T13:08:25.944Z"
   }
 }
