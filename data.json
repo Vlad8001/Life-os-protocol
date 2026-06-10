@@ -157,7 +157,8 @@
           "mon": false
         },
         "reading": {
-          "tue": true
+          "tue": true,
+          "wed": true
         },
         "calorie": {
           "wed": true
@@ -2997,6 +2998,12 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "cu9k8j6fvc4y5",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-10T21:10:38.861Z"
+    },
+    {
       "id": "kqud27r28jbu7",
       "type": "task_done",
       "text": "Done: \"Add report date to website\"",
@@ -3215,6 +3222,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-10T19:52:23.961Z"
+    "lastSync": "2026-06-10T21:10:46.141Z"
   }
 }
