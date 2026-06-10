@@ -140,6 +140,9 @@
         },
         "reading": {
           "tue": true
+        },
+        "calorie": {
+          "wed": true
         }
       }
     }
@@ -2976,6 +2979,12 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "llykisqioxnvf",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-10T06:59:35.067Z"
+    },
+    {
       "id": "1ae4pbv6udqda",
       "type": "habit_check",
       "text": "📖 Reading",
@@ -3146,6 +3155,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-09T20:56:30.786Z"
+    "lastSync": "2026-06-10T06:59:41.500Z"
   }
 }
