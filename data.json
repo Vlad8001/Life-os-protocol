@@ -35,12 +35,13 @@
         "id": "3ixg8f51ggghg",
         "title": "Add report date to website",
         "categoryId": "leadgen",
-        "completed": false,
+        "completed": true,
         "priority": true,
         "createdAt": "2026-06-10T18:26:02.740Z",
         "notes": "",
         "tags": [],
-        "dueDate": "2026-06-10"
+        "dueDate": "2026-06-10",
+        "completedAt": "2026-06-10T19:52:15.535Z"
       },
       {
         "id": "t30zmlqchvl74",
@@ -2996,6 +2997,12 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "kqud27r28jbu7",
+      "type": "task_done",
+      "text": "Done: \"Add report date to website\"",
+      "ts": "2026-06-10T19:52:15.535Z"
+    },
+    {
       "id": "mvlu9drr8jx5x",
       "type": "task_added",
       "text": "Nova: \"Establish monthly newsletter for Radii-x\"",
@@ -3208,6 +3215,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-10T18:31:29.151Z"
+    "lastSync": "2026-06-10T19:52:23.961Z"
   }
 }
