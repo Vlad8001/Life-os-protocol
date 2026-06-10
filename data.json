@@ -96,6 +96,19 @@
         "appliedAt": "",
         "nextFollowUp": "",
         "createdAt": "2026-06-09T09:29:15.971Z"
+      },
+      {
+        "id": "zk0dfxe752xsg",
+        "columnId": "interviewing",
+        "company": "Elit-web",
+        "role": "",
+        "notes": "",
+        "salary": "",
+        "url": "",
+        "location": "",
+        "appliedAt": "",
+        "nextFollowUp": "",
+        "createdAt": "2026-06-10T12:11:36.976Z"
       }
     ]
   },
@@ -2979,6 +2992,12 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "cb9l0u6562xsh",
+      "type": "job_added",
+      "text": "Hunt: Elit-web",
+      "ts": "2026-06-10T12:11:36.977Z"
+    },
+    {
       "id": "llykisqioxnvf",
       "type": "habit_check",
       "text": "🥗 Calorie Track",
@@ -3155,6 +3174,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-10T06:59:41.500Z"
+    "lastSync": "2026-06-10T12:12:17.091Z"
   }
 }
