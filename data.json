@@ -6,48 +6,52 @@
         "id": "leadgen",
         "name": "Lead Gen",
         "color": "emerald"
-      },
-      {
-        "id": "analytics",
-        "name": "Analytics",
-        "color": "cyan"
-      },
-      {
-        "id": "calls",
-        "name": "Calls",
-        "color": "amber"
       }
     ],
     "tasks": [
+      {
+        "id": "5fm404zirjx5x",
+        "title": "Establish monthly newsletter for Radii-x",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": true,
+        "createdAt": "2026-06-10T18:28:44.325Z",
+        "notes": "",
+        "tags": [],
+        "dueDate": "2026-06-11"
+      },
+      {
+        "id": "el6b5zzqtisra",
+        "title": "Start inmail LinkedIn, and add to report(change existed one with new column)",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": true,
+        "createdAt": "2026-06-10T18:27:51.958Z",
+        "notes": "",
+        "tags": [],
+        "dueDate": "2026-06-11"
+      },
+      {
+        "id": "3ixg8f51ggghg",
+        "title": "Add report date to website",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": true,
+        "createdAt": "2026-06-10T18:26:02.740Z",
+        "notes": "",
+        "tags": [],
+        "dueDate": "2026-06-10"
+      },
       {
         "id": "t30zmlqchvl74",
         "title": "Reach out top-management prospects via Email",
         "categoryId": "leadgen",
         "completed": false,
-        "priority": false,
+        "priority": true,
         "createdAt": "2026-06-09T11:22:14.416Z",
         "notes": "",
-        "tags": []
-      },
-      {
-        "id": "4ldpu7pe0u361",
-        "title": "Reach out top-management leads from sales Pipeline(Intro-call) via LinkedIn",
-        "categoryId": "leadgen",
-        "completed": false,
-        "priority": true,
-        "createdAt": "2026-06-09T11:21:04.393Z",
-        "notes": "",
-        "tags": []
-      },
-      {
-        "id": "wqrfms9vbtxe1",
-        "title": "Lead Gen Reach out top-management leads from sales Pipeline(Intro-call) via Email",
-        "categoryId": "leadgen",
-        "completed": false,
-        "priority": true,
-        "createdAt": "2026-06-09T11:20:56.905Z",
-        "notes": "",
-        "tags": []
+        "tags": [],
+        "dueDate": "2026-06-11"
       }
     ]
   },
@@ -2992,6 +2996,36 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "mvlu9drr8jx5x",
+      "type": "task_added",
+      "text": "Nova: \"Establish monthly newsletter for Radii-x\"",
+      "ts": "2026-06-10T18:28:44.325Z"
+    },
+    {
+      "id": "7f6u1lm4fisra",
+      "type": "task_added",
+      "text": "Nova: \"Start inmail LinkedIn, and add to report\"",
+      "ts": "2026-06-10T18:27:51.958Z"
+    },
+    {
+      "id": "fc2m98fwygpqr",
+      "type": "task_deleted",
+      "text": "Removed: \"Lead Gen Reach out top-management leads from sales Pipeline(Intro-call) via Email\"",
+      "ts": "2026-06-10T18:26:14.739Z"
+    },
+    {
+      "id": "039my2nnggov3",
+      "type": "task_deleted",
+      "text": "Removed: \"Reach out top-management leads from sales Pipeline(Intro-call) via LinkedIn\"",
+      "ts": "2026-06-10T18:26:13.599Z"
+    },
+    {
+      "id": "7bmsrlou7gghg",
+      "type": "task_added",
+      "text": "Nova: \"Add report date to website\"",
+      "ts": "2026-06-10T18:26:02.740Z"
+    },
+    {
       "id": "cb9l0u6562xsh",
       "type": "job_added",
       "text": "Hunt: Elit-web",
@@ -3174,6 +3208,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-10T12:12:17.091Z"
+    "lastSync": "2026-06-10T18:31:29.151Z"
   }
 }
