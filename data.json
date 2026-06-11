@@ -2836,6 +2836,34 @@
         "income": [],
         "expenses": [
           {
+            "id": "g8x8j659r67nm",
+            "amount": 228,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "рево",
+            "category": ""
+          },
+          {
+            "id": "mvbbs6sdr61jk",
+            "amount": 328,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "жижа",
+            "category": ""
+          },
+          {
+            "id": "5v4bcsy8z5mjv",
+            "amount": 275,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "філе додому",
+            "category": ""
+          },
+          {
+            "id": "8vcrpa0e1568u",
+            "amount": 148,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "обід",
+            "category": ""
+          },
+          {
             "id": "lwihqqcswr0yj",
             "amount": 16,
             "date": "2026-06-11T12:00:00.000Z",
@@ -3030,6 +3058,30 @@
   },
   "generalTasks": [],
   "activity": [
+    {
+      "id": "flun3oa3867nn",
+      "type": "finance_out",
+      "text": "−228 UAH — рево",
+      "ts": "2026-06-11T18:33:44.771Z"
+    },
+    {
+      "id": "fnp3204ex61jl",
+      "type": "finance_out",
+      "text": "−328 UAH — жижа",
+      "ts": "2026-06-11T18:33:36.849Z"
+    },
+    {
+      "id": "w4fl3exnv5mjw",
+      "type": "finance_out",
+      "text": "−275 UAH — філе додому",
+      "ts": "2026-06-11T18:33:17.420Z"
+    },
+    {
+      "id": "vow8dyisk568v",
+      "type": "finance_out",
+      "text": "−148 UAH — обід",
+      "ts": "2026-06-11T18:32:56.287Z"
+    },
     {
       "id": "pkmmabyuwwt0a",
       "type": "habit_check",
@@ -3309,6 +3361,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-11T11:54:34.597Z"
+    "lastSync": "2026-06-11T18:34:09.244Z"
   }
 }
