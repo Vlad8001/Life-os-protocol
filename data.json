@@ -2836,6 +2836,13 @@
         "income": [],
         "expenses": [
           {
+            "id": "cz3d5lvmkg9ar",
+            "amount": 221,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "філе",
+            "category": ""
+          },
+          {
             "id": "g8x8j659r67nm",
             "amount": 228,
             "date": "2026-06-11T12:00:00.000Z",
@@ -3058,6 +3065,12 @@
   },
   "generalTasks": [],
   "activity": [
+    {
+      "id": "hude8gn4jg9as",
+      "type": "finance_out",
+      "text": "−221 UAH — філе",
+      "ts": "2026-06-11T18:41:33.460Z"
+    },
     {
       "id": "flun3oa3867nn",
       "type": "finance_out",
@@ -3361,6 +3374,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-11T18:34:09.244Z"
+    "lastSync": "2026-06-11T18:41:39.707Z"
   }
 }
