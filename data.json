@@ -107,7 +107,7 @@
         "columnId": "interviewing",
         "company": "Elit-web",
         "role": "",
-        "notes": "",
+        "notes": "Not enough english call lvl",
         "salary": "",
         "url": "",
         "location": "",
@@ -124,12 +124,6 @@
         "name": "English",
         "emoji": "📚",
         "target": 7
-      },
-      {
-        "id": "running",
-        "name": "Running",
-        "emoji": "🏃",
-        "target": 4
       },
       {
         "id": "reading",
@@ -3287,6 +3281,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-11T05:47:49.909Z"
+    "lastSync": "2026-06-11T08:20:11.925Z"
   }
 }
