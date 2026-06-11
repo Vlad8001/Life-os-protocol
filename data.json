@@ -2838,6 +2838,41 @@
         "income": [],
         "expenses": [
           {
+            "id": "lwihqqcswr0yj",
+            "amount": 16,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "водичка",
+            "category": ""
+          },
+          {
+            "id": "id2d8y6ucqvb5",
+            "amount": 80,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "mfcr60j6tqitk",
+            "amount": 22,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "енергетик",
+            "category": ""
+          },
+          {
+            "id": "04jgo3pnyq4br",
+            "amount": 40,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "самокат",
+            "category": ""
+          },
+          {
+            "id": "v0i86pss1pmv0",
+            "amount": 30,
+            "date": "2026-06-11T12:00:00.000Z",
+            "desc": "самокат",
+            "category": ""
+          },
+          {
             "id": "4hjsf4j8v36r8",
             "amount": 47,
             "date": "2026-06-09T12:00:00.000Z",
@@ -2997,6 +3032,36 @@
   },
   "generalTasks": [],
   "activity": [
+    {
+      "id": "go37bcdzvr0yk",
+      "type": "finance_out",
+      "text": "−16 UAH — водичка",
+      "ts": "2026-06-11T05:46:06.620Z"
+    },
+    {
+      "id": "dgiizk4mhqvb6",
+      "type": "finance_out",
+      "text": "−80 UAH — перекус",
+      "ts": "2026-06-11T05:45:59.298Z"
+    },
+    {
+      "id": "om1ammiazqitk",
+      "type": "finance_out",
+      "text": "−22 UAH — енергетик",
+      "ts": "2026-06-11T05:45:43.112Z"
+    },
+    {
+      "id": "gjrzyma3bq4bs",
+      "type": "finance_out",
+      "text": "−40 UAH — самокат",
+      "ts": "2026-06-11T05:45:24.328Z"
+    },
+    {
+      "id": "epzj4fzimpmv1",
+      "type": "finance_out",
+      "text": "−30 UAH — самокат",
+      "ts": "2026-06-11T05:45:01.693Z"
+    },
     {
       "id": "cu9k8j6fvc4y5",
       "type": "habit_check",
@@ -3222,6 +3287,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-10T21:10:46.141Z"
+    "lastSync": "2026-06-11T05:47:49.909Z"
   }
 }
