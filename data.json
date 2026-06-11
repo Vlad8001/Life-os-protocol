@@ -24,12 +24,13 @@
         "id": "el6b5zzqtisra",
         "title": "Start inmail LinkedIn, and add to report(change existed one with new column)",
         "categoryId": "leadgen",
-        "completed": false,
+        "completed": true,
         "priority": true,
         "createdAt": "2026-06-10T18:27:51.958Z",
         "notes": "",
         "tags": [],
-        "dueDate": "2026-06-11"
+        "dueDate": "2026-06-11",
+        "completedAt": "2026-06-11T11:54:04.886Z"
       },
       {
         "id": "3ixg8f51ggghg",
@@ -47,12 +48,13 @@
         "id": "t30zmlqchvl74",
         "title": "Reach out top-management prospects via Email",
         "categoryId": "leadgen",
-        "completed": false,
+        "completed": true,
         "priority": true,
         "createdAt": "2026-06-09T11:22:14.416Z",
         "notes": "",
         "tags": [],
-        "dueDate": "2026-06-11"
+        "dueDate": "2026-06-11",
+        "completedAt": "2026-06-11T11:54:13.111Z"
       }
     ]
   },
@@ -152,10 +154,12 @@
         },
         "reading": {
           "tue": true,
-          "wed": true
+          "wed": true,
+          "thu": true
         },
         "calorie": {
-          "wed": true
+          "wed": true,
+          "thu": true
         }
       }
     }
@@ -3027,6 +3031,30 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "pkmmabyuwwt0a",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-11T11:54:31.258Z"
+    },
+    {
+      "id": "oou3ogh3jwmvp",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-11T11:54:23.317Z"
+    },
+    {
+      "id": "e912suicvwf07",
+      "type": "task_done",
+      "text": "Done: \"Reach out top-management prospects via Email\"",
+      "ts": "2026-06-11T11:54:13.111Z"
+    },
+    {
+      "id": "ua8ourwpvw8nq",
+      "type": "task_done",
+      "text": "Done: \"Start inmail LinkedIn, and add to report(change existed one with new column)\"",
+      "ts": "2026-06-11T11:54:04.886Z"
+    },
+    {
       "id": "go37bcdzvr0yk",
       "type": "finance_out",
       "text": "−16 UAH — водичка",
@@ -3281,6 +3309,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-11T08:20:11.925Z"
+    "lastSync": "2026-06-11T11:54:34.597Z"
   }
 }
