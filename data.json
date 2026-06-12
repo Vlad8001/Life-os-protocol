@@ -10,15 +10,26 @@
     ],
     "tasks": [
       {
+        "id": "lxjed240xb9g7",
+        "title": "Every day: LinkedIn Connections, Sequences, Inmail, other tasks",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": false,
+        "createdAt": "2026-06-12T13:17:25.015Z",
+        "notes": "",
+        "tags": []
+      },
+      {
         "id": "5fm404zirjx5x",
         "title": "Establish monthly newsletter for Radii-x",
         "categoryId": "leadgen",
-        "completed": false,
+        "completed": true,
         "priority": true,
         "createdAt": "2026-06-10T18:28:44.325Z",
         "notes": "",
         "tags": [],
-        "dueDate": "2026-06-11"
+        "dueDate": "2026-06-11",
+        "completedAt": "2026-06-12T13:16:43.052Z"
       },
       {
         "id": "el6b5zzqtisra",
@@ -155,11 +166,16 @@
         "reading": {
           "tue": true,
           "wed": true,
-          "thu": true
+          "thu": true,
+          "fri": true
         },
         "calorie": {
           "wed": true,
-          "thu": true
+          "thu": true,
+          "fri": true
+        },
+        "english": {
+          "sat": true
         }
       }
     }
@@ -3066,6 +3082,42 @@
   "generalTasks": [],
   "activity": [
     {
+      "id": "fi4ppkdmbfi7u",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-12T13:20:43.002Z"
+    },
+    {
+      "id": "707g4lchwe8lu",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-12T13:19:43.890Z"
+    },
+    {
+      "id": "vwx7ykkc0e4bw",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-12T13:19:38.348Z"
+    },
+    {
+      "id": "encserdqybkcs",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-12T13:17:39.148Z"
+    },
+    {
+      "id": "xvg2eq8t6b9g7",
+      "type": "task_added",
+      "text": "Nova: \"Every day: LinkedIn Connections, Sequences, Inmail, other tasks\"",
+      "ts": "2026-06-12T13:17:25.015Z"
+    },
+    {
+      "id": "puiwnbyruad2k",
+      "type": "task_done",
+      "text": "Done: \"Establish monthly newsletter for Radii-x\"",
+      "ts": "2026-06-12T13:16:43.052Z"
+    },
+    {
       "id": "hude8gn4jg9as",
       "type": "finance_out",
       "text": "−221 UAH — філе",
@@ -3374,6 +3426,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-11T18:41:49.902Z"
+    "lastSync": "2026-06-12T13:21:06.201Z"
   }
 }
