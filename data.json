@@ -10,6 +10,28 @@
     ],
     "tasks": [
       {
+        "id": "wkes5ophpt596",
+        "title": "Check avaibility of C-lvl GC Toronto",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": false,
+        "createdAt": "2026-06-12T19:35:14.394Z",
+        "notes": "",
+        "tags": [],
+        "dueDate": "2026-06-15"
+      },
+      {
+        "id": "wkioqxek2rkjs",
+        "title": "Find contacts and establish sequence for construction and engineering team(A-class buildings)",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": false,
+        "createdAt": "2026-06-12T19:34:00.904Z",
+        "notes": "",
+        "tags": [],
+        "dueDate": "2026-06-15"
+      },
+      {
         "id": "lxjed240xb9g7",
         "title": "Every day: LinkedIn Connections, Sequences, Inmail, other tasks",
         "categoryId": "leadgen",
@@ -3079,8 +3101,34 @@
     "budgets": {},
     "notes": "Останній знімок балансу — 9.06.2026\n\nКАРТКА І ГОТІВКА\n  Карта:           4000 грн\n  Подушка:        14,000 грн\n  Готівка USD:       $100\n\nВІДКЛАДЕННЯ        21,200 грн\n  ├ 11,000  у банці\n  └  5,900  готівкою\n\nБОРГИ МЕНІ\n  Мама винна:      7,000 грн\n\n────────────────────────────\nРАЗОМ UAH:        41,700 грн (без боргу)\n   + борги:       48,700 грн\nUSD:                 $100\n\n────────────────────────────\nЗаплановані великі витрати:\n  • Світязь — ~4,000 грн\n\nЦілі накопичень:\n  • айфон ✅ (досягнуто, IPhone 15 Pro Max за 43,000)\n  • наступна ціль: Болгарія(45,000)\n"
   },
-  "generalTasks": [],
+  "generalTasks": [
+    {
+      "id": "ixoi6b5gav5d4",
+      "title": "Complete task for interview",
+      "completed": false,
+      "priority": true,
+      "createdAt": "2026-06-12T19:36:47.848Z"
+    }
+  ],
   "activity": [
+    {
+      "id": "7mwcmgv5jv5d4",
+      "type": "task_added",
+      "text": "Task: \"Complete task for interview\"",
+      "ts": "2026-06-12T19:36:47.848Z"
+    },
+    {
+      "id": "is0h8yjalt596",
+      "type": "task_added",
+      "text": "Nova: \"Check avaibility of C-lvl GC Toronto\"",
+      "ts": "2026-06-12T19:35:14.394Z"
+    },
+    {
+      "id": "vg6s9hwu7rkju",
+      "type": "task_added",
+      "text": "Nova: \"Find contacts and establish sequence for construction and engineering team(A-class buildings)\"",
+      "ts": "2026-06-12T19:34:00.906Z"
+    },
     {
       "id": "fi4ppkdmbfi7u",
       "type": "habit_check",
@@ -3426,6 +3474,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-12T13:21:06.201Z"
+    "lastSync": "2026-06-12T19:37:44.968Z"
   }
 }
