@@ -13,23 +13,25 @@
         "id": "wkes5ophpt596",
         "title": "Check avaibility of C-lvl GC Toronto",
         "categoryId": "leadgen",
-        "completed": false,
+        "completed": true,
         "priority": false,
         "createdAt": "2026-06-12T19:35:14.394Z",
         "notes": "",
         "tags": [],
-        "dueDate": "2026-06-15"
+        "dueDate": "2026-06-15",
+        "completedAt": "2026-06-16T11:36:05.014Z"
       },
       {
         "id": "wkioqxek2rkjs",
         "title": "Find contacts and establish sequence for construction and engineering team(A-class buildings)",
         "categoryId": "leadgen",
-        "completed": false,
+        "completed": true,
         "priority": false,
         "createdAt": "2026-06-12T19:34:00.904Z",
         "notes": "",
         "tags": [],
-        "dueDate": "2026-06-15"
+        "dueDate": "2026-06-15",
+        "completedAt": "2026-06-16T11:36:08.093Z"
       },
       {
         "id": "lxjed240xb9g7",
@@ -198,6 +200,14 @@
         },
         "english": {
           "sat": true
+        }
+      },
+      "2026-06-15": {
+        "calorie": {
+          "tue": true
+        },
+        "reading": {
+          "tue": true
         }
       }
     }
@@ -3112,6 +3122,30 @@
   ],
   "activity": [
     {
+      "id": "gmztt6qxngf4t",
+      "type": "task_done",
+      "text": "Done: \"Find contacts and establish sequence for construction and engineering team(A-class buildings)\"",
+      "ts": "2026-06-16T11:36:08.093Z"
+    },
+    {
+      "id": "xqde6kyxsgcra",
+      "type": "task_done",
+      "text": "Done: \"Check avaibility of C-lvl GC Toronto\"",
+      "ts": "2026-06-16T11:36:05.014Z"
+    },
+    {
+      "id": "e0wrmjiqefw0c",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-16T11:35:43.308Z"
+    },
+    {
+      "id": "7jy3wrmrrfv5b",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-16T11:35:42.191Z"
+    },
+    {
       "id": "7mwcmgv5jv5d4",
       "type": "task_added",
       "text": "Task: \"Complete task for interview\"",
@@ -3474,6 +3508,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-12T19:38:33.371Z"
+    "lastSync": "2026-06-16T11:36:14.325Z"
   }
 }
