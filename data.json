@@ -208,6 +208,9 @@
         },
         "reading": {
           "tue": true
+        },
+        "english": {
+          "tue": true
         }
       }
     }
@@ -3122,6 +3125,12 @@
   ],
   "activity": [
     {
+      "id": "fdzpufpnrteip",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-16T21:06:06.145Z"
+    },
+    {
       "id": "gmztt6qxngf4t",
       "type": "task_done",
       "text": "Done: \"Find contacts and establish sequence for construction and engineering team(A-class buildings)\"",
@@ -3508,6 +3517,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-16T11:36:14.325Z"
+    "lastSync": "2026-06-16T21:06:08.107Z"
   }
 }
