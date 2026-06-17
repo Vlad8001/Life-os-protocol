@@ -11,7 +11,7 @@
     "tasks": [
       {
         "id": "m7h75yjm9zadk",
-        "title": "Report, Connections, InMail, A-class, GC-Top-management,",
+        "title": "Report, Connections, InMail, A-class, GC-Top-management",
         "categoryId": "leadgen",
         "completed": false,
         "priority": false,
@@ -3595,6 +3595,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-17T23:18:27.803Z"
+    "lastSync": "2026-06-17T23:44:29.000Z"
   }
 }
