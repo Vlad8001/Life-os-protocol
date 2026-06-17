@@ -209,7 +209,7 @@
         },
         "reading": {
           "tue": true,
-          "wed": true
+          "wed": false
         },
         "english": {
           "tue": true,
@@ -3579,6 +3579,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-17T10:08:25.239Z"
+    "lastSync": "2026-06-17T23:13:40.242Z"
   }
 }
