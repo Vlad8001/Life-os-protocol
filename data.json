@@ -204,13 +204,21 @@
       },
       "2026-06-15": {
         "calorie": {
-          "tue": true
+          "tue": true,
+          "wed": true
         },
         "reading": {
-          "tue": true
+          "tue": true,
+          "wed": true
         },
         "english": {
-          "tue": true
+          "tue": true,
+          "wed": true
+        },
+        "gym": {
+          "thu": false,
+          "wed": true,
+          "fri": false
         }
       }
     }
@@ -3125,6 +3133,60 @@
   ],
   "activity": [
     {
+      "id": "bacaa179toddi",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-17T10:06:00.630Z"
+    },
+    {
+      "id": "kjoxl41tqo995",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-17T10:05:55.289Z"
+    },
+    {
+      "id": "shtksy4fpo7rr",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-17T10:05:53.367Z"
+    },
+    {
+      "id": "0e5prkpx5nuiw",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-17T10:05:36.200Z"
+    },
+    {
+      "id": "khyqysvuxnter",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-17T10:05:34.755Z"
+    },
+    {
+      "id": "3k73cfcqenqnp",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-17T10:05:31.189Z"
+    },
+    {
+      "id": "yog6nxvg0myxy",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-17T10:04:55.270Z"
+    },
+    {
+      "id": "0ts1r8ux2mww0",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-17T10:04:52.608Z"
+    },
+    {
+      "id": "5pvo5cjn6mrky",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-17T10:04:45.730Z"
+    },
+    {
       "id": "fdzpufpnrteip",
       "type": "habit_check",
       "text": "📚 English",
@@ -3517,6 +3579,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-16T21:06:08.107Z"
+    "lastSync": "2026-06-17T10:06:15.605Z"
   }
 }
