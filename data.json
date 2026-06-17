@@ -10,6 +10,16 @@
     ],
     "tasks": [
       {
+        "id": "m7h75yjm9zadk",
+        "title": "Report, Connections, InMail, A-class, GC-Top-management,",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": false,
+        "createdAt": "2026-06-17T23:18:19.208Z",
+        "notes": "",
+        "tags": []
+      },
+      {
         "id": "wkes5ophpt596",
         "title": "Check avaibility of C-lvl GC Toronto",
         "categoryId": "leadgen",
@@ -3133,6 +3143,12 @@
   ],
   "activity": [
     {
+      "id": "rl291uqh6zadl",
+      "type": "task_added",
+      "text": "Nova: \"Report, Connections, InMail, A-class, GC-Top-management,\"",
+      "ts": "2026-06-17T23:18:19.209Z"
+    },
+    {
       "id": "bacaa179toddi",
       "type": "habit_check",
       "text": "💪 Gym",
@@ -3579,6 +3595,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-17T23:13:40.242Z"
+    "lastSync": "2026-06-17T23:18:27.803Z"
   }
 }
