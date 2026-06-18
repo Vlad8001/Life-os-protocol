@@ -10,6 +10,16 @@
     ],
     "tasks": [
       {
+        "id": "5sh9cfbirb9yh",
+        "title": "Inmail GC, LinkedIn 2 contacts(radii-x), 1 wave GC In 25.06",
+        "categoryId": "leadgen",
+        "completed": false,
+        "priority": false,
+        "createdAt": "2026-06-18T15:19:25.481Z",
+        "notes": "",
+        "tags": []
+      },
+      {
         "id": "m7h75yjm9zadk",
         "title": "Report, Connections, InMail, A-class, GC-Top-management",
         "categoryId": "leadgen",
@@ -3146,6 +3156,12 @@
   ],
   "activity": [
     {
+      "id": "947maelbgb9yh",
+      "type": "task_added",
+      "text": "Nova: \"Inmail GC, LinkedIn 2 contacts(radii-x), 1 wave GC In 25.06\"",
+      "ts": "2026-06-18T15:19:25.481Z"
+    },
+    {
       "id": "muz593s1gj1s9",
       "type": "habit_check",
       "text": "📖 Reading",
@@ -3616,6 +3632,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-18T11:41:36.711Z"
+    "lastSync": "2026-06-18T15:19:33.682Z"
   }
 }
