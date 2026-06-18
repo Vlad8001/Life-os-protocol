@@ -215,15 +215,18 @@
       "2026-06-15": {
         "calorie": {
           "tue": true,
-          "wed": true
+          "wed": true,
+          "thu": true
         },
         "reading": {
           "tue": true,
-          "wed": false
+          "wed": false,
+          "thu": true
         },
         "english": {
           "tue": true,
-          "wed": true
+          "wed": true,
+          "thu": true
         },
         "gym": {
           "thu": false,
@@ -3143,6 +3146,24 @@
   ],
   "activity": [
     {
+      "id": "muz593s1gj1s9",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-18T11:41:31.209Z"
+    },
+    {
+      "id": "rq2978l6yitve",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-18T11:41:20.954Z"
+    },
+    {
+      "id": "oouy1kebqiqb4",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-18T11:41:16.336Z"
+    },
+    {
       "id": "rl291uqh6zadl",
       "type": "task_added",
       "text": "Nova: \"Report, Connections, InMail, A-class, GC-Top-management,\"",
@@ -3595,6 +3616,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-17T23:44:29.000Z"
+    "lastSync": "2026-06-18T11:41:36.711Z"
   }
 }
