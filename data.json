@@ -226,22 +226,25 @@
         "calorie": {
           "tue": true,
           "wed": true,
-          "thu": true
+          "thu": true,
+          "fri": true
         },
         "reading": {
           "tue": true,
           "wed": false,
-          "thu": true
+          "thu": true,
+          "fri": true
         },
         "english": {
           "tue": true,
           "wed": true,
-          "thu": true
+          "thu": true,
+          "fri": true
         },
         "gym": {
           "thu": false,
           "wed": true,
-          "fri": false
+          "fri": true
         }
       }
     }
@@ -2915,8 +2918,99 @@
         "transfers": []
       },
       "2026-06": {
-        "income": [],
+        "income": [
+          {
+            "id": "whi28yauvvki3",
+            "amount": 15692,
+            "date": "2026-06-19T12:00:00.000Z",
+            "source": "зп перші два тижні червня від Nova"
+          }
+        ],
         "expenses": [
+          {
+            "id": "z0eypus98wgsz",
+            "amount": 800,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "ніч на озері",
+            "category": ""
+          },
+          {
+            "id": "x48t8n1ltvr76",
+            "amount": 78,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "qcpa1qk05v0hy",
+            "amount": 130,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "9qzipl1riufgi",
+            "amount": 586,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "абонемент на проїзд",
+            "category": ""
+          },
+          {
+            "id": "97c9y4wjxu0i5",
+            "amount": 724,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "репітер",
+            "category": ""
+          },
+          {
+            "id": "56lmtv6v9tp94",
+            "amount": 115,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "картридж",
+            "category": ""
+          },
+          {
+            "id": "n6lawpa19tefe",
+            "amount": 250,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "под",
+            "category": ""
+          },
+          {
+            "id": "11gdatfrut6wn",
+            "amount": 176,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "таксі",
+            "category": ""
+          },
+          {
+            "id": "anv8plo2vszhg",
+            "amount": 469,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "випивка",
+            "category": ""
+          },
+          {
+            "id": "0cu2359w8su08",
+            "amount": 132,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "рукавичка",
+            "category": ""
+          },
+          {
+            "id": "2f76y7cn3s5zp",
+            "amount": 250,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "урок фно",
+            "category": ""
+          },
+          {
+            "id": "wqk5mjx0ts16e",
+            "amount": 27,
+            "date": "2026-06-19T12:00:00.000Z",
+            "desc": "бравл",
+            "category": ""
+          },
           {
             "id": "cz3d5lvmkg9ar",
             "amount": 221,
@@ -3155,6 +3249,108 @@
     }
   ],
   "activity": [
+    {
+      "id": "bz25ra3uzwgsz",
+      "type": "finance_out",
+      "text": "−800 UAH — ніч на озері",
+      "ts": "2026-06-19T08:51:39.923Z"
+    },
+    {
+      "id": "bljcze4cbvr77",
+      "type": "finance_out",
+      "text": "−78 UAH — перекус",
+      "ts": "2026-06-19T08:51:06.739Z"
+    },
+    {
+      "id": "be6te5a1cvki3",
+      "type": "finance_in",
+      "text": "+15,692 UAH — зп перші два тижні червня від Nova",
+      "ts": "2026-06-19T08:50:58.059Z"
+    },
+    {
+      "id": "m8sq6695ev0hy",
+      "type": "finance_out",
+      "text": "−130 UAH — перекус",
+      "ts": "2026-06-19T08:50:32.134Z"
+    },
+    {
+      "id": "j66hrximlufgi",
+      "type": "finance_out",
+      "text": "−586 UAH — абонемент на проїзд",
+      "ts": "2026-06-19T08:50:04.866Z"
+    },
+    {
+      "id": "7thdybhlwu0i5",
+      "type": "finance_out",
+      "text": "−724 UAH — репітер",
+      "ts": "2026-06-19T08:49:45.485Z"
+    },
+    {
+      "id": "j3y1fnlh6tp94",
+      "type": "finance_out",
+      "text": "−115 UAH — картридж",
+      "ts": "2026-06-19T08:49:30.904Z"
+    },
+    {
+      "id": "dx3fe3kb1tefe",
+      "type": "finance_out",
+      "text": "−250 UAH — под",
+      "ts": "2026-06-19T08:49:16.874Z"
+    },
+    {
+      "id": "w1g3v682vt6wo",
+      "type": "finance_out",
+      "text": "−176 UAH — таксі",
+      "ts": "2026-06-19T08:49:07.128Z"
+    },
+    {
+      "id": "2gu7nenujszhh",
+      "type": "finance_out",
+      "text": "−469 UAH — випивка",
+      "ts": "2026-06-19T08:48:57.509Z"
+    },
+    {
+      "id": "auywlihyosu09",
+      "type": "finance_out",
+      "text": "−132 UAH — рукавичка",
+      "ts": "2026-06-19T08:48:50.409Z"
+    },
+    {
+      "id": "6db7frw4fs5zq",
+      "type": "finance_out",
+      "text": "−250 UAH — урок фно",
+      "ts": "2026-06-19T08:48:19.286Z"
+    },
+    {
+      "id": "jdl1sxdv8s16e",
+      "type": "finance_out",
+      "text": "−27 UAH — бравл",
+      "ts": "2026-06-19T08:48:13.046Z"
+    },
+    {
+      "id": "ysv4ktqcar32h",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-19T08:47:28.841Z"
+    },
+    {
+      "id": "tdsgjhhdlr287",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-19T08:47:27.751Z"
+    },
+    {
+      "id": "47lnklf5jqx0c",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-19T08:47:20.988Z"
+    },
+    {
+      "id": "l8um1kevlqvtk",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-19T08:47:19.448Z"
+    },
     {
       "id": "947maelbgb9yh",
       "type": "task_added",
@@ -3632,6 +3828,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-18T15:19:33.682Z"
+    "lastSync": "2026-06-19T08:53:55.791Z"
   }
 }
