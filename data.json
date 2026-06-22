@@ -227,13 +227,14 @@
           "tue": true,
           "wed": true,
           "thu": true,
-          "fri": false
+          "fri": true
         },
         "reading": {
           "tue": true,
           "wed": false,
           "thu": true,
-          "fri": false
+          "fri": false,
+          "sat": true
         },
         "english": {
           "tue": true,
@@ -245,6 +246,17 @@
           "thu": false,
           "wed": true,
           "fri": true
+        }
+      },
+      "2026-06-22": {
+        "calorie": {
+          "mon": true
+        },
+        "english": {
+          "mon": true
+        },
+        "reading": {
+          "mon": true
         }
       }
     }
@@ -3250,6 +3262,36 @@
   ],
   "activity": [
     {
+      "id": "erwye7ez0fvcn",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-22T10:21:44.951Z"
+    },
+    {
+      "id": "a39hns41mfuhp",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-22T10:21:43.837Z"
+    },
+    {
+      "id": "a6so8i5gsflep",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-22T10:21:32.065Z"
+    },
+    {
+      "id": "ddhd94u7hf91q",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-22T10:21:16.046Z"
+    },
+    {
+      "id": "wxzmbukm4etk2",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-22T10:20:55.970Z"
+    },
+    {
       "id": "bz25ra3uzwgsz",
       "type": "finance_out",
       "text": "−800 UAH — ніч на озері",
@@ -3818,16 +3860,10 @@
       "type": "finance_out",
       "text": "−134 UAH — перекус",
       "ts": "2026-06-08T21:20:39.934Z"
-    },
-    {
-      "id": "6k2nguzpmtdnq",
-      "type": "finance_out",
-      "text": "−5 UAH — перекус",
-      "ts": "2026-06-08T20:52:43.238Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-21T22:49:08.112Z"
+    "lastSync": "2026-06-22T10:21:51.182Z"
   }
 }
