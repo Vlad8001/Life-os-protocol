@@ -2940,6 +2940,48 @@
         ],
         "expenses": [
           {
+            "id": "kzdt4f9a8ab87",
+            "amount": 628,
+            "date": "2026-06-23T12:00:00.000Z",
+            "desc": "кружка Вікусі",
+            "category": ""
+          },
+          {
+            "id": "lxmgwmrg08wa6",
+            "amount": 38,
+            "date": "2026-06-23T12:00:00.000Z",
+            "desc": "чай",
+            "category": ""
+          },
+          {
+            "id": "fkffetoqn8hve",
+            "amount": 144,
+            "date": "2026-06-22T12:00:00.000Z",
+            "desc": "таксі на озеро",
+            "category": ""
+          },
+          {
+            "id": "rdbwf3jgi8ak2",
+            "amount": 438,
+            "date": "2026-06-22T12:00:00.000Z",
+            "desc": "продукти на озеро",
+            "category": ""
+          },
+          {
+            "id": "9pqni8sav7fl9",
+            "amount": 90,
+            "date": "2026-06-22T12:00:00.000Z",
+            "desc": "озеро",
+            "category": ""
+          },
+          {
+            "id": "2t80168po5zyg",
+            "amount": 250,
+            "date": "2026-06-22T12:00:00.000Z",
+            "desc": "на озеро",
+            "category": ""
+          },
+          {
             "id": "z0eypus98wgsz",
             "amount": 800,
             "date": "2026-06-19T12:00:00.000Z",
@@ -3261,6 +3303,42 @@
     }
   ],
   "activity": [
+    {
+      "id": "bf396swf1ab87",
+      "type": "finance_out",
+      "text": "−628 UAH — кружка Вікусі",
+      "ts": "2026-06-22T21:01:16.759Z"
+    },
+    {
+      "id": "yicwbzxqb8wa7",
+      "type": "finance_out",
+      "text": "−38 UAH — чай",
+      "ts": "2026-06-22T21:00:10.735Z"
+    },
+    {
+      "id": "hxa3ld1zh8hvf",
+      "type": "finance_out",
+      "text": "−144 UAH — таксі на озеро",
+      "ts": "2026-06-22T20:59:52.059Z"
+    },
+    {
+      "id": "pv44njlke8ak3",
+      "type": "finance_out",
+      "text": "−438 UAH — продукти на озеро",
+      "ts": "2026-06-22T20:59:42.579Z"
+    },
+    {
+      "id": "g5tadxt8g7fl9",
+      "type": "finance_out",
+      "text": "−90 UAH — озеро",
+      "ts": "2026-06-22T20:59:02.445Z"
+    },
+    {
+      "id": "qug58tjo35zyh",
+      "type": "finance_out",
+      "text": "−250 UAH — на озеро",
+      "ts": "2026-06-22T20:57:55.529Z"
+    },
     {
       "id": "erwye7ez0fvcn",
       "type": "habit_check",
@@ -3824,46 +3902,10 @@
       "type": "finance_out",
       "text": "−47 UAH — водичка",
       "ts": "2026-06-08T21:22:08.597Z"
-    },
-    {
-      "id": "f1k0dn7y1uu30",
-      "type": "finance_out",
-      "text": "−559 UAH — мак",
-      "ts": "2026-06-08T21:21:50.796Z"
-    },
-    {
-      "id": "karrl6edpuf4h",
-      "type": "finance_out",
-      "text": "−68 UAH — солодка водичка",
-      "ts": "2026-06-08T21:21:31.410Z"
-    },
-    {
-      "id": "a4xpp9f1ou3ac",
-      "type": "finance_out",
-      "text": "−20 UAH — друк",
-      "ts": "2026-06-08T21:21:16.068Z"
-    },
-    {
-      "id": "gpie1lyn2tv05",
-      "type": "finance_out",
-      "text": "−19 UAH — водичка",
-      "ts": "2026-06-08T21:21:05.333Z"
-    },
-    {
-      "id": "uh9wv1e6ytla5",
-      "type": "finance_out",
-      "text": "−185 UAH — домашній інтернет",
-      "ts": "2026-06-08T21:20:52.733Z"
-    },
-    {
-      "id": "h223mnnqmtbem",
-      "type": "finance_out",
-      "text": "−134 UAH — перекус",
-      "ts": "2026-06-08T21:20:39.934Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-22T20:34:51.537Z"
+    "lastSync": "2026-06-22T21:06:07.692Z"
   }
 }
