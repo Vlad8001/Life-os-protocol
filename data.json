@@ -21,7 +21,7 @@
       },
       {
         "id": "m7h75yjm9zadk",
-        "title": "Report, Connections, InMail, A-class, GC-Top-management",
+        "title": "Report, Connections, InMail, GC-Top-management",
         "categoryId": "leadgen",
         "completed": false,
         "priority": false,
@@ -3906,6 +3906,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-23T08:01:40.791Z"
+    "lastSync": "2026-06-23T08:02:03.189Z"
   }
 }
