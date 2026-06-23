@@ -250,13 +250,16 @@
       },
       "2026-06-22": {
         "calorie": {
-          "mon": true
+          "mon": true,
+          "tue": false
         },
         "english": {
-          "mon": true
+          "mon": true,
+          "tue": true
         },
         "reading": {
-          "mon": true
+          "mon": true,
+          "tue": true
         }
       }
     }
@@ -3304,6 +3307,24 @@
   ],
   "activity": [
     {
+      "id": "1k4t2yj4yarto",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-23T22:41:17.148Z"
+    },
+    {
+      "id": "7gzerz29dajr1",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-23T22:41:06.685Z"
+    },
+    {
+      "id": "b776h9is3ahgq",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-23T22:41:03.722Z"
+    },
+    {
       "id": "bf396swf1ab87",
       "type": "finance_out",
       "text": "−628 UAH — кружка Вікусі",
@@ -3884,28 +3905,10 @@
       "type": "finance_out",
       "text": "−250 UAH — урок фно",
       "ts": "2026-06-08T21:25:25.317Z"
-    },
-    {
-      "id": "0kt5727vfyjte",
-      "type": "finance_out",
-      "text": "−190 UAH — рево",
-      "ts": "2026-06-08T21:24:44.114Z"
-    },
-    {
-      "id": "bu4ywfnphwx8r",
-      "type": "finance_out",
-      "text": "−190 UAH — шампунь",
-      "ts": "2026-06-08T21:23:28.203Z"
-    },
-    {
-      "id": "acryocs93v7th",
-      "type": "finance_out",
-      "text": "−47 UAH — водичка",
-      "ts": "2026-06-08T21:22:08.597Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-23T08:02:03.189Z"
+    "lastSync": "2026-06-23T23:09:48.753Z"
   }
 }
