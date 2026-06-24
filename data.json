@@ -251,15 +251,21 @@
       "2026-06-22": {
         "calorie": {
           "mon": true,
-          "tue": false
+          "tue": false,
+          "wed": true
         },
         "english": {
           "mon": true,
-          "tue": true
+          "tue": true,
+          "wed": true
         },
         "reading": {
           "mon": true,
-          "tue": true
+          "tue": true,
+          "wed": true
+        },
+        "gym": {
+          "wed": true
         }
       }
     }
@@ -3307,6 +3313,30 @@
   ],
   "activity": [
     {
+      "id": "ppfefh0dnemtn",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-24T21:35:58.475Z"
+    },
+    {
+      "id": "ruk6p6ct9elwc",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-24T21:35:57.276Z"
+    },
+    {
+      "id": "c5mf50j0gej1g",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-24T21:35:53.572Z"
+    },
+    {
+      "id": "m9colfqfwehct",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-24T21:35:51.389Z"
+    },
+    {
       "id": "1k4t2yj4yarto",
       "type": "habit_check",
       "text": "📚 English",
@@ -3881,34 +3911,10 @@
       "type": "finance_out",
       "text": "−47 UAH — солодка водичка",
       "ts": "2026-06-08T21:28:20.468Z"
-    },
-    {
-      "id": "aa0ybcwcw2wg2",
-      "type": "finance_out",
-      "text": "−40 UAH — пиріжок",
-      "ts": "2026-06-08T21:28:07.106Z"
-    },
-    {
-      "id": "34rx31vl12b5d",
-      "type": "finance_out",
-      "text": "−119 UAH — Болгарія",
-      "ts": "2026-06-08T21:27:39.505Z"
-    },
-    {
-      "id": "lv272kab40ctz",
-      "type": "finance_out",
-      "text": "−37 UAH — водичка",
-      "ts": "2026-06-08T21:26:08.375Z"
-    },
-    {
-      "id": "wnr85139mzflx",
-      "type": "finance_out",
-      "text": "−250 UAH — урок фно",
-      "ts": "2026-06-08T21:25:25.317Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-23T23:09:48.753Z"
+    "lastSync": "2026-06-24T21:36:00.374Z"
   }
 }
