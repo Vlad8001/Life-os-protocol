@@ -259,18 +259,21 @@
           "tue": true,
           "wed": true,
           "thu": true,
-          "sat": true
+          "sat": false,
+          "fri": true
         },
         "reading": {
           "mon": true,
           "tue": true,
           "wed": true,
           "thu": true,
-          "sat": true
+          "sat": false,
+          "fri": true
         },
         "gym": {
           "wed": true,
-          "sat": true
+          "sat": false,
+          "fri": true
         }
       }
     }
@@ -3318,6 +3321,24 @@
   ],
   "activity": [
     {
+      "id": "qper3e4birt6r",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-26T13:53:40.227Z"
+    },
+    {
+      "id": "gquwa5bc4rsg6",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-26T13:53:39.270Z"
+    },
+    {
+      "id": "minu88mf3rrw1",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-26T13:53:38.545Z"
+    },
+    {
       "id": "mwyjo0swxxthm",
       "type": "habit_check",
       "text": "💪 Gym",
@@ -3898,28 +3919,10 @@
       "type": "task_added",
       "text": "Nova: \"Lead Gen Reach out top-management leads from sales Pipeline(Intro-call) via Email\"",
       "ts": "2026-06-09T11:20:56.906Z"
-    },
-    {
-      "id": "uimevte4wtb2p",
-      "type": "task_deleted",
-      "text": "Removed: \"Lead Gen\"",
-      "ts": "2026-06-09T11:20:27.985Z"
-    },
-    {
-      "id": "q4y80r60qt03x",
-      "type": "task_added",
-      "text": "Nova: \"Lead Gen\"",
-      "ts": "2026-06-09T11:20:13.773Z"
-    },
-    {
-      "id": "voocf4fm9y3em",
-      "type": "job_moved",
-      "text": "HYS Enterprise → Contacted",
-      "ts": "2026-06-09T09:32:12.862Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-26T06:02:54.690Z"
+    "lastSync": "2026-06-26T13:53:45.142Z"
   }
 }
