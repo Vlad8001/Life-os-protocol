@@ -257,15 +257,20 @@
         "english": {
           "mon": true,
           "tue": true,
-          "wed": true
+          "wed": true,
+          "thu": true,
+          "sat": true
         },
         "reading": {
           "mon": true,
           "tue": true,
-          "wed": true
+          "wed": true,
+          "thu": true,
+          "sat": true
         },
         "gym": {
-          "wed": true
+          "wed": true,
+          "sat": true
         }
       }
     }
@@ -3313,6 +3318,36 @@
   ],
   "activity": [
     {
+      "id": "mwyjo0swxxthm",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-06-26T06:02:27.082Z"
+    },
+    {
+      "id": "vseua1u6kxsff",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-26T06:02:25.707Z"
+    },
+    {
+      "id": "8syi9u1r7xs18",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-26T06:02:25.196Z"
+    },
+    {
+      "id": "ucqp028k2xiv2",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-26T06:02:13.310Z"
+    },
+    {
+      "id": "6l7fve52zxeud",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-26T06:02:08.101Z"
+    },
+    {
       "id": "ppfefh0dnemtn",
       "type": "habit_check",
       "text": "📚 English",
@@ -3881,40 +3916,10 @@
       "type": "job_moved",
       "text": "HYS Enterprise → Contacted",
       "ts": "2026-06-09T09:32:12.862Z"
-    },
-    {
-      "id": "8v2a73j79uw2d",
-      "type": "job_moved",
-      "text": "HYS Enterprise → Target List",
-      "ts": "2026-06-09T09:29:43.381Z"
-    },
-    {
-      "id": "3sggq5r8iuawz",
-      "type": "job_added",
-      "text": "Hunt: HYS Enterprise",
-      "ts": "2026-06-09T09:29:15.971Z"
-    },
-    {
-      "id": "vurcectu6t8w1",
-      "type": "job_moved",
-      "text": "Content Chameleon → Interviewing",
-      "ts": "2026-06-09T09:28:26.689Z"
-    },
-    {
-      "id": "06ung8bfnt6a5",
-      "type": "job_added",
-      "text": "Hunt: Content Chameleon",
-      "ts": "2026-06-09T09:28:23.309Z"
-    },
-    {
-      "id": "dkc2azkvo36r8",
-      "type": "finance_out",
-      "text": "−47 UAH — солодка водичка",
-      "ts": "2026-06-08T21:28:20.468Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-24T21:36:00.374Z"
+    "lastSync": "2026-06-26T06:02:54.690Z"
   }
 }
