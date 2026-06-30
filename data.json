@@ -11,7 +11,7 @@
     "tasks": [
       {
         "id": "5sh9cfbirb9yh",
-        "title": "Inmail GC, LinkedIn 2 contacts(radii-x), 1 wave GC In 25.06",
+        "title": "Inmail GC",
         "categoryId": "leadgen",
         "completed": false,
         "priority": false,
@@ -274,6 +274,17 @@
           "wed": true,
           "sat": false,
           "fri": true
+        }
+      },
+      "2026-06-29": {
+        "english": {
+          "tue": true
+        },
+        "reading": {
+          "tue": true
+        },
+        "calorie": {
+          "tue": true
         }
       }
     }
@@ -3321,6 +3332,24 @@
   ],
   "activity": [
     {
+      "id": "0ahlz3rp483kf",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-06-30T13:17:01.839Z"
+    },
+    {
+      "id": "t3lubxa6g82t1",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-06-30T13:17:00.853Z"
+    },
+    {
+      "id": "hgjms1aj6824j",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-30T13:16:59.971Z"
+    },
+    {
       "id": "2qypjoy6ni1f8",
       "type": "habit_check",
       "text": "📖 Reading",
@@ -3901,28 +3930,10 @@
       "type": "habit_check",
       "text": "📖 Reading",
       "ts": "2026-06-09T20:56:13.246Z"
-    },
-    {
-      "id": "7zu5m7kdynqs9",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-09T13:08:06.873Z"
-    },
-    {
-      "id": "phn926tn8npk9",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-09T13:08:05.289Z"
-    },
-    {
-      "id": "bxftd6szovl75",
-      "type": "task_added",
-      "text": "Nova: \"Reach out top-management prospects via Email\"",
-      "ts": "2026-06-09T11:22:14.417Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-26T23:34:24.081Z"
+    "lastSync": "2026-06-30T13:17:22.520Z"
   }
 }
