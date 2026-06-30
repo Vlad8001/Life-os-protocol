@@ -3485,7 +3485,7 @@
         "transfers": []
       }
     },
-    "limit": 12000,
+    "limit": 16000,
     "currency": "UAH",
     "expenseCategories": [
       "Food",
@@ -4113,6 +4113,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-30T22:46:36.032Z"
+    "lastSync": "2026-06-30T22:48:44.767Z"
   }
 }
