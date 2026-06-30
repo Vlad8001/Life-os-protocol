@@ -278,7 +278,8 @@
       },
       "2026-06-29": {
         "english": {
-          "tue": true
+          "tue": false,
+          "mon": true
         },
         "reading": {
           "tue": true
@@ -2960,6 +2961,30 @@
       "2026-06": {
         "income": [
           {
+            "id": "hy4hrtgsyiz5e",
+            "amount": 15457,
+            "date": "2026-06-30T12:00:00.000Z",
+            "source": "зп останні два тижні червня від Nova"
+          },
+          {
+            "id": "9u3q8ua1ufk59",
+            "amount": 140,
+            "date": "2026-06-30T12:00:00.000Z",
+            "source": "інше"
+          },
+          {
+            "id": "lv6ouorbp7106",
+            "amount": 164,
+            "date": "2026-06-30T12:00:00.000Z",
+            "source": "інша картка"
+          },
+          {
+            "id": "ttm6x3rt75ff9",
+            "amount": 81,
+            "date": "2026-06-30T12:00:00.000Z",
+            "source": "кешбек"
+          },
+          {
             "id": "whi28yauvvki3",
             "amount": 15692,
             "date": "2026-06-19T12:00:00.000Z",
@@ -2967,6 +2992,160 @@
           }
         ],
         "expenses": [
+          {
+            "id": "mqw18hw75hprd",
+            "amount": 74,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "пиво дідові",
+            "category": "Food"
+          },
+          {
+            "id": "ud9f553exh4f6",
+            "amount": 200,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "Мобільний інтернет",
+            "category": "Bills"
+          },
+          {
+            "id": "wdvjkpsa4giux",
+            "amount": 65,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "кола",
+            "category": "Food"
+          },
+          {
+            "id": "ftumtfqmug1ob",
+            "amount": 108,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "піца",
+            "category": "Food"
+          },
+          {
+            "id": "1ovu7sy6ceeox",
+            "amount": 192,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "мак",
+            "category": "Food"
+          },
+          {
+            "id": "6ldwjwcoce41o",
+            "amount": 65,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "чипси",
+            "category": "Food"
+          },
+          {
+            "id": "9bnrm9qfddahu",
+            "amount": 137,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "вода",
+            "category": "Food"
+          },
+          {
+            "id": "s6grzymesbxj2",
+            "amount": 100,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "таксі",
+            "category": "Transport"
+          },
+          {
+            "id": "3vcpzfwjlbevy",
+            "amount": 326,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "обід на озері",
+            "category": "Food"
+          },
+          {
+            "id": "q63acue1oapz6",
+            "amount": 50,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "автомати",
+            "category": "Entertainment"
+          },
+          {
+            "id": "9xqor4eljaal8",
+            "amount": 185,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "попкорн",
+            "category": "Food"
+          },
+          {
+            "id": "1ka7gdb519n7v",
+            "amount": 139,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "мача",
+            "category": "Food"
+          },
+          {
+            "id": "bz5lrniqa8zmg",
+            "amount": 81,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "кола",
+            "category": "Food"
+          },
+          {
+            "id": "lafcyo58163uu",
+            "amount": 250,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "урок фно",
+            "category": "Education"
+          },
+          {
+            "id": "na79b8rbc4voc",
+            "amount": 38,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "вода",
+            "category": "Food"
+          },
+          {
+            "id": "y1x21lhts4du6",
+            "amount": 400,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "квитки в кіно",
+            "category": "Other"
+          },
+          {
+            "id": "4xa683cd93qxh",
+            "amount": 53,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "домен",
+            "category": "Other"
+          },
+          {
+            "id": "yeq4sy1cg377p",
+            "amount": 83,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "водичка",
+            "category": "Food"
+          },
+          {
+            "id": "tvwlkcqte2l8p",
+            "amount": 70,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "багет",
+            "category": "Food"
+          },
+          {
+            "id": "rkqd89dhv237h",
+            "amount": 129,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "зубна паста",
+            "category": "Health"
+          },
+          {
+            "id": "88dcjs56u182c",
+            "amount": 60,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "самокат",
+            "category": "Transport"
+          },
+          {
+            "id": "p25jkexdq0dev",
+            "amount": 180,
+            "date": "2026-06-30T12:00:00.000Z",
+            "desc": "перекус",
+            "category": "Food"
+          },
           {
             "id": "kzdt4f9a8ab87",
             "amount": 628,
@@ -3331,6 +3510,222 @@
     }
   ],
   "activity": [
+    {
+      "id": "0motegc7kiz5e",
+      "type": "finance_in",
+      "text": "+15,457 UAH — зп останні два тижні червня від Nova",
+      "ts": "2026-06-30T22:45:21.650Z"
+    },
+    {
+      "id": "au2lqq56ahpre",
+      "type": "finance_out",
+      "text": "−74 UAH — пиво дідові",
+      "ts": "2026-06-30T22:44:22.826Z"
+    },
+    {
+      "id": "9pr93ji6ph4f6",
+      "type": "finance_out",
+      "text": "−200 UAH — Мобільний інтернет",
+      "ts": "2026-06-30T22:43:55.170Z"
+    },
+    {
+      "id": "bwmu3v4nxgiux",
+      "type": "finance_out",
+      "text": "−65 UAH — кола",
+      "ts": "2026-06-30T22:43:27.225Z"
+    },
+    {
+      "id": "quebkcztxg1oc",
+      "type": "finance_out",
+      "text": "−108 UAH — піца",
+      "ts": "2026-06-30T22:43:04.956Z"
+    },
+    {
+      "id": "yq95sh9fzfk59",
+      "type": "finance_in",
+      "text": "+140 UAH — інше",
+      "ts": "2026-06-30T22:42:42.237Z"
+    },
+    {
+      "id": "gvr4a5jf8eeoy",
+      "type": "finance_out",
+      "text": "−192 UAH — мак",
+      "ts": "2026-06-30T22:41:48.514Z"
+    },
+    {
+      "id": "56o46ye1ye41o",
+      "type": "finance_out",
+      "text": "−65 UAH — чипси",
+      "ts": "2026-06-30T22:41:34.716Z"
+    },
+    {
+      "id": "9kxcr5qxpdahu",
+      "type": "finance_out",
+      "text": "−137 UAH — вода",
+      "ts": "2026-06-30T22:40:56.418Z"
+    },
+    {
+      "id": "5xq24zxqtbxj3",
+      "type": "finance_out",
+      "text": "−100 UAH — таксі",
+      "ts": "2026-06-30T22:39:52.959Z"
+    },
+    {
+      "id": "ikda6rq2cbevy",
+      "type": "finance_out",
+      "text": "−326 UAH — обід на озері",
+      "ts": "2026-06-30T22:39:28.798Z"
+    },
+    {
+      "id": "9r6ws5he1apz6",
+      "type": "finance_out",
+      "text": "−50 UAH — автомати",
+      "ts": "2026-06-30T22:38:56.514Z"
+    },
+    {
+      "id": "mkui9ez5eaal8",
+      "type": "finance_out",
+      "text": "−185 UAH — попкорн",
+      "ts": "2026-06-30T22:38:36.572Z"
+    },
+    {
+      "id": "5lsh9f9vh9n7v",
+      "type": "finance_out",
+      "text": "−139 UAH — мача",
+      "ts": "2026-06-30T22:38:06.283Z"
+    },
+    {
+      "id": "cmmvpofio8zmg",
+      "type": "finance_out",
+      "text": "−81 UAH — кола",
+      "ts": "2026-06-30T22:37:35.704Z"
+    },
+    {
+      "id": "72ljlq9hf7107",
+      "type": "finance_in",
+      "text": "+164 UAH — інша картка",
+      "ts": "2026-06-30T22:36:04.183Z"
+    },
+    {
+      "id": "5ttnye0iv63uu",
+      "type": "finance_out",
+      "text": "−250 UAH — урок фно",
+      "ts": "2026-06-30T22:35:21.222Z"
+    },
+    {
+      "id": "6hg2474ja5ffa",
+      "type": "finance_in",
+      "text": "+81 UAH — кешбек",
+      "ts": "2026-06-30T22:34:49.558Z"
+    },
+    {
+      "id": "juyb3ewjh4vod",
+      "type": "finance_out",
+      "text": "−38 UAH — вода",
+      "ts": "2026-06-30T22:34:23.965Z"
+    },
+    {
+      "id": "b483ftnb04du6",
+      "type": "finance_out",
+      "text": "−400 UAH — квитки в кіно",
+      "ts": "2026-06-30T22:34:00.846Z"
+    },
+    {
+      "id": "nwuq4ctbp3qxh",
+      "type": "finance_out",
+      "text": "−53 UAH — домен",
+      "ts": "2026-06-30T22:33:31.157Z"
+    },
+    {
+      "id": "jclzlsu5v377p",
+      "type": "finance_out",
+      "text": "−83 UAH — водичка",
+      "ts": "2026-06-30T22:33:05.605Z"
+    },
+    {
+      "id": "63ljg42b02l8p",
+      "type": "finance_out",
+      "text": "−70 UAH — багет",
+      "ts": "2026-06-30T22:32:37.129Z"
+    },
+    {
+      "id": "x3y86mrkb237h",
+      "type": "finance_out",
+      "text": "−129 UAH — зубна паста",
+      "ts": "2026-06-30T22:32:13.757Z"
+    },
+    {
+      "id": "dfz04xxs7182c",
+      "type": "finance_out",
+      "text": "−60 UAH — самокат",
+      "ts": "2026-06-30T22:31:33.396Z"
+    },
+    {
+      "id": "daphrta1s0dev",
+      "type": "finance_out",
+      "text": "−180 UAH — перекус",
+      "ts": "2026-06-30T22:30:53.671Z"
+    },
+    {
+      "id": "p0m3kawy9zm94",
+      "type": "finance_out",
+      "text": "−-180 UAH — перекус",
+      "ts": "2026-06-30T22:30:18.472Z"
+    },
+    {
+      "id": "vlg1vhg9pz7fq",
+      "type": "finance_out",
+      "text": "−-180 UAH — Перекус",
+      "ts": "2026-06-30T22:29:59.270Z"
+    },
+    {
+      "id": "6blqzhld3wmpe",
+      "type": "finance_out",
+      "text": "−400 UAH — квитки в кіно",
+      "ts": "2026-06-30T22:27:59.090Z"
+    },
+    {
+      "id": "b61sr45rfweag",
+      "type": "finance_out",
+      "text": "−53 UAH — домен",
+      "ts": "2026-06-30T22:27:48.184Z"
+    },
+    {
+      "id": "mv44fsaadw0p2",
+      "type": "finance_out",
+      "text": "−83 UAH — водичка",
+      "ts": "2026-06-30T22:27:30.566Z"
+    },
+    {
+      "id": "vewptke1dviaf",
+      "type": "finance_out",
+      "text": "−70 UAH — багет",
+      "ts": "2026-06-30T22:27:06.711Z"
+    },
+    {
+      "id": "h2xhneq7kvbzx",
+      "type": "finance_out",
+      "text": "−129 UAH — зубна паста",
+      "ts": "2026-06-30T22:26:58.557Z"
+    },
+    {
+      "id": "iz7u7iuhkv3x7",
+      "type": "finance_out",
+      "text": "−60 UAH — самокат",
+      "ts": "2026-06-30T22:26:48.091Z"
+    },
+    {
+      "id": "j9b531gazuq30",
+      "type": "finance_out",
+      "text": "−180 UAH — перекус",
+      "ts": "2026-06-30T22:26:30.156Z"
+    },
+    {
+      "id": "a6lq5nx0iru26",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-06-30T22:24:15.342Z"
+    },
     {
       "id": "0ahlz3rp483kf",
       "type": "habit_check",
@@ -3714,226 +4109,10 @@
       "type": "task_done",
       "text": "Done: \"Find contacts and establish sequence for construction and engineering team(A-class buildings)\"",
       "ts": "2026-06-16T11:36:08.093Z"
-    },
-    {
-      "id": "xqde6kyxsgcra",
-      "type": "task_done",
-      "text": "Done: \"Check avaibility of C-lvl GC Toronto\"",
-      "ts": "2026-06-16T11:36:05.014Z"
-    },
-    {
-      "id": "e0wrmjiqefw0c",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-16T11:35:43.308Z"
-    },
-    {
-      "id": "7jy3wrmrrfv5b",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-16T11:35:42.191Z"
-    },
-    {
-      "id": "7mwcmgv5jv5d4",
-      "type": "task_added",
-      "text": "Task: \"Complete task for interview\"",
-      "ts": "2026-06-12T19:36:47.848Z"
-    },
-    {
-      "id": "is0h8yjalt596",
-      "type": "task_added",
-      "text": "Nova: \"Check avaibility of C-lvl GC Toronto\"",
-      "ts": "2026-06-12T19:35:14.394Z"
-    },
-    {
-      "id": "vg6s9hwu7rkju",
-      "type": "task_added",
-      "text": "Nova: \"Find contacts and establish sequence for construction and engineering team(A-class buildings)\"",
-      "ts": "2026-06-12T19:34:00.906Z"
-    },
-    {
-      "id": "fi4ppkdmbfi7u",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-12T13:20:43.002Z"
-    },
-    {
-      "id": "707g4lchwe8lu",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-12T13:19:43.890Z"
-    },
-    {
-      "id": "vwx7ykkc0e4bw",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-12T13:19:38.348Z"
-    },
-    {
-      "id": "encserdqybkcs",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-12T13:17:39.148Z"
-    },
-    {
-      "id": "xvg2eq8t6b9g7",
-      "type": "task_added",
-      "text": "Nova: \"Every day: LinkedIn Connections, Sequences, Inmail, other tasks\"",
-      "ts": "2026-06-12T13:17:25.015Z"
-    },
-    {
-      "id": "puiwnbyruad2k",
-      "type": "task_done",
-      "text": "Done: \"Establish monthly newsletter for Radii-x\"",
-      "ts": "2026-06-12T13:16:43.052Z"
-    },
-    {
-      "id": "hude8gn4jg9as",
-      "type": "finance_out",
-      "text": "−221 UAH — філе",
-      "ts": "2026-06-11T18:41:33.460Z"
-    },
-    {
-      "id": "flun3oa3867nn",
-      "type": "finance_out",
-      "text": "−228 UAH — рево",
-      "ts": "2026-06-11T18:33:44.771Z"
-    },
-    {
-      "id": "fnp3204ex61jl",
-      "type": "finance_out",
-      "text": "−328 UAH — жижа",
-      "ts": "2026-06-11T18:33:36.849Z"
-    },
-    {
-      "id": "w4fl3exnv5mjw",
-      "type": "finance_out",
-      "text": "−275 UAH — філе додому",
-      "ts": "2026-06-11T18:33:17.420Z"
-    },
-    {
-      "id": "vow8dyisk568v",
-      "type": "finance_out",
-      "text": "−148 UAH — обід",
-      "ts": "2026-06-11T18:32:56.287Z"
-    },
-    {
-      "id": "pkmmabyuwwt0a",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-11T11:54:31.258Z"
-    },
-    {
-      "id": "oou3ogh3jwmvp",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-11T11:54:23.317Z"
-    },
-    {
-      "id": "e912suicvwf07",
-      "type": "task_done",
-      "text": "Done: \"Reach out top-management prospects via Email\"",
-      "ts": "2026-06-11T11:54:13.111Z"
-    },
-    {
-      "id": "ua8ourwpvw8nq",
-      "type": "task_done",
-      "text": "Done: \"Start inmail LinkedIn, and add to report(change existed one with new column)\"",
-      "ts": "2026-06-11T11:54:04.886Z"
-    },
-    {
-      "id": "go37bcdzvr0yk",
-      "type": "finance_out",
-      "text": "−16 UAH — водичка",
-      "ts": "2026-06-11T05:46:06.620Z"
-    },
-    {
-      "id": "dgiizk4mhqvb6",
-      "type": "finance_out",
-      "text": "−80 UAH — перекус",
-      "ts": "2026-06-11T05:45:59.298Z"
-    },
-    {
-      "id": "om1ammiazqitk",
-      "type": "finance_out",
-      "text": "−22 UAH — енергетик",
-      "ts": "2026-06-11T05:45:43.112Z"
-    },
-    {
-      "id": "gjrzyma3bq4bs",
-      "type": "finance_out",
-      "text": "−40 UAH — самокат",
-      "ts": "2026-06-11T05:45:24.328Z"
-    },
-    {
-      "id": "epzj4fzimpmv1",
-      "type": "finance_out",
-      "text": "−30 UAH — самокат",
-      "ts": "2026-06-11T05:45:01.693Z"
-    },
-    {
-      "id": "cu9k8j6fvc4y5",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-10T21:10:38.861Z"
-    },
-    {
-      "id": "kqud27r28jbu7",
-      "type": "task_done",
-      "text": "Done: \"Add report date to website\"",
-      "ts": "2026-06-10T19:52:15.535Z"
-    },
-    {
-      "id": "mvlu9drr8jx5x",
-      "type": "task_added",
-      "text": "Nova: \"Establish monthly newsletter for Radii-x\"",
-      "ts": "2026-06-10T18:28:44.325Z"
-    },
-    {
-      "id": "7f6u1lm4fisra",
-      "type": "task_added",
-      "text": "Nova: \"Start inmail LinkedIn, and add to report\"",
-      "ts": "2026-06-10T18:27:51.958Z"
-    },
-    {
-      "id": "fc2m98fwygpqr",
-      "type": "task_deleted",
-      "text": "Removed: \"Lead Gen Reach out top-management leads from sales Pipeline(Intro-call) via Email\"",
-      "ts": "2026-06-10T18:26:14.739Z"
-    },
-    {
-      "id": "039my2nnggov3",
-      "type": "task_deleted",
-      "text": "Removed: \"Reach out top-management leads from sales Pipeline(Intro-call) via LinkedIn\"",
-      "ts": "2026-06-10T18:26:13.599Z"
-    },
-    {
-      "id": "7bmsrlou7gghg",
-      "type": "task_added",
-      "text": "Nova: \"Add report date to website\"",
-      "ts": "2026-06-10T18:26:02.740Z"
-    },
-    {
-      "id": "cb9l0u6562xsh",
-      "type": "job_added",
-      "text": "Hunt: Elit-web",
-      "ts": "2026-06-10T12:11:36.977Z"
-    },
-    {
-      "id": "llykisqioxnvf",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-10T06:59:35.067Z"
-    },
-    {
-      "id": "1ae4pbv6udqda",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-09T20:56:13.246Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-30T13:17:22.520Z"
+    "lastSync": "2026-06-30T22:46:36.032Z"
   }
 }
