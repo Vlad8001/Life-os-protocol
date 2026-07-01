@@ -279,13 +279,16 @@
       "2026-06-29": {
         "english": {
           "tue": false,
-          "mon": true
+          "mon": true,
+          "wed": true
         },
         "reading": {
-          "tue": true
+          "tue": true,
+          "wed": true
         },
         "calorie": {
-          "tue": true
+          "tue": true,
+          "wed": true
         }
       }
     }
@@ -3511,6 +3514,24 @@
   ],
   "activity": [
     {
+      "id": "f4d01w6pwdzrl",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-01T15:57:14.961Z"
+    },
+    {
+      "id": "l6qqthoscdytb",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-01T15:57:13.727Z"
+    },
+    {
+      "id": "anealhi8bdx67",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-07-01T15:57:11.599Z"
+    },
+    {
       "id": "0motegc7kiz5e",
       "type": "finance_in",
       "text": "+15,457 UAH — зп останні два тижні червня від Nova",
@@ -4091,28 +4112,10 @@
       "type": "habit_check",
       "text": "💪 Gym",
       "ts": "2026-06-17T10:04:52.608Z"
-    },
-    {
-      "id": "5pvo5cjn6mrky",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-17T10:04:45.730Z"
-    },
-    {
-      "id": "fdzpufpnrteip",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-16T21:06:06.145Z"
-    },
-    {
-      "id": "gmztt6qxngf4t",
-      "type": "task_done",
-      "text": "Done: \"Find contacts and establish sequence for construction and engineering team(A-class buildings)\"",
-      "ts": "2026-06-16T11:36:08.093Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-06-30T22:48:44.767Z"
+    "lastSync": "2026-07-01T15:57:17.665Z"
   }
 }
