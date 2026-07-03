@@ -280,15 +280,21 @@
         "english": {
           "tue": false,
           "mon": true,
-          "wed": true
+          "wed": true,
+          "fri": true
         },
         "reading": {
           "tue": true,
-          "wed": true
+          "wed": true,
+          "fri": true
         },
         "calorie": {
           "tue": true,
-          "wed": true
+          "wed": true,
+          "fri": true
+        },
+        "gym": {
+          "fri": true
         }
       }
     }
@@ -3522,6 +3528,30 @@
   ],
   "activity": [
     {
+      "id": "zl86ivo22iozi",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-03T15:08:15.486Z"
+    },
+    {
+      "id": "mxuuctel9io9g",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-03T15:08:14.548Z"
+    },
+    {
+      "id": "qm184qu66in9o",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-07-03T15:08:13.260Z"
+    },
+    {
+      "id": "7e59759gvimib",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-07-03T15:08:12.275Z"
+    },
+    {
       "id": "kphab7qwy520l",
       "type": "task_done",
       "text": "Done: \"Купити жижу\"",
@@ -4096,34 +4126,10 @@
       "type": "habit_check",
       "text": "💪 Gym",
       "ts": "2026-06-17T10:06:00.630Z"
-    },
-    {
-      "id": "kjoxl41tqo995",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-17T10:05:55.289Z"
-    },
-    {
-      "id": "shtksy4fpo7rr",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-17T10:05:53.367Z"
-    },
-    {
-      "id": "0e5prkpx5nuiw",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-17T10:05:36.200Z"
-    },
-    {
-      "id": "khyqysvuxnter",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-17T10:05:34.755Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-03T12:37:44.207Z"
+    "lastSync": "2026-07-03T15:08:19.397Z"
   }
 }
