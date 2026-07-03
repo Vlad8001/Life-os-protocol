@@ -3514,12 +3514,19 @@
     {
       "id": "78qcj92a3dbvc",
       "title": "Купити жижу",
-      "completed": false,
+      "completed": true,
       "priority": false,
-      "createdAt": "2026-07-03T12:16:07.512Z"
+      "createdAt": "2026-07-03T12:16:07.512Z",
+      "completedAt": "2026-07-03T12:37:41.109Z"
     }
   ],
   "activity": [
+    {
+      "id": "kphab7qwy520l",
+      "type": "task_done",
+      "text": "Done: \"Купити жижу\"",
+      "ts": "2026-07-03T12:37:41.109Z"
+    },
     {
       "id": "5yq2979ebdgwx",
       "type": "task_added",
@@ -4113,16 +4120,10 @@
       "type": "habit_check",
       "text": "📖 Reading",
       "ts": "2026-06-17T10:05:34.755Z"
-    },
-    {
-      "id": "3k73cfcqenqnp",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-17T10:05:31.189Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-03T12:16:31.375Z"
+    "lastSync": "2026-07-03T12:37:44.207Z"
   }
 }
