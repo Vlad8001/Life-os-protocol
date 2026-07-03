@@ -281,7 +281,7 @@
           "tue": false,
           "mon": true,
           "wed": true,
-          "fri": true,
+          "fri": false,
           "thu": false,
           "sat": false,
           "sun": false
@@ -289,7 +289,7 @@
         "reading": {
           "tue": true,
           "wed": true,
-          "fri": true,
+          "fri": false,
           "mon": false,
           "thu": false,
           "sat": false,
@@ -4143,6 +4143,6 @@
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-03T15:21:06.412Z"
+    "lastSync": "2026-07-03T23:21:48.681Z"
   }
 }
