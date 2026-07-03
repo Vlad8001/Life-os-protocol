@@ -1808,12 +1808,20 @@ function Dashboard({ data, setView, setData, showToast, openPalette }) {
   // Habits this week
   const wk = getWeekKey();
   const habitsWeek = data.habits.weeks[wk] || {};
-  const habitCells = data.habits.list.length * 7;
-  const habitDone = data.habits.list.reduce((acc, h) => {
-    const w = habitsWeek[h.id] || {};
-    return acc + DAY_KEYS.filter((d) => w[d]).length;
-  }, 0);
-  const habitPct = habitCells > 0 ? Math.round((habitDone / habitCells) * 100) : 0;
+ const habitCells = data.habits.list.length * 7;
+const habitDone = data.habits.list.reduce((acc, h) => {
+  const w = habitsWeek[h.id] || {};
+  return acc + DAY_KEYS.filter((d) => w[d]).length;
+}, 0);
+const habitTargetsTotal = data.habits.list.reduce((s, h) => s + (h.target || 7), 0);
+const habitTargetProgress = data.habits.list.reduce((acc, h) => {
+  const w = habitsWeek[h.id] || {};
+  const done = DAY_KEYS.filter((d) => w[d]).length;
+  return acc + Math.min(done, h.target || 7);
+}, 0);
+const habitPct = habitTargetsTotal > 0
+  ? Math.round((habitTargetProgress / habitTargetsTotal) * 100)
+  : 0;
 
   // Jobs metrics
   const jobsByCol = useMemo(() => {
@@ -3519,10 +3527,17 @@ function Habits({ data, setData, showToast }) {
     return map;
   };
 
-  // Aggregate stats for header
-  const totalAllCells = habits.length * 7;
-  const weekDone = habits.reduce((s, h) => s + weekDoneCount(h.id), 0);
-  const weekPct = totalAllCells > 0 ? Math.round((weekDone / totalAllCells) * 100) : 0;
+// Aggregate stats for header — week pulse now measures progress toward each habit's target
+const totalAllCells = habits.length * 7;
+const weekDone = habits.reduce((s, h) => s + weekDoneCount(h.id), 0);
+const totalTargets = habits.reduce((s, h) => s + (h.target || 7), 0);
+const weekTargetProgress = habits.reduce(
+  (s, h) => s + Math.min(weekDoneCount(h.id), h.target || 7),
+  0
+);
+const weekPct = totalTargets > 0
+  ? Math.round((weekTargetProgress / totalTargets) * 100)
+  : 0;
 
   // Habits hitting target this week
   const onTargetCount = habits.filter((h) => weekDoneCount(h.id) >= (h.target || 7)).length;
