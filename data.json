@@ -3505,14 +3505,33 @@
   },
   "generalTasks": [
     {
-      "id": "ixoi6b5gav5d4",
-      "title": "Complete task for interview",
+      "id": "n8tfxigjhdgwx",
+      "title": "Купити шампунь",
       "completed": false,
-      "priority": true,
-      "createdAt": "2026-06-12T19:36:47.848Z"
+      "priority": false,
+      "createdAt": "2026-07-03T12:16:14.049Z"
+    },
+    {
+      "id": "78qcj92a3dbvc",
+      "title": "Купити жижу",
+      "completed": false,
+      "priority": false,
+      "createdAt": "2026-07-03T12:16:07.512Z"
     }
   ],
   "activity": [
+    {
+      "id": "5yq2979ebdgwx",
+      "type": "task_added",
+      "text": "Task: \"Купити шампунь\"",
+      "ts": "2026-07-03T12:16:14.049Z"
+    },
+    {
+      "id": "dgu36648adbvd",
+      "type": "task_added",
+      "text": "Task: \"Купити жижу\"",
+      "ts": "2026-07-03T12:16:07.513Z"
+    },
     {
       "id": "f4d01w6pwdzrl",
       "type": "habit_check",
@@ -4100,22 +4119,10 @@
       "type": "habit_check",
       "text": "📖 Reading",
       "ts": "2026-06-17T10:05:31.189Z"
-    },
-    {
-      "id": "yog6nxvg0myxy",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-17T10:04:55.270Z"
-    },
-    {
-      "id": "0ts1r8ux2mww0",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-17T10:04:52.608Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-01T15:57:17.665Z"
+    "lastSync": "2026-07-03T12:16:28.061Z"
   }
 }
