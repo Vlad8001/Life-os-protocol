@@ -3524,6 +3524,20 @@
   },
   "generalTasks": [
     {
+      "id": "kyvbwhph0wh1v",
+      "title": "Купити дезік",
+      "completed": false,
+      "priority": false,
+      "createdAt": "2026-07-04T11:22:41.875Z"
+    },
+    {
+      "id": "06i41kd5iw9ka",
+      "title": "Забрати посилку Вікусі",
+      "completed": false,
+      "priority": false,
+      "createdAt": "2026-07-04T11:22:32.170Z"
+    },
+    {
       "id": "n8tfxigjhdgwx",
       "title": "Купити шампунь",
       "completed": false,
@@ -3540,6 +3554,18 @@
     }
   ],
   "activity": [
+    {
+      "id": "lsyfsxa4owh1v",
+      "type": "task_added",
+      "text": "Task: \"Купити дезік\"",
+      "ts": "2026-07-04T11:22:41.875Z"
+    },
+    {
+      "id": "rw89j5t6aw9kb",
+      "type": "task_added",
+      "text": "Task: \"Забрати посилку Вікусі\"",
+      "ts": "2026-07-04T11:22:32.171Z"
+    },
     {
       "id": "np2x57be4xj75",
       "type": "habit_check",
@@ -4127,22 +4153,10 @@
       "type": "finance_out",
       "text": "−115 UAH — картридж",
       "ts": "2026-06-19T08:49:30.904Z"
-    },
-    {
-      "id": "dx3fe3kb1tefe",
-      "type": "finance_out",
-      "text": "−250 UAH — под",
-      "ts": "2026-06-19T08:49:16.874Z"
-    },
-    {
-      "id": "w1g3v682vt6wo",
-      "type": "finance_out",
-      "text": "−176 UAH — таксі",
-      "ts": "2026-06-19T08:49:07.128Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-03T23:21:48.681Z"
+    "lastSync": "2026-07-04T11:22:53.443Z"
   }
 }
