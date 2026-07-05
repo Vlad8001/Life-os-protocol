@@ -3524,6 +3524,13 @@
   },
   "generalTasks": [
     {
+      "id": "k5hm4rla5jxfe",
+      "title": "Записатись на мрт",
+      "completed": false,
+      "priority": false,
+      "createdAt": "2026-07-05T15:12:33.530Z"
+    },
+    {
       "id": "kyvbwhph0wh1v",
       "title": "Купити дезік",
       "completed": false,
@@ -3533,9 +3540,10 @@
     {
       "id": "06i41kd5iw9ka",
       "title": "Забрати посилку Вікусі",
-      "completed": false,
+      "completed": true,
       "priority": false,
-      "createdAt": "2026-07-04T11:22:32.170Z"
+      "createdAt": "2026-07-04T11:22:32.170Z",
+      "completedAt": "2026-07-05T15:12:37.402Z"
     },
     {
       "id": "n8tfxigjhdgwx",
@@ -3554,6 +3562,18 @@
     }
   ],
   "activity": [
+    {
+      "id": "sfupnv58jk0ey",
+      "type": "task_done",
+      "text": "Done: \"Забрати посилку Вікусі\"",
+      "ts": "2026-07-05T15:12:37.402Z"
+    },
+    {
+      "id": "f1rrkhmsbjxfe",
+      "type": "task_added",
+      "text": "Task: \"Записатись на мрт\"",
+      "ts": "2026-07-05T15:12:33.530Z"
+    },
     {
       "id": "1zoats45uupo7",
       "type": "habit_check",
@@ -4141,22 +4161,10 @@
       "type": "finance_out",
       "text": "−800 UAH — ніч на озері",
       "ts": "2026-06-19T08:51:39.923Z"
-    },
-    {
-      "id": "bljcze4cbvr77",
-      "type": "finance_out",
-      "text": "−78 UAH — перекус",
-      "ts": "2026-06-19T08:51:06.739Z"
-    },
-    {
-      "id": "be6te5a1cvki3",
-      "type": "finance_in",
-      "text": "+15,692 UAH — зп перші два тижні червня від Nova",
-      "ts": "2026-06-19T08:50:58.059Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-05T11:37:39.634Z"
+    "lastSync": "2026-07-05T15:12:40.296Z"
   }
 }
