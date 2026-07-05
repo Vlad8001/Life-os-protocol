@@ -302,7 +302,7 @@
           "mon": false,
           "thu": false,
           "sat": false,
-          "sun": false
+          "sun": true
         },
         "gym": {
           "fri": true,
@@ -3563,6 +3563,12 @@
   ],
   "activity": [
     {
+      "id": "mltb789l000x2",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-07-05T20:05:00.710Z"
+    },
+    {
       "id": "sfupnv58jk0ey",
       "type": "task_done",
       "text": "Done: \"Забрати посилку Вікусі\"",
@@ -4155,16 +4161,10 @@
       "type": "habit_check",
       "text": "📖 Reading",
       "ts": "2026-06-22T10:20:55.970Z"
-    },
-    {
-      "id": "bz25ra3uzwgsz",
-      "type": "finance_out",
-      "text": "−800 UAH — ніч на озері",
-      "ts": "2026-06-19T08:51:39.923Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-05T15:12:40.296Z"
+    "lastSync": "2026-07-05T20:05:05.209Z"
   }
 }
