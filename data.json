@@ -283,8 +283,8 @@
           "wed": true,
           "fri": false,
           "thu": false,
-          "sat": false,
-          "sun": false
+          "sat": true,
+          "sun": true
         },
         "reading": {
           "tue": true,
@@ -293,7 +293,7 @@
           "mon": false,
           "thu": false,
           "sat": false,
-          "sun": false
+          "sun": true
         },
         "calorie": {
           "tue": true,
@@ -3555,6 +3555,30 @@
   ],
   "activity": [
     {
+      "id": "1zoats45uupo7",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-05T11:36:59.767Z"
+    },
+    {
+      "id": "dvbse5lyouo2a",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-05T11:36:57.682Z"
+    },
+    {
+      "id": "calpp6fveul6g",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-05T11:36:53.944Z"
+    },
+    {
+      "id": "tr2p5wrukujr1",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-05T11:36:52.093Z"
+    },
+    {
       "id": "lsyfsxa4owh1v",
       "type": "task_added",
       "text": "Task: \"Купити дезік\"",
@@ -4129,34 +4153,10 @@
       "type": "finance_in",
       "text": "+15,692 UAH — зп перші два тижні червня від Nova",
       "ts": "2026-06-19T08:50:58.059Z"
-    },
-    {
-      "id": "m8sq6695ev0hy",
-      "type": "finance_out",
-      "text": "−130 UAH — перекус",
-      "ts": "2026-06-19T08:50:32.134Z"
-    },
-    {
-      "id": "j66hrximlufgi",
-      "type": "finance_out",
-      "text": "−586 UAH — абонемент на проїзд",
-      "ts": "2026-06-19T08:50:04.866Z"
-    },
-    {
-      "id": "7thdybhlwu0i5",
-      "type": "finance_out",
-      "text": "−724 UAH — репітер",
-      "ts": "2026-06-19T08:49:45.485Z"
-    },
-    {
-      "id": "j3y1fnlh6tp94",
-      "type": "finance_out",
-      "text": "−115 UAH — картридж",
-      "ts": "2026-06-19T08:49:30.904Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-04T11:22:53.443Z"
+    "lastSync": "2026-07-05T11:37:39.634Z"
   }
 }
