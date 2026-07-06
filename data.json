@@ -309,6 +309,20 @@
           "mon": false,
           "wed": false
         }
+      },
+      "2026-07-06": {
+        "gym": {
+          "mon": true
+        },
+        "calorie": {
+          "mon": true
+        },
+        "reading": {
+          "mon": true
+        },
+        "english": {
+          "mon": true
+        }
       }
     }
   },
@@ -3563,6 +3577,30 @@
   ],
   "activity": [
     {
+      "id": "1iw9cwpwvm07k",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-06T09:53:55.088Z"
+    },
+    {
+      "id": "seb2yk3k8lzi2",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-06T09:53:54.170Z"
+    },
+    {
+      "id": "6bnlb014flysn",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-07-06T09:53:53.255Z"
+    },
+    {
+      "id": "km6hq5i1dly1x",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-07-06T09:53:52.293Z"
+    },
+    {
       "id": "mltb789l000x2",
       "type": "habit_check",
       "text": "🥗 Calorie Track",
@@ -4137,34 +4175,10 @@
       "type": "habit_check",
       "text": "📖 Reading",
       "ts": "2026-06-22T10:21:44.951Z"
-    },
-    {
-      "id": "a39hns41mfuhp",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-22T10:21:43.837Z"
-    },
-    {
-      "id": "a6so8i5gsflep",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-22T10:21:32.065Z"
-    },
-    {
-      "id": "ddhd94u7hf91q",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-22T10:21:16.046Z"
-    },
-    {
-      "id": "wxzmbukm4etk2",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-22T10:20:55.970Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-05T20:05:05.209Z"
+    "lastSync": "2026-07-06T09:53:57.363Z"
   }
 }
