@@ -3562,9 +3562,10 @@
     {
       "id": "n8tfxigjhdgwx",
       "title": "Купити шампунь",
-      "completed": false,
+      "completed": true,
       "priority": false,
-      "createdAt": "2026-07-03T12:16:14.049Z"
+      "createdAt": "2026-07-03T12:16:14.049Z",
+      "completedAt": "2026-07-06T12:46:14.719Z"
     },
     {
       "id": "78qcj92a3dbvc",
@@ -3576,6 +3577,12 @@
     }
   ],
   "activity": [
+    {
+      "id": "apfx9g547rmbj",
+      "type": "task_done",
+      "text": "Done: \"Купити шампунь\"",
+      "ts": "2026-07-06T12:46:14.719Z"
+    },
     {
       "id": "1iw9cwpwvm07k",
       "type": "habit_check",
@@ -4169,16 +4176,10 @@
       "type": "finance_out",
       "text": "−250 UAH — на озеро",
       "ts": "2026-06-22T20:57:55.529Z"
-    },
-    {
-      "id": "erwye7ez0fvcn",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-22T10:21:44.951Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-06T09:53:57.363Z"
+    "lastSync": "2026-07-06T12:46:20.432Z"
   }
 }
