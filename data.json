@@ -315,13 +315,16 @@
           "mon": true
         },
         "calorie": {
-          "mon": true
+          "mon": true,
+          "tue": true
         },
         "reading": {
-          "mon": true
+          "mon": true,
+          "tue": true
         },
         "english": {
-          "mon": true
+          "mon": true,
+          "tue": true
         }
       }
     }
@@ -3508,8 +3511,99 @@
         "transfers": []
       },
       "2026-07": {
-        "income": [],
+        "income": [
+          {
+            "id": "mqkadon3i5et2",
+            "amount": 200,
+            "date": "2026-07-07T12:00:00.000Z",
+            "source": "від Лілі за сайт"
+          }
+        ],
         "expenses": [
+          {
+            "id": "tg9i0vqa454bp",
+            "amount": 60,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "хот дог вікусі",
+            "category": ""
+          },
+          {
+            "id": "6zvm65ry34tgv",
+            "amount": 190,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "шампунь",
+            "category": ""
+          },
+          {
+            "id": "s29fuoiqq3xey",
+            "amount": 146,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "продукти",
+            "category": ""
+          },
+          {
+            "id": "r60njx0be2e17",
+            "amount": 140,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "випивка",
+            "category": ""
+          },
+          {
+            "id": "3cmve3x8p2579",
+            "amount": 160,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "більярд",
+            "category": ""
+          },
+          {
+            "id": "pot38xvk81wl1",
+            "amount": 333,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "мак",
+            "category": ""
+          },
+          {
+            "id": "l2n7dbj4o1q9f",
+            "amount": 332,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "жижа",
+            "category": ""
+          },
+          {
+            "id": "2y2jwv1jp1kii",
+            "amount": 308,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "піца",
+            "category": ""
+          },
+          {
+            "id": "hiwon0kvk1esk",
+            "amount": 185,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "домашній інтернет",
+            "category": ""
+          },
+          {
+            "id": "o45ex5zal1632",
+            "amount": 110,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "близенько",
+            "category": ""
+          },
+          {
+            "id": "9576uzt4j0ute",
+            "amount": 160,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "рукавичка",
+            "category": ""
+          },
+          {
+            "id": "ek4etlumf0lva",
+            "amount": 45,
+            "date": "2026-07-07T12:00:00.000Z",
+            "desc": "вода мамі",
+            "category": ""
+          },
           {
             "id": "b6f533bce42",
             "date": "2026-07-01T12:00:00.000Z",
@@ -3534,7 +3628,7 @@
       "Other"
     ],
     "budgets": {},
-    "notes": "Останній знімок балансу — 10.06.2026\n\nКАРТКА І ГОТІВКА\n  Карта:           4000 грн\n  Подушка:        14,000 грн\n  Готівка USD:       $100\n\nВІДКЛАДЕННЯ        21,200 грн\n  ├ 11,000  у банці\n  └  5,900  готівкою\n\nБОРГИ МЕНІ\n  Мама винна:      9000 грн(22.06.26)\n\n────────────────────────────\nРАЗОМ UAH:        41,700 грн (без боргу)\n   + борги:       48,700 грн\nUSD:                 $100\n\n────────────────────────────\nЗаплановані великі витрати:\n  • Світязь — ~4,000 грн\n\nЦілі накопичень:\n  • айфон ✅ (досягнуто, IPhone 15 Pro Max за 43,000)\n  • наступна ціль: Болгарія(45,000)\n"
+    "notes": "Останній знімок балансу — 07.07.2026\n\nКАРТКА І ГОТІВКА\n  Карта:           1516 грн\n  Подушка:        14,000 грн\n  Готівка USD:       $100\n\nВІДКЛАДЕННЯ        39400 грн\n  ├ 32,000  у банці\n  └  7400  готівкою\n\nБОРГИ МЕНІ\n  Мама винна:      7120 грн\n\n────────────────────────────\n\n────────────────────────────\nЗаплановані великі витрати:\n  • Світязь — ~4,000 грн\n\nЦілі накопичень:\n  • айфон ✅ (досягнуто, IPhone 15 Pro Max за 43,000)\n  • наступна ціль: Болгарія(45,000)\n"
   },
   "generalTasks": [
     {
@@ -3577,6 +3671,102 @@
     }
   ],
   "activity": [
+    {
+      "id": "muas6tfr05et2",
+      "type": "finance_in",
+      "text": "+200 UAH — від Лілі за сайт",
+      "ts": "2026-07-07T09:56:40.886Z"
+    },
+    {
+      "id": "mej8ayul954bp",
+      "type": "finance_out",
+      "text": "−60 UAH — хот дог вікусі",
+      "ts": "2026-07-07T09:56:27.301Z"
+    },
+    {
+      "id": "z91q89tns4tgv",
+      "type": "finance_out",
+      "text": "−190 UAH — шампунь",
+      "ts": "2026-07-07T09:56:13.231Z"
+    },
+    {
+      "id": "bdl2myjhv3xey",
+      "type": "finance_out",
+      "text": "−146 UAH — продукти",
+      "ts": "2026-07-07T09:55:31.690Z"
+    },
+    {
+      "id": "uv0wkmf0n2e18",
+      "type": "finance_out",
+      "text": "−140 UAH — випивка",
+      "ts": "2026-07-07T09:54:19.916Z"
+    },
+    {
+      "id": "mo6g2ipx32579",
+      "type": "finance_out",
+      "text": "−160 UAH — більярд",
+      "ts": "2026-07-07T09:54:08.469Z"
+    },
+    {
+      "id": "7lt77uaen1wl1",
+      "type": "finance_out",
+      "text": "−333 UAH — мак",
+      "ts": "2026-07-07T09:53:57.301Z"
+    },
+    {
+      "id": "n82plyxvq1q9f",
+      "type": "finance_out",
+      "text": "−332 UAH — жижа",
+      "ts": "2026-07-07T09:53:49.107Z"
+    },
+    {
+      "id": "haryn199k1kij",
+      "type": "finance_out",
+      "text": "−308 UAH — піца",
+      "ts": "2026-07-07T09:53:41.659Z"
+    },
+    {
+      "id": "5cbgtqyj61esk",
+      "type": "finance_out",
+      "text": "−185 UAH — домашній інтернет",
+      "ts": "2026-07-07T09:53:34.244Z"
+    },
+    {
+      "id": "seoox0qiq1632",
+      "type": "finance_out",
+      "text": "−110 UAH — близенько",
+      "ts": "2026-07-07T09:53:22.958Z"
+    },
+    {
+      "id": "gi83mtx9z0ute",
+      "type": "finance_out",
+      "text": "−160 UAH — рукавичка",
+      "ts": "2026-07-07T09:53:08.354Z"
+    },
+    {
+      "id": "3ol4oi8qu0lva",
+      "type": "finance_out",
+      "text": "−45 UAH — вода мамі",
+      "ts": "2026-07-07T09:52:56.758Z"
+    },
+    {
+      "id": "8s3ebalv8u8zy",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-07T09:48:00.142Z"
+    },
+    {
+      "id": "6xejso3vlu857",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-07-07T09:47:59.035Z"
+    },
+    {
+      "id": "469q91r45u767",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-07T09:47:57.775Z"
+    },
     {
       "id": "apfx9g547rmbj",
       "type": "task_done",
@@ -4080,106 +4270,10 @@
       "type": "habit_check",
       "text": "📖 Reading",
       "ts": "2026-06-26T06:02:25.707Z"
-    },
-    {
-      "id": "8syi9u1r7xs18",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-26T06:02:25.196Z"
-    },
-    {
-      "id": "ucqp028k2xiv2",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-26T06:02:13.310Z"
-    },
-    {
-      "id": "6l7fve52zxeud",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-26T06:02:08.101Z"
-    },
-    {
-      "id": "ppfefh0dnemtn",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-24T21:35:58.475Z"
-    },
-    {
-      "id": "ruk6p6ct9elwc",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-24T21:35:57.276Z"
-    },
-    {
-      "id": "c5mf50j0gej1g",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-24T21:35:53.572Z"
-    },
-    {
-      "id": "m9colfqfwehct",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-24T21:35:51.389Z"
-    },
-    {
-      "id": "1k4t2yj4yarto",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-23T22:41:17.148Z"
-    },
-    {
-      "id": "7gzerz29dajr1",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-23T22:41:06.685Z"
-    },
-    {
-      "id": "b776h9is3ahgq",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-23T22:41:03.722Z"
-    },
-    {
-      "id": "bf396swf1ab87",
-      "type": "finance_out",
-      "text": "−628 UAH — кружка Вікусі",
-      "ts": "2026-06-22T21:01:16.759Z"
-    },
-    {
-      "id": "yicwbzxqb8wa7",
-      "type": "finance_out",
-      "text": "−38 UAH — чай",
-      "ts": "2026-06-22T21:00:10.735Z"
-    },
-    {
-      "id": "hxa3ld1zh8hvf",
-      "type": "finance_out",
-      "text": "−144 UAH — таксі на озеро",
-      "ts": "2026-06-22T20:59:52.059Z"
-    },
-    {
-      "id": "pv44njlke8ak3",
-      "type": "finance_out",
-      "text": "−438 UAH — продукти на озеро",
-      "ts": "2026-06-22T20:59:42.579Z"
-    },
-    {
-      "id": "g5tadxt8g7fl9",
-      "type": "finance_out",
-      "text": "−90 UAH — озеро",
-      "ts": "2026-06-22T20:59:02.445Z"
-    },
-    {
-      "id": "qug58tjo35zyh",
-      "type": "finance_out",
-      "text": "−250 UAH — на озеро",
-      "ts": "2026-06-22T20:57:55.529Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-06T19:57:47.594Z"
+    "lastSync": "2026-07-07T10:00:06.684Z"
   }
 }
