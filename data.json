@@ -320,11 +320,15 @@
         },
         "reading": {
           "mon": true,
-          "tue": true
+          "tue": true,
+          "fri": true,
+          "sat": true
         },
         "english": {
           "mon": true,
-          "tue": true
+          "tue": true,
+          "fri": true,
+          "sat": true
         }
       }
     }
@@ -3672,6 +3676,30 @@
   ],
   "activity": [
     {
+      "id": "5uc911da49zie",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-10T18:15:08.294Z"
+    },
+    {
+      "id": "i1pjfb8qo9vpb",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-10T18:15:03.359Z"
+    },
+    {
+      "id": "vnewdnguf9t4f",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-10T18:15:00.015Z"
+    },
+    {
+      "id": "zj6pl615q9s8t",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-10T18:14:58.877Z"
+    },
+    {
       "id": "muas6tfr05et2",
       "type": "finance_in",
       "text": "+200 UAH — від Лілі за сайт",
@@ -4246,34 +4274,10 @@
       "type": "habit_check",
       "text": "💪 Gym",
       "ts": "2026-06-26T13:53:40.227Z"
-    },
-    {
-      "id": "gquwa5bc4rsg6",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-26T13:53:39.270Z"
-    },
-    {
-      "id": "minu88mf3rrw1",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-26T13:53:38.545Z"
-    },
-    {
-      "id": "mwyjo0swxxthm",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-26T06:02:27.082Z"
-    },
-    {
-      "id": "vseua1u6kxsff",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-26T06:02:25.707Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-07T10:00:06.684Z"
+    "lastSync": "2026-07-10T18:15:15.536Z"
   }
 }
