@@ -322,13 +322,15 @@
           "mon": true,
           "tue": true,
           "fri": true,
-          "sat": true
+          "sat": true,
+          "sun": true
         },
         "english": {
           "mon": true,
           "tue": true,
           "fri": true,
-          "sat": true
+          "sat": false,
+          "sun": true
         }
       }
     }
@@ -3676,6 +3678,18 @@
   ],
   "activity": [
     {
+      "id": "wi6ghfqbd874k",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-12T21:33:02.612Z"
+    },
+    {
+      "id": "nlm1p5kfi7jid",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-12T21:32:32.005Z"
+    },
+    {
       "id": "5uc911da49zie",
       "type": "habit_check",
       "text": "📖 Reading",
@@ -4262,22 +4276,10 @@
       "type": "habit_check",
       "text": "📖 Reading",
       "ts": "2026-06-26T23:33:56.276Z"
-    },
-    {
-      "id": "31y86r9y3hz5t",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-26T23:33:53.345Z"
-    },
-    {
-      "id": "qper3e4birt6r",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-06-26T13:53:40.227Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-10T18:15:15.536Z"
+    "lastSync": "2026-07-12T21:33:08.496Z"
   }
 }
