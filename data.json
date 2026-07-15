@@ -332,6 +332,16 @@
           "sat": false,
           "sun": true
         }
+      },
+      "2026-07-13": {
+        "reading": {
+          "tue": true,
+          "mon": true,
+          "wed": true
+        },
+        "english": {
+          "wed": true
+        }
       }
     }
   },
@@ -3647,9 +3657,10 @@
     {
       "id": "kyvbwhph0wh1v",
       "title": "Купити дезік",
-      "completed": false,
+      "completed": true,
       "priority": false,
-      "createdAt": "2026-07-04T11:22:41.875Z"
+      "createdAt": "2026-07-04T11:22:41.875Z",
+      "completedAt": "2026-07-15T13:51:41.756Z"
     },
     {
       "id": "06i41kd5iw9ka",
@@ -3677,6 +3688,36 @@
     }
   ],
   "activity": [
+    {
+      "id": "xccy7zhsk3cu2",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-15T13:52:23.738Z"
+    },
+    {
+      "id": "yffqks9s73c38",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-15T13:52:22.772Z"
+    },
+    {
+      "id": "olh4zvt2y34sj",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-15T13:52:13.315Z"
+    },
+    {
+      "id": "1h8wwgfeh32ac",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-15T13:52:10.068Z"
+    },
+    {
+      "id": "h9s11it442gfx",
+      "type": "task_done",
+      "text": "Done: \"Купити дезік\"",
+      "ts": "2026-07-15T13:51:41.757Z"
+    },
     {
       "id": "wi6ghfqbd874k",
       "type": "habit_check",
@@ -4246,40 +4287,10 @@
       "type": "finance_out",
       "text": "−180 UAH — перекус",
       "ts": "2026-06-30T22:26:30.156Z"
-    },
-    {
-      "id": "a6lq5nx0iru26",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-30T22:24:15.342Z"
-    },
-    {
-      "id": "0ahlz3rp483kf",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-06-30T13:17:01.839Z"
-    },
-    {
-      "id": "t3lubxa6g82t1",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-30T13:17:00.853Z"
-    },
-    {
-      "id": "hgjms1aj6824j",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-06-30T13:16:59.971Z"
-    },
-    {
-      "id": "2qypjoy6ni1f8",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-06-26T23:33:56.276Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-12T21:33:08.496Z"
+    "lastSync": "2026-07-15T13:52:27.610Z"
   }
 }
