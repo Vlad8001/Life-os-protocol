@@ -3529,6 +3529,12 @@
       "2026-07": {
         "income": [
           {
+            "id": "g7l0901joep7c",
+            "amount": 15485,
+            "date": "2026-07-15T12:00:00.000Z",
+            "source": "зп перші два тижні липня від Nova"
+          },
+          {
             "id": "mqkadon3i5et2",
             "amount": 200,
             "date": "2026-07-07T12:00:00.000Z",
@@ -3536,6 +3542,97 @@
           }
         ],
         "expenses": [
+          {
+            "id": "6uxz8gvfme7bz",
+            "amount": 250,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "урок фно",
+            "category": ""
+          },
+          {
+            "id": "xcwq9cjqae0lp",
+            "amount": 300,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "стрижка",
+            "category": ""
+          },
+          {
+            "id": "04nuf8h6bdtj5",
+            "amount": 332,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "жижа",
+            "category": ""
+          },
+          {
+            "id": "kzdnfx1undmgk",
+            "amount": 83,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "водичка солодка",
+            "category": ""
+          },
+          {
+            "id": "3p8y1gljrdf9c",
+            "amount": 230,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "картриджі",
+            "category": ""
+          },
+          {
+            "id": "t733t5wuid880",
+            "amount": 166,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
+          {
+            "id": "czrg5iuqlctw4",
+            "amount": 220,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "випивка",
+            "category": ""
+          },
+          {
+            "id": "1347ng479c0o2",
+            "amount": 151,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
+          {
+            "id": "mwdt5jjlwb7j3",
+            "amount": 148,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "сільпо піца",
+            "category": ""
+          },
+          {
+            "id": "b2p8uo2xiapeo",
+            "amount": 307,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
+          {
+            "id": "2urfvra5magcf",
+            "amount": 378,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "піца",
+            "category": ""
+          },
+          {
+            "id": "xrpt41tyl8ffz",
+            "amount": 78,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "хот дог",
+            "category": ""
+          },
+          {
+            "id": "hpb9x139685t8",
+            "amount": 122,
+            "date": "2026-07-15T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
           {
             "id": "tg9i0vqa454bp",
             "amount": 60,
@@ -3631,7 +3728,7 @@
         "transfers": []
       }
     },
-    "limit": 16000,
+    "limit": 20000,
     "currency": "UAH",
     "expenseCategories": [
       "Food",
@@ -3688,6 +3785,96 @@
     }
   ],
   "activity": [
+    {
+      "id": "lqosmkv4yep7c",
+      "type": "finance_in",
+      "text": "+15,485 UAH — зп перші два тижні липня від Nova",
+      "ts": "2026-07-15T14:01:12.984Z"
+    },
+    {
+      "id": "8qol9dm0ee7bz",
+      "type": "finance_out",
+      "text": "−250 UAH — урок фно",
+      "ts": "2026-07-15T14:00:49.823Z"
+    },
+    {
+      "id": "sw3enn5mge0lp",
+      "type": "finance_out",
+      "text": "−300 UAH — стрижка",
+      "ts": "2026-07-15T14:00:41.101Z"
+    },
+    {
+      "id": "wk2th8vlgdtj6",
+      "type": "finance_out",
+      "text": "−332 UAH — жижа",
+      "ts": "2026-07-15T14:00:31.938Z"
+    },
+    {
+      "id": "01bkjsj5sdmgk",
+      "type": "finance_out",
+      "text": "−83 UAH — водичка солодка",
+      "ts": "2026-07-15T14:00:22.772Z"
+    },
+    {
+      "id": "0avol7ek6df9c",
+      "type": "finance_out",
+      "text": "−230 UAH — картриджі",
+      "ts": "2026-07-15T14:00:13.440Z"
+    },
+    {
+      "id": "arajypjngd880",
+      "type": "finance_out",
+      "text": "−166 UAH — атб",
+      "ts": "2026-07-15T14:00:04.320Z"
+    },
+    {
+      "id": "42e7ldu4rctw5",
+      "type": "finance_out",
+      "text": "−220 UAH — випивка",
+      "ts": "2026-07-15T13:59:45.749Z"
+    },
+    {
+      "id": "8u5z9syubc0o2",
+      "type": "finance_out",
+      "text": "−151 UAH — атб",
+      "ts": "2026-07-15T13:59:07.874Z"
+    },
+    {
+      "id": "u0er2hnuab7j3",
+      "type": "finance_out",
+      "text": "−148 UAH — сільпо піца",
+      "ts": "2026-07-15T13:58:30.111Z"
+    },
+    {
+      "id": "n7fwrq4r9apeo",
+      "type": "finance_out",
+      "text": "−307 UAH — атб",
+      "ts": "2026-07-15T13:58:06.624Z"
+    },
+    {
+      "id": "8w194zugyagcg",
+      "type": "finance_out",
+      "text": "−378 UAH — піца",
+      "ts": "2026-07-15T13:57:54.880Z"
+    },
+    {
+      "id": "je9gxofhaa3ab",
+      "type": "finance_out",
+      "text": "−155 UAH — атб",
+      "ts": "2026-07-15T13:57:37.955Z"
+    },
+    {
+      "id": "7u321ufpl8ffz",
+      "type": "finance_out",
+      "text": "−78 UAH — хот дог",
+      "ts": "2026-07-15T13:56:20.399Z"
+    },
+    {
+      "id": "4apv0yigc85t8",
+      "type": "finance_out",
+      "text": "−122 UAH — атб",
+      "ts": "2026-07-15T13:56:07.916Z"
+    },
     {
       "id": "xccy7zhsk3cu2",
       "type": "habit_check",
@@ -4197,100 +4384,10 @@
       "type": "finance_out",
       "text": "−400 UAH — квитки в кіно",
       "ts": "2026-06-30T22:34:00.846Z"
-    },
-    {
-      "id": "nwuq4ctbp3qxh",
-      "type": "finance_out",
-      "text": "−53 UAH — домен",
-      "ts": "2026-06-30T22:33:31.157Z"
-    },
-    {
-      "id": "jclzlsu5v377p",
-      "type": "finance_out",
-      "text": "−83 UAH — водичка",
-      "ts": "2026-06-30T22:33:05.605Z"
-    },
-    {
-      "id": "63ljg42b02l8p",
-      "type": "finance_out",
-      "text": "−70 UAH — багет",
-      "ts": "2026-06-30T22:32:37.129Z"
-    },
-    {
-      "id": "x3y86mrkb237h",
-      "type": "finance_out",
-      "text": "−129 UAH — зубна паста",
-      "ts": "2026-06-30T22:32:13.757Z"
-    },
-    {
-      "id": "dfz04xxs7182c",
-      "type": "finance_out",
-      "text": "−60 UAH — самокат",
-      "ts": "2026-06-30T22:31:33.396Z"
-    },
-    {
-      "id": "daphrta1s0dev",
-      "type": "finance_out",
-      "text": "−180 UAH — перекус",
-      "ts": "2026-06-30T22:30:53.671Z"
-    },
-    {
-      "id": "p0m3kawy9zm94",
-      "type": "finance_out",
-      "text": "−-180 UAH — перекус",
-      "ts": "2026-06-30T22:30:18.472Z"
-    },
-    {
-      "id": "vlg1vhg9pz7fq",
-      "type": "finance_out",
-      "text": "−-180 UAH — Перекус",
-      "ts": "2026-06-30T22:29:59.270Z"
-    },
-    {
-      "id": "6blqzhld3wmpe",
-      "type": "finance_out",
-      "text": "−400 UAH — квитки в кіно",
-      "ts": "2026-06-30T22:27:59.090Z"
-    },
-    {
-      "id": "b61sr45rfweag",
-      "type": "finance_out",
-      "text": "−53 UAH — домен",
-      "ts": "2026-06-30T22:27:48.184Z"
-    },
-    {
-      "id": "mv44fsaadw0p2",
-      "type": "finance_out",
-      "text": "−83 UAH — водичка",
-      "ts": "2026-06-30T22:27:30.566Z"
-    },
-    {
-      "id": "vewptke1dviaf",
-      "type": "finance_out",
-      "text": "−70 UAH — багет",
-      "ts": "2026-06-30T22:27:06.711Z"
-    },
-    {
-      "id": "h2xhneq7kvbzx",
-      "type": "finance_out",
-      "text": "−129 UAH — зубна паста",
-      "ts": "2026-06-30T22:26:58.557Z"
-    },
-    {
-      "id": "iz7u7iuhkv3x7",
-      "type": "finance_out",
-      "text": "−60 UAH — самокат",
-      "ts": "2026-06-30T22:26:48.091Z"
-    },
-    {
-      "id": "j9b531gazuq30",
-      "type": "finance_out",
-      "text": "−180 UAH — перекус",
-      "ts": "2026-06-30T22:26:30.156Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-15T13:52:27.610Z"
+    "lastSync": "2026-07-15T14:02:15.296Z"
   }
 }
