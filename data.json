@@ -339,12 +339,15 @@
           "mon": true,
           "wed": true,
           "thu": true,
-          "fri": true
+          "fri": true,
+          "sat": true,
+          "sun": true
         },
         "english": {
           "wed": true,
           "fri": true,
-          "sat": true
+          "sat": true,
+          "sun": true
         },
         "gym": {
           "thu": false,
@@ -3797,6 +3800,24 @@
   ],
   "activity": [
     {
+      "id": "alcf2as2pnvkg",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-17T23:03:34.288Z"
+    },
+    {
+      "id": "b6jdnhtbrnuaq",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-17T23:03:32.642Z"
+    },
+    {
+      "id": "cixoaxqecno5j",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-17T23:03:24.680Z"
+    },
+    {
       "id": "kmhbd0kv4f57w",
       "type": "habit_check",
       "text": "📚 English",
@@ -4377,28 +4398,10 @@
       "type": "finance_out",
       "text": "−100 UAH — таксі",
       "ts": "2026-06-30T22:39:52.959Z"
-    },
-    {
-      "id": "ikda6rq2cbevy",
-      "type": "finance_out",
-      "text": "−326 UAH — обід на озері",
-      "ts": "2026-06-30T22:39:28.798Z"
-    },
-    {
-      "id": "9r6ws5he1apz6",
-      "type": "finance_out",
-      "text": "−50 UAH — автомати",
-      "ts": "2026-06-30T22:38:56.514Z"
-    },
-    {
-      "id": "mkui9ez5eaal8",
-      "type": "finance_out",
-      "text": "−185 UAH — попкорн",
-      "ts": "2026-06-30T22:38:36.572Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-17T16:53:03.960Z"
+    "lastSync": "2026-07-17T23:03:36.306Z"
   }
 }
