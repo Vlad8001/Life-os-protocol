@@ -337,10 +337,21 @@
         "reading": {
           "tue": true,
           "mon": true,
-          "wed": true
+          "wed": true,
+          "thu": true,
+          "fri": true
         },
         "english": {
-          "wed": true
+          "wed": true,
+          "fri": true,
+          "sat": true
+        },
+        "gym": {
+          "thu": false,
+          "fri": true
+        },
+        "calorie": {
+          "fri": true
         }
       }
     }
@@ -3786,6 +3797,48 @@
   ],
   "activity": [
     {
+      "id": "kmhbd0kv4f57w",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-17T16:52:51.884Z"
+    },
+    {
+      "id": "yt97r6f4jf3fh",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-07-17T16:52:49.565Z"
+    },
+    {
+      "id": "wr6d4s2gkf2s5",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-17T16:52:48.725Z"
+    },
+    {
+      "id": "t2aq7simwf2da",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-07-17T16:52:48.190Z"
+    },
+    {
+      "id": "p6pyu9d2if1xn",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-07-17T16:52:47.627Z"
+    },
+    {
+      "id": "ypp3dm7oof009",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-07-17T16:52:45.129Z"
+    },
+    {
+      "id": "d2eglc4l3ex14",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-07-17T16:52:41.272Z"
+    },
+    {
       "id": "lqosmkv4yep7c",
       "type": "finance_in",
       "text": "+15,485 UAH — зп перші два тижні липня від Nova",
@@ -4342,52 +4395,10 @@
       "type": "finance_out",
       "text": "−185 UAH — попкорн",
       "ts": "2026-06-30T22:38:36.572Z"
-    },
-    {
-      "id": "5lsh9f9vh9n7v",
-      "type": "finance_out",
-      "text": "−139 UAH — мача",
-      "ts": "2026-06-30T22:38:06.283Z"
-    },
-    {
-      "id": "cmmvpofio8zmg",
-      "type": "finance_out",
-      "text": "−81 UAH — кола",
-      "ts": "2026-06-30T22:37:35.704Z"
-    },
-    {
-      "id": "72ljlq9hf7107",
-      "type": "finance_in",
-      "text": "+164 UAH — інша картка",
-      "ts": "2026-06-30T22:36:04.183Z"
-    },
-    {
-      "id": "5ttnye0iv63uu",
-      "type": "finance_out",
-      "text": "−250 UAH — урок фно",
-      "ts": "2026-06-30T22:35:21.222Z"
-    },
-    {
-      "id": "6hg2474ja5ffa",
-      "type": "finance_in",
-      "text": "+81 UAH — кешбек",
-      "ts": "2026-06-30T22:34:49.558Z"
-    },
-    {
-      "id": "juyb3ewjh4vod",
-      "type": "finance_out",
-      "text": "−38 UAH — вода",
-      "ts": "2026-06-30T22:34:23.965Z"
-    },
-    {
-      "id": "b483ftnb04du6",
-      "type": "finance_out",
-      "text": "−400 UAH — квитки в кіно",
-      "ts": "2026-06-30T22:34:00.846Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-15T14:02:15.296Z"
+    "lastSync": "2026-07-17T16:53:03.960Z"
   }
 }
