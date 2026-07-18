@@ -3557,6 +3557,20 @@
         ],
         "expenses": [
           {
+            "id": "sqmh7vsx0tqvg",
+            "amount": 2800,
+            "date": "2026-07-18T12:00:00.000Z",
+            "desc": "общ Світязь",
+            "category": ""
+          },
+          {
+            "id": "1rysbbzu1t60u",
+            "amount": 1200,
+            "date": "2026-07-18T12:00:00.000Z",
+            "desc": "дорога Світязь",
+            "category": ""
+          },
+          {
             "id": "6uxz8gvfme7bz",
             "amount": 250,
             "date": "2026-07-15T12:00:00.000Z",
@@ -3799,6 +3813,18 @@
     }
   ],
   "activity": [
+    {
+      "id": "l74kmri14tqvh",
+      "type": "finance_out",
+      "text": "−2,800 UAH — общ Світязь",
+      "ts": "2026-07-18T18:15:52.397Z"
+    },
+    {
+      "id": "s9i6fcze9t60v",
+      "type": "finance_out",
+      "text": "−1,200 UAH — дорога Світязь",
+      "ts": "2026-07-18T18:15:25.375Z"
+    },
     {
       "id": "alcf2as2pnvkg",
       "type": "habit_check",
@@ -4386,22 +4412,10 @@
       "type": "finance_out",
       "text": "−65 UAH — чипси",
       "ts": "2026-06-30T22:41:34.716Z"
-    },
-    {
-      "id": "9kxcr5qxpdahu",
-      "type": "finance_out",
-      "text": "−137 UAH — вода",
-      "ts": "2026-06-30T22:40:56.418Z"
-    },
-    {
-      "id": "5xq24zxqtbxj3",
-      "type": "finance_out",
-      "text": "−100 UAH — таксі",
-      "ts": "2026-06-30T22:39:52.959Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-17T23:03:36.306Z"
+    "lastSync": "2026-07-18T20:00:56.728Z"
   }
 }
