@@ -3557,6 +3557,34 @@
         ],
         "expenses": [
           {
+            "id": "x25nrmx5vqed0",
+            "amount": 180,
+            "date": "2026-07-18T12:00:00.000Z",
+            "desc": "продукти",
+            "category": ""
+          },
+          {
+            "id": "rnymj6stwpb3b",
+            "amount": 26,
+            "date": "2026-07-18T12:00:00.000Z",
+            "desc": "квиток на проїзд",
+            "category": ""
+          },
+          {
+            "id": "p1mbstqj5oyyd",
+            "amount": 169,
+            "date": "2026-07-18T12:00:00.000Z",
+            "desc": "піца",
+            "category": ""
+          },
+          {
+            "id": "pxymxoyvoqmx",
+            "amount": 42,
+            "date": "2026-07-18T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
+          {
             "id": "sqmh7vsx0tqvg",
             "amount": 2800,
             "date": "2026-07-18T12:00:00.000Z",
@@ -3813,6 +3841,30 @@
     }
   ],
   "activity": [
+    {
+      "id": "x51cvgufuqed0",
+      "type": "finance_out",
+      "text": "−180 UAH — продукти",
+      "ts": "2026-07-18T20:05:14.676Z"
+    },
+    {
+      "id": "52zkihp8opb3b",
+      "type": "finance_out",
+      "text": "−26 UAH — квиток на проїзд",
+      "ts": "2026-07-18T20:04:23.783Z"
+    },
+    {
+      "id": "3dxcqqgqsoyye",
+      "type": "finance_out",
+      "text": "−169 UAH — піца",
+      "ts": "2026-07-18T20:04:08.054Z"
+    },
+    {
+      "id": "uv5c1o62aoqmy",
+      "type": "finance_out",
+      "text": "−42 UAH — атб",
+      "ts": "2026-07-18T20:03:57.274Z"
+    },
     {
       "id": "l74kmri14tqvh",
       "type": "finance_out",
@@ -4388,34 +4440,10 @@
       "type": "finance_out",
       "text": "−65 UAH — кола",
       "ts": "2026-06-30T22:43:27.225Z"
-    },
-    {
-      "id": "quebkcztxg1oc",
-      "type": "finance_out",
-      "text": "−108 UAH — піца",
-      "ts": "2026-06-30T22:43:04.956Z"
-    },
-    {
-      "id": "yq95sh9fzfk59",
-      "type": "finance_in",
-      "text": "+140 UAH — інше",
-      "ts": "2026-06-30T22:42:42.237Z"
-    },
-    {
-      "id": "gvr4a5jf8eeoy",
-      "type": "finance_out",
-      "text": "−192 UAH — мак",
-      "ts": "2026-06-30T22:41:48.514Z"
-    },
-    {
-      "id": "56o46ye1ye41o",
-      "type": "finance_out",
-      "text": "−65 UAH — чипси",
-      "ts": "2026-06-30T22:41:34.716Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-18T20:00:56.728Z"
+    "lastSync": "2026-07-18T20:05:38.713Z"
   }
 }
