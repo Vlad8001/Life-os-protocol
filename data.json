@@ -346,7 +346,7 @@
         "english": {
           "wed": true,
           "fri": true,
-          "sat": true,
+          "sat": false,
           "sun": true
         },
         "gym": {
@@ -354,7 +354,8 @@
           "fri": true
         },
         "calorie": {
-          "fri": true
+          "fri": true,
+          "sat": true
         }
       }
     }
@@ -3842,6 +3843,12 @@
   ],
   "activity": [
     {
+      "id": "1j1knwv7wdqy4",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-07-19T02:55:18.700Z"
+    },
+    {
       "id": "x51cvgufuqed0",
       "type": "finance_out",
       "text": "−180 UAH — продукти",
@@ -4434,16 +4441,10 @@
       "type": "finance_out",
       "text": "−200 UAH — Мобільний інтернет",
       "ts": "2026-06-30T22:43:55.170Z"
-    },
-    {
-      "id": "bwmu3v4nxgiux",
-      "type": "finance_out",
-      "text": "−65 UAH — кола",
-      "ts": "2026-06-30T22:43:27.225Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-07-18T20:05:38.713Z"
+    "lastSync": "2026-07-19T02:55:25.635Z"
   }
 }
