@@ -4007,11 +4007,47 @@
       },
       "2026-08": {
         "income": [],
-        "expenses": [],
+        "expenses": [
+          {
+            "id": "gtrd0nlxplckp",
+            "amount": 324,
+            "date": "2026-08-03T12:00:00.000Z",
+            "desc": "піца",
+            "category": ""
+          },
+          {
+            "id": "1xwlh8j5ikyq9",
+            "amount": 60,
+            "date": "2026-08-03T12:00:00.000Z",
+            "desc": "дорога",
+            "category": ""
+          },
+          {
+            "id": "1prv535n5krex",
+            "amount": 185,
+            "date": "2026-08-03T12:00:00.000Z",
+            "desc": "інтернет",
+            "category": ""
+          },
+          {
+            "id": "dorf3po4ejfrc",
+            "amount": 260,
+            "date": "2026-08-03T12:00:00.000Z",
+            "desc": "озеро",
+            "category": ""
+          },
+          {
+            "id": "one45r8d3j96j",
+            "amount": 300,
+            "date": "2026-08-03T12:00:00.000Z",
+            "desc": "озеро",
+            "category": ""
+          }
+        ],
         "transfers": []
       }
     },
-    "limit": 20000,
+    "limit": 12000,
     "currency": "UAH",
     "expenseCategories": [
       "Food",
@@ -4068,6 +4104,42 @@
     }
   ],
   "activity": [
+    {
+      "id": "cbaffu0zllckq",
+      "type": "finance_out",
+      "text": "−324 UAH — піца",
+      "ts": "2026-08-02T21:08:21.866Z"
+    },
+    {
+      "id": "z8l4cwm4bkyq9",
+      "type": "finance_out",
+      "text": "−60 UAH — дорога",
+      "ts": "2026-08-02T21:08:03.921Z"
+    },
+    {
+      "id": "tf06tr75zkrey",
+      "type": "finance_out",
+      "text": "−185 UAH — інтернет",
+      "ts": "2026-08-02T21:07:54.442Z"
+    },
+    {
+      "id": "cfmwwdylvjfrc",
+      "type": "finance_out",
+      "text": "−260 UAH — озеро",
+      "ts": "2026-08-02T21:06:52.680Z"
+    },
+    {
+      "id": "qm0v4vaw5j96j",
+      "type": "finance_out",
+      "text": "−300 UAH — озеро",
+      "ts": "2026-08-02T21:06:44.155Z"
+    },
+    {
+      "id": "guax7b6jqibly",
+      "type": "finance_in",
+      "text": "+260 UAH — озеро",
+      "ts": "2026-08-02T21:06:00.646Z"
+    },
     {
       "id": "1oy429rvffmjy",
       "type": "finance_in",
@@ -4631,46 +4703,10 @@
       "type": "task_done",
       "text": "Done: \"Купити шампунь\"",
       "ts": "2026-07-06T12:46:14.719Z"
-    },
-    {
-      "id": "1iw9cwpwvm07k",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-07-06T09:53:55.088Z"
-    },
-    {
-      "id": "seb2yk3k8lzi2",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-06T09:53:54.170Z"
-    },
-    {
-      "id": "6bnlb014flysn",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-07-06T09:53:53.255Z"
-    },
-    {
-      "id": "km6hq5i1dly1x",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-07-06T09:53:52.293Z"
-    },
-    {
-      "id": "mltb789l000x2",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-07-05T20:05:00.710Z"
-    },
-    {
-      "id": "sfupnv58jk0ey",
-      "type": "task_done",
-      "text": "Done: \"Забрати посилку Вікусі\"",
-      "ts": "2026-07-05T15:12:37.402Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-08-02T21:04:07.978Z"
+    "lastSync": "2026-08-02T21:09:04.078Z"
   }
 }
