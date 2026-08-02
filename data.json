@@ -357,6 +357,11 @@
           "fri": true,
           "sat": true
         }
+      },
+      "2026-07-27": {
+        "reading": {
+          "sun": true
+        }
       }
     }
   },
@@ -4105,6 +4110,12 @@
   ],
   "activity": [
     {
+      "id": "qko2hstduvdg5",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-08-02T21:16:09.557Z"
+    },
+    {
       "id": "cbaffu0zllckq",
       "type": "finance_out",
       "text": "−324 UAH — піца",
@@ -4697,16 +4708,10 @@
       "type": "habit_check",
       "text": "📚 English",
       "ts": "2026-07-07T09:47:57.775Z"
-    },
-    {
-      "id": "apfx9g547rmbj",
-      "type": "task_done",
-      "text": "Done: \"Купити шампунь\"",
-      "ts": "2026-07-06T12:46:14.719Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-08-02T21:14:08.722Z"
+    "lastSync": "2026-08-02T21:16:16.225Z"
   }
 }
