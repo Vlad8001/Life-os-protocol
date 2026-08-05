@@ -362,6 +362,14 @@
         "reading": {
           "sun": true
         }
+      },
+      "2026-08-03": {
+        "english": {
+          "wed": true
+        },
+        "reading": {
+          "wed": true
+        }
       }
     }
   },
@@ -4110,6 +4118,18 @@
   ],
   "activity": [
     {
+      "id": "1zfpy9mjkto8y",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-08-05T23:53:48.802Z"
+    },
+    {
+      "id": "tntv0czqjtlgf",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-08-05T23:53:45.183Z"
+    },
+    {
       "id": "qko2hstduvdg5",
       "type": "habit_check",
       "text": "📖 Reading",
@@ -4696,22 +4716,10 @@
       "type": "habit_check",
       "text": "📖 Reading",
       "ts": "2026-07-07T09:48:00.142Z"
-    },
-    {
-      "id": "6xejso3vlu857",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-07-07T09:47:59.035Z"
-    },
-    {
-      "id": "469q91r45u767",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-07-07T09:47:57.775Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-08-02T21:16:16.225Z"
+    "lastSync": "2026-08-05T23:53:58.407Z"
   }
 }
