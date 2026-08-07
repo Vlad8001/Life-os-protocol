@@ -365,10 +365,21 @@
       },
       "2026-08-03": {
         "english": {
-          "wed": true
+          "wed": true,
+          "mon": true,
+          "fri": true
         },
         "reading": {
-          "wed": true
+          "wed": true,
+          "thu": true,
+          "fri": true
+        },
+        "calorie": {
+          "mon": true,
+          "fri": true
+        },
+        "gym": {
+          "fri": true
         }
       }
     }
@@ -4118,6 +4129,48 @@
   ],
   "activity": [
     {
+      "id": "kd2r6m33ucx65",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-08-07T01:20:26.093Z"
+    },
+    {
+      "id": "i4uklbsc5cwa7",
+      "type": "habit_check",
+      "text": "💪 Gym",
+      "ts": "2026-08-07T01:20:24.943Z"
+    },
+    {
+      "id": "nc7173b5hcu08",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-08-07T01:20:21.992Z"
+    },
+    {
+      "id": "he1u6piyscr7p",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-08-07T01:20:18.373Z"
+    },
+    {
+      "id": "clf5fv3kjcjuy",
+      "type": "habit_check",
+      "text": "📖 Reading",
+      "ts": "2026-08-07T01:20:08.842Z"
+    },
+    {
+      "id": "ryfanl3s4cfh4",
+      "type": "habit_check",
+      "text": "🥗 Calorie Track",
+      "ts": "2026-08-07T01:20:03.160Z"
+    },
+    {
+      "id": "muafu49k6c5r6",
+      "type": "habit_check",
+      "text": "📚 English",
+      "ts": "2026-08-07T01:19:50.562Z"
+    },
+    {
       "id": "1zfpy9mjkto8y",
       "type": "habit_check",
       "text": "📖 Reading",
@@ -4674,52 +4727,10 @@
       "type": "finance_out",
       "text": "−333 UAH — мак",
       "ts": "2026-07-07T09:53:57.301Z"
-    },
-    {
-      "id": "n82plyxvq1q9f",
-      "type": "finance_out",
-      "text": "−332 UAH — жижа",
-      "ts": "2026-07-07T09:53:49.107Z"
-    },
-    {
-      "id": "haryn199k1kij",
-      "type": "finance_out",
-      "text": "−308 UAH — піца",
-      "ts": "2026-07-07T09:53:41.659Z"
-    },
-    {
-      "id": "5cbgtqyj61esk",
-      "type": "finance_out",
-      "text": "−185 UAH — домашній інтернет",
-      "ts": "2026-07-07T09:53:34.244Z"
-    },
-    {
-      "id": "seoox0qiq1632",
-      "type": "finance_out",
-      "text": "−110 UAH — близенько",
-      "ts": "2026-07-07T09:53:22.958Z"
-    },
-    {
-      "id": "gi83mtx9z0ute",
-      "type": "finance_out",
-      "text": "−160 UAH — рукавичка",
-      "ts": "2026-07-07T09:53:08.354Z"
-    },
-    {
-      "id": "3ol4oi8qu0lva",
-      "type": "finance_out",
-      "text": "−45 UAH — вода мамі",
-      "ts": "2026-07-07T09:52:56.758Z"
-    },
-    {
-      "id": "8s3ebalv8u8zy",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-07T09:48:00.142Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-08-05T23:53:58.407Z"
+    "lastSync": "2026-08-07T01:20:33.516Z"
   }
 }
