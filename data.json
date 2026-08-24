@@ -4030,8 +4030,229 @@
         "transfers": []
       },
       "2026-08": {
-        "income": [],
+        "income": [
+          {
+            "id": "us2yyi67e5aai",
+            "amount": 15885,
+            "date": "2026-08-25T12:00:00.000Z",
+            "source": "зп другі два тижні серпня від Nova"
+          },
+          {
+            "id": "ah9f1bgpw1q68",
+            "amount": 445,
+            "date": "2026-08-25T12:00:00.000Z",
+            "source": "дохід з лідгену"
+          },
+          {
+            "id": "netc7p1uhymlr",
+            "amount": 2750,
+            "date": "2026-08-25T12:00:00.000Z",
+            "source": "дохід з клієнта VEXTA"
+          },
+          {
+            "id": "4no11crk3uetu",
+            "amount": 15720,
+            "date": "2026-08-25T12:00:00.000Z",
+            "source": "перші два тижні серпня зп від Nova"
+          }
+        ],
         "expenses": [
+          {
+            "id": "8mazv6bw677gd",
+            "amount": 175,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "малина в шоколаді",
+            "category": ""
+          },
+          {
+            "id": "pr1ipdtpe6ivw",
+            "amount": 200,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "таксі",
+            "category": ""
+          },
+          {
+            "id": "tky1i6k2s3jfr",
+            "amount": 130,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "проїзд",
+            "category": ""
+          },
+          {
+            "id": "7icoipzuw360e",
+            "amount": 380,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "кіно",
+            "category": ""
+          },
+          {
+            "id": "8boo6gcn72o7z",
+            "amount": 920,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "подарунок Вікиній мамі",
+            "category": ""
+          },
+          {
+            "id": "layr5pjay0tjp",
+            "amount": 700,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "озеро",
+            "category": ""
+          },
+          {
+            "id": "yory10cvc034r",
+            "amount": 120,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "?",
+            "category": ""
+          },
+          {
+            "id": "iybqi29n4zuwr",
+            "amount": 105,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "продукти",
+            "category": ""
+          },
+          {
+            "id": "1271e0ixszap0",
+            "amount": 4100,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "аерогриль в подарунок мамі",
+            "category": ""
+          },
+          {
+            "id": "p0p3adv8fy9fu",
+            "amount": 50,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "водичка",
+            "category": ""
+          },
+          {
+            "id": "c0t7242gpxkfe",
+            "amount": 60,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "водичка",
+            "category": ""
+          },
+          {
+            "id": "mxh5apx91x1jb",
+            "amount": 53,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "таксі",
+            "category": ""
+          },
+          {
+            "id": "kwlgcdzo4wpi3",
+            "amount": 332,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "жижа",
+            "category": ""
+          },
+          {
+            "id": "u52c6z8pswhiy",
+            "amount": 26,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "проїзд",
+            "category": ""
+          },
+          {
+            "id": "mfm5d9kpmtpy5",
+            "amount": 211,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "?",
+            "category": ""
+          },
+          {
+            "id": "zife0zaoxtghy",
+            "amount": 24,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "водичка",
+            "category": ""
+          },
+          {
+            "id": "tajqo76l4tb7o",
+            "amount": 100,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "сімі",
+            "category": ""
+          },
+          {
+            "id": "hpkurelp3t5l1",
+            "amount": 450,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "мак",
+            "category": ""
+          },
+          {
+            "id": "90ul3q0o6shmp",
+            "amount": 584,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
+          {
+            "id": "fcuf9utzxs4ig",
+            "amount": 73,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "?",
+            "category": ""
+          },
+          {
+            "id": "du536kjtsrvn9",
+            "amount": 326,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
+          {
+            "id": "39rljoza2rhbf",
+            "amount": 400,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "кіно",
+            "category": ""
+          },
+          {
+            "id": "b7cb9n6bzqip1",
+            "amount": 109,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "близенько",
+            "category": ""
+          },
+          {
+            "id": "id3qqykm2q8by",
+            "amount": 66,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
+          {
+            "id": "ct1uf3l9pq24e",
+            "amount": 110,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "картридж",
+            "category": ""
+          },
+          {
+            "id": "wiba2024spvuy",
+            "amount": 71,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "сімі",
+            "category": ""
+          },
+          {
+            "id": "92km0lix4powr",
+            "amount": 202,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "атб",
+            "category": ""
+          },
+          {
+            "id": "m1is0x73jowx1",
+            "amount": 182,
+            "date": "2026-08-25T12:00:00.000Z",
+            "desc": "продукти",
+            "category": ""
+          },
           {
             "id": "gtrd0nlxplckp",
             "amount": 324,
@@ -4128,6 +4349,198 @@
     }
   ],
   "activity": [
+    {
+      "id": "rccvwt95z77gd",
+      "type": "finance_out",
+      "text": "−175 UAH — малина в шоколаді",
+      "ts": "2026-08-24T22:30:06.205Z"
+    },
+    {
+      "id": "26omttbpe6ivw",
+      "type": "finance_out",
+      "text": "−200 UAH — таксі",
+      "ts": "2026-08-24T22:29:34.364Z"
+    },
+    {
+      "id": "n8ki8li3j5aaj",
+      "type": "finance_in",
+      "text": "+15,885 UAH — зп другі два тижні серпня від Nova",
+      "ts": "2026-08-24T22:28:36.571Z"
+    },
+    {
+      "id": "yh356kcic3jfs",
+      "type": "finance_out",
+      "text": "−130 UAH — проїзд",
+      "ts": "2026-08-24T22:27:15.112Z"
+    },
+    {
+      "id": "l8jfj6bmh360e",
+      "type": "finance_out",
+      "text": "−380 UAH — кіно",
+      "ts": "2026-08-24T22:26:57.710Z"
+    },
+    {
+      "id": "e5v9fgatb2o7z",
+      "type": "finance_out",
+      "text": "−920 UAH — подарунок Вікиній мамі",
+      "ts": "2026-08-24T22:26:34.655Z"
+    },
+    {
+      "id": "hczkxgqrm1q68",
+      "type": "finance_in",
+      "text": "+445 UAH — дохід з лідгену",
+      "ts": "2026-08-24T22:25:50.528Z"
+    },
+    {
+      "id": "36w6zhrc20tjq",
+      "type": "finance_out",
+      "text": "−700 UAH — озеро",
+      "ts": "2026-08-24T22:25:08.246Z"
+    },
+    {
+      "id": "9s4bka6yn034r",
+      "type": "finance_out",
+      "text": "−120 UAH — ?",
+      "ts": "2026-08-24T22:24:34.011Z"
+    },
+    {
+      "id": "vf4hs746rzuws",
+      "type": "finance_out",
+      "text": "−105 UAH — продукти",
+      "ts": "2026-08-24T22:24:23.356Z"
+    },
+    {
+      "id": "rlnz1mw44zap1",
+      "type": "finance_out",
+      "text": "−4,100 UAH — аерогриль в подарунок мамі",
+      "ts": "2026-08-24T22:23:57.157Z"
+    },
+    {
+      "id": "y8npaql7hymlr",
+      "type": "finance_in",
+      "text": "+2,750 UAH — дохід з клієнта VEXTA",
+      "ts": "2026-08-24T22:23:25.935Z"
+    },
+    {
+      "id": "ndx10kvxiy9fv",
+      "type": "finance_out",
+      "text": "−50 UAH — водичка",
+      "ts": "2026-08-24T22:23:08.875Z"
+    },
+    {
+      "id": "xlnfr3fiuxkfe",
+      "type": "finance_out",
+      "text": "−60 UAH — водичка",
+      "ts": "2026-08-24T22:22:36.458Z"
+    },
+    {
+      "id": "tmg2zms7qx1jc",
+      "type": "finance_out",
+      "text": "−53 UAH — таксі",
+      "ts": "2026-08-24T22:22:11.976Z"
+    },
+    {
+      "id": "ga4rhrc5awpi3",
+      "type": "finance_out",
+      "text": "−332 UAH — жижа",
+      "ts": "2026-08-24T22:21:56.379Z"
+    },
+    {
+      "id": "uisyzxftmwhiy",
+      "type": "finance_out",
+      "text": "−26 UAH — проїзд",
+      "ts": "2026-08-24T22:21:46.042Z"
+    },
+    {
+      "id": "7a5hn7dptuetv",
+      "type": "finance_in",
+      "text": "+15,720 UAH — перші два тижні серпня зп від Nova",
+      "ts": "2026-08-24T22:20:09.235Z"
+    },
+    {
+      "id": "dbto1rivftpy5",
+      "type": "finance_out",
+      "text": "−211 UAH — ?",
+      "ts": "2026-08-24T22:19:36.989Z"
+    },
+    {
+      "id": "232uj8jy6tghz",
+      "type": "finance_out",
+      "text": "−24 UAH — водичка",
+      "ts": "2026-08-24T22:19:24.743Z"
+    },
+    {
+      "id": "vo8qxn3mctb7o",
+      "type": "finance_out",
+      "text": "−100 UAH — сімі",
+      "ts": "2026-08-24T22:19:17.892Z"
+    },
+    {
+      "id": "9ulfz7f4xt5l1",
+      "type": "finance_out",
+      "text": "−450 UAH — мак",
+      "ts": "2026-08-24T22:19:10.597Z"
+    },
+    {
+      "id": "23e99wc0xshmp",
+      "type": "finance_out",
+      "text": "−584 UAH — атб",
+      "ts": "2026-08-24T22:18:39.553Z"
+    },
+    {
+      "id": "hzugta4q7s4ig",
+      "type": "finance_out",
+      "text": "−73 UAH — ?",
+      "ts": "2026-08-24T22:18:22.552Z"
+    },
+    {
+      "id": "40wr8azdzrvna",
+      "type": "finance_out",
+      "text": "−326 UAH — атб",
+      "ts": "2026-08-24T22:18:11.062Z"
+    },
+    {
+      "id": "f2918shetrhbf",
+      "type": "finance_out",
+      "text": "−400 UAH — кіно",
+      "ts": "2026-08-24T22:17:52.491Z"
+    },
+    {
+      "id": "ndomuglntqip1",
+      "type": "finance_out",
+      "text": "−109 UAH — близенько",
+      "ts": "2026-08-24T22:17:07.621Z"
+    },
+    {
+      "id": "uk3ciw1zcq8bz",
+      "type": "finance_out",
+      "text": "−66 UAH — атб",
+      "ts": "2026-08-24T22:16:54.191Z"
+    },
+    {
+      "id": "ogcwn6ls1q24e",
+      "type": "finance_out",
+      "text": "−110 UAH — картридж",
+      "ts": "2026-08-24T22:16:46.142Z"
+    },
+    {
+      "id": "dquztfe4vpvuz",
+      "type": "finance_out",
+      "text": "−71 UAH — сімі",
+      "ts": "2026-08-24T22:16:38.027Z"
+    },
+    {
+      "id": "k7dilsfp1pows",
+      "type": "finance_out",
+      "text": "−202 UAH — атб",
+      "ts": "2026-08-24T22:16:29.020Z"
+    },
+    {
+      "id": "auxasy0hpowx2",
+      "type": "finance_out",
+      "text": "−182 UAH — продукти",
+      "ts": "2026-08-24T22:15:52.742Z"
+    },
     {
       "id": "kd2r6m33ucx65",
       "type": "habit_check",
@@ -4535,202 +4948,10 @@
       "type": "finance_in",
       "text": "+15,485 UAH — зп перші два тижні липня від Nova",
       "ts": "2026-07-15T14:01:12.984Z"
-    },
-    {
-      "id": "8qol9dm0ee7bz",
-      "type": "finance_out",
-      "text": "−250 UAH — урок фно",
-      "ts": "2026-07-15T14:00:49.823Z"
-    },
-    {
-      "id": "sw3enn5mge0lp",
-      "type": "finance_out",
-      "text": "−300 UAH — стрижка",
-      "ts": "2026-07-15T14:00:41.101Z"
-    },
-    {
-      "id": "wk2th8vlgdtj6",
-      "type": "finance_out",
-      "text": "−332 UAH — жижа",
-      "ts": "2026-07-15T14:00:31.938Z"
-    },
-    {
-      "id": "01bkjsj5sdmgk",
-      "type": "finance_out",
-      "text": "−83 UAH — водичка солодка",
-      "ts": "2026-07-15T14:00:22.772Z"
-    },
-    {
-      "id": "0avol7ek6df9c",
-      "type": "finance_out",
-      "text": "−230 UAH — картриджі",
-      "ts": "2026-07-15T14:00:13.440Z"
-    },
-    {
-      "id": "arajypjngd880",
-      "type": "finance_out",
-      "text": "−166 UAH — атб",
-      "ts": "2026-07-15T14:00:04.320Z"
-    },
-    {
-      "id": "42e7ldu4rctw5",
-      "type": "finance_out",
-      "text": "−220 UAH — випивка",
-      "ts": "2026-07-15T13:59:45.749Z"
-    },
-    {
-      "id": "8u5z9syubc0o2",
-      "type": "finance_out",
-      "text": "−151 UAH — атб",
-      "ts": "2026-07-15T13:59:07.874Z"
-    },
-    {
-      "id": "u0er2hnuab7j3",
-      "type": "finance_out",
-      "text": "−148 UAH — сільпо піца",
-      "ts": "2026-07-15T13:58:30.111Z"
-    },
-    {
-      "id": "n7fwrq4r9apeo",
-      "type": "finance_out",
-      "text": "−307 UAH — атб",
-      "ts": "2026-07-15T13:58:06.624Z"
-    },
-    {
-      "id": "8w194zugyagcg",
-      "type": "finance_out",
-      "text": "−378 UAH — піца",
-      "ts": "2026-07-15T13:57:54.880Z"
-    },
-    {
-      "id": "je9gxofhaa3ab",
-      "type": "finance_out",
-      "text": "−155 UAH — атб",
-      "ts": "2026-07-15T13:57:37.955Z"
-    },
-    {
-      "id": "7u321ufpl8ffz",
-      "type": "finance_out",
-      "text": "−78 UAH — хот дог",
-      "ts": "2026-07-15T13:56:20.399Z"
-    },
-    {
-      "id": "4apv0yigc85t8",
-      "type": "finance_out",
-      "text": "−122 UAH — атб",
-      "ts": "2026-07-15T13:56:07.916Z"
-    },
-    {
-      "id": "xccy7zhsk3cu2",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-15T13:52:23.738Z"
-    },
-    {
-      "id": "yffqks9s73c38",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-07-15T13:52:22.772Z"
-    },
-    {
-      "id": "olh4zvt2y34sj",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-15T13:52:13.315Z"
-    },
-    {
-      "id": "1h8wwgfeh32ac",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-15T13:52:10.068Z"
-    },
-    {
-      "id": "h9s11it442gfx",
-      "type": "task_done",
-      "text": "Done: \"Купити дезік\"",
-      "ts": "2026-07-15T13:51:41.757Z"
-    },
-    {
-      "id": "wi6ghfqbd874k",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-12T21:33:02.612Z"
-    },
-    {
-      "id": "nlm1p5kfi7jid",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-07-12T21:32:32.005Z"
-    },
-    {
-      "id": "5uc911da49zie",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-10T18:15:08.294Z"
-    },
-    {
-      "id": "i1pjfb8qo9vpb",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-07-10T18:15:03.359Z"
-    },
-    {
-      "id": "vnewdnguf9t4f",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-10T18:15:00.015Z"
-    },
-    {
-      "id": "zj6pl615q9s8t",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-07-10T18:14:58.877Z"
-    },
-    {
-      "id": "muas6tfr05et2",
-      "type": "finance_in",
-      "text": "+200 UAH — від Лілі за сайт",
-      "ts": "2026-07-07T09:56:40.886Z"
-    },
-    {
-      "id": "mej8ayul954bp",
-      "type": "finance_out",
-      "text": "−60 UAH — хот дог вікусі",
-      "ts": "2026-07-07T09:56:27.301Z"
-    },
-    {
-      "id": "z91q89tns4tgv",
-      "type": "finance_out",
-      "text": "−190 UAH — шампунь",
-      "ts": "2026-07-07T09:56:13.231Z"
-    },
-    {
-      "id": "bdl2myjhv3xey",
-      "type": "finance_out",
-      "text": "−146 UAH — продукти",
-      "ts": "2026-07-07T09:55:31.690Z"
-    },
-    {
-      "id": "uv0wkmf0n2e18",
-      "type": "finance_out",
-      "text": "−140 UAH — випивка",
-      "ts": "2026-07-07T09:54:19.916Z"
-    },
-    {
-      "id": "mo6g2ipx32579",
-      "type": "finance_out",
-      "text": "−160 UAH — більярд",
-      "ts": "2026-07-07T09:54:08.469Z"
-    },
-    {
-      "id": "7lt77uaen1wl1",
-      "type": "finance_out",
-      "text": "−333 UAH — мак",
-      "ts": "2026-07-07T09:53:57.301Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-08-24T22:14:18.490Z"
+    "lastSync": "2026-08-24T22:30:22.419Z"
   }
 }
