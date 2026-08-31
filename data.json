@@ -4058,6 +4058,34 @@
         ],
         "expenses": [
           {
+            "id": "4f9tp8hqlgeok",
+            "amount": 196,
+            "date": "2026-08-31T12:00:00.000Z",
+            "desc": "кебаб",
+            "category": ""
+          },
+          {
+            "id": "38x2xapanfpv2",
+            "amount": 170,
+            "date": "2026-08-31T12:00:00.000Z",
+            "desc": "ночівка",
+            "category": ""
+          },
+          {
+            "id": "qgsnoplq6er6r",
+            "amount": 200,
+            "date": "2026-08-31T12:00:00.000Z",
+            "desc": "мобільний інтернет",
+            "category": ""
+          },
+          {
+            "id": "4970gqmdeeic9",
+            "amount": 270,
+            "date": "2026-08-31T12:00:00.000Z",
+            "desc": "продукти",
+            "category": ""
+          },
+          {
             "id": "8mazv6bw677gd",
             "amount": 175,
             "date": "2026-08-25T12:00:00.000Z",
@@ -4349,6 +4377,30 @@
     }
   ],
   "activity": [
+    {
+      "id": "n0t7ych12geok",
+      "type": "finance_out",
+      "text": "−196 UAH — кебаб",
+      "ts": "2026-08-31T17:55:01.076Z"
+    },
+    {
+      "id": "3unisq8vlfpv2",
+      "type": "finance_out",
+      "text": "−170 UAH — ночівка",
+      "ts": "2026-08-31T17:54:28.910Z"
+    },
+    {
+      "id": "3wfzps8ozer6r",
+      "type": "finance_out",
+      "text": "−200 UAH — мобільний інтернет",
+      "ts": "2026-08-31T17:53:43.971Z"
+    },
+    {
+      "id": "gzcov29rueic9",
+      "type": "finance_out",
+      "text": "−270 UAH — продукти",
+      "ts": "2026-08-31T17:53:32.505Z"
+    },
     {
       "id": "rccvwt95z77gd",
       "type": "finance_out",
@@ -4924,34 +4976,10 @@
       "type": "habit_check",
       "text": "💪 Gym",
       "ts": "2026-07-17T16:52:48.190Z"
-    },
-    {
-      "id": "p6pyu9d2if1xn",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-07-17T16:52:47.627Z"
-    },
-    {
-      "id": "ypp3dm7oof009",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-07-17T16:52:45.129Z"
-    },
-    {
-      "id": "d2eglc4l3ex14",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-07-17T16:52:41.272Z"
-    },
-    {
-      "id": "lqosmkv4yep7c",
-      "type": "finance_in",
-      "text": "+15,485 UAH — зп перші два тижні липня від Nova",
-      "ts": "2026-07-15T14:01:12.984Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-08-24T22:30:22.419Z"
+    "lastSync": "2026-08-31T17:55:12.065Z"
   }
 }
