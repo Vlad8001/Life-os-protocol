@@ -4336,6 +4336,41 @@
         ],
         "expenses": [
           {
+            "id": "fdnt9mytr50oe",
+            "amount": 92,
+            "date": "2026-09-14T12:00:00.000Z",
+            "desc": "продукти",
+            "category": ""
+          },
+          {
+            "id": "ip6iyswwg4gvj",
+            "amount": 131,
+            "date": "2026-09-14T12:00:00.000Z",
+            "desc": "чипси",
+            "category": ""
+          },
+          {
+            "id": "lxlq4j3743zwe",
+            "amount": 26,
+            "date": "2026-09-14T12:00:00.000Z",
+            "desc": "квиток",
+            "category": ""
+          },
+          {
+            "id": "0wd3wgc0x3q5b",
+            "amount": 52,
+            "date": "2026-09-14T12:00:00.000Z",
+            "desc": "водичка",
+            "category": ""
+          },
+          {
+            "id": "4vuguecs53huz",
+            "amount": 226,
+            "date": "2026-09-14T12:00:00.000Z",
+            "desc": "продукти",
+            "category": ""
+          },
+          {
             "id": "1tzhdtduhfn30",
             "amount": 60,
             "date": "2026-09-08T12:00:00.000Z",
@@ -4361,13 +4396,6 @@
             "amount": 170,
             "date": "2026-09-08T12:00:00.000Z",
             "desc": "матча",
-            "category": ""
-          },
-          {
-            "id": "z8q4b1qtpes5q",
-            "amount": 25,
-            "date": "2026-09-08T12:00:00.000Z",
-            "desc": "водичка",
             "category": ""
           },
           {
@@ -4508,6 +4536,36 @@
     }
   ],
   "activity": [
+    {
+      "id": "rsmp742p450of",
+      "type": "finance_out",
+      "text": "−92 UAH — продукти",
+      "ts": "2026-09-14T20:01:31.311Z"
+    },
+    {
+      "id": "qw3uxduhn4gvj",
+      "type": "finance_out",
+      "text": "−131 UAH — чипси",
+      "ts": "2026-09-14T20:01:05.648Z"
+    },
+    {
+      "id": "g9endvovg3zwf",
+      "type": "finance_out",
+      "text": "−26 UAH — квиток",
+      "ts": "2026-09-14T20:00:43.647Z"
+    },
+    {
+      "id": "jhxnyuiw73q5c",
+      "type": "finance_out",
+      "text": "−52 UAH — водичка",
+      "ts": "2026-09-14T20:00:31.008Z"
+    },
+    {
+      "id": "t3lpn7wif3hv0",
+      "type": "finance_out",
+      "text": "−226 UAH — продукти",
+      "ts": "2026-09-14T20:00:20.268Z"
+    },
     {
       "id": "by3jfddowfn30",
       "type": "finance_out",
@@ -5077,40 +5135,10 @@
       "type": "finance_out",
       "text": "−416 UAH — більярд",
       "ts": "2026-08-02T20:37:11.283Z"
-    },
-    {
-      "id": "wgnky25vsggv9",
-      "type": "finance_out",
-      "text": "−67 UAH — кола",
-      "ts": "2026-08-02T20:36:34.533Z"
-    },
-    {
-      "id": "9yb4aenepg5qs",
-      "type": "finance_out",
-      "text": "−144 UAH — рябчики",
-      "ts": "2026-08-02T20:36:20.116Z"
-    },
-    {
-      "id": "08fjg995afob2",
-      "type": "finance_out",
-      "text": "−22 UAH — водичка",
-      "ts": "2026-08-02T20:35:57.518Z"
-    },
-    {
-      "id": "q64aurcyyevn4",
-      "type": "finance_out",
-      "text": "−372 UAH — суші",
-      "ts": "2026-08-02T20:35:20.368Z"
-    },
-    {
-      "id": "ux69bqlxpe2dg",
-      "type": "finance_in",
-      "text": "+78 UAH — кешбек",
-      "ts": "2026-08-02T20:34:42.436Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-08T13:00:40.233Z"
+    "lastSync": "2026-09-14T20:03:21.889Z"
   }
 }
