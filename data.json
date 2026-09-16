@@ -4322,6 +4322,12 @@
       "2026-09": {
         "income": [
           {
+            "id": "9eovrscrazasg",
+            "amount": 4500,
+            "date": "2026-09-16T12:00:00.000Z",
+            "source": "за тиждень лідгену"
+          },
+          {
             "id": "r7a8pd7w8afg3",
             "amount": 77,
             "date": "2026-09-08T12:00:00.000Z",
@@ -4335,6 +4341,20 @@
           }
         ],
         "expenses": [
+          {
+            "id": "dm18r43ypxtu8",
+            "amount": 200,
+            "date": "2026-09-16T12:00:00.000Z",
+            "desc": "шампунь",
+            "category": ""
+          },
+          {
+            "id": "7xpco90omxai9",
+            "amount": 40,
+            "date": "2026-09-16T12:00:00.000Z",
+            "desc": "пиріжок",
+            "category": ""
+          },
           {
             "id": "fdnt9mytr50oe",
             "amount": 92,
@@ -4536,6 +4556,24 @@
     }
   ],
   "activity": [
+    {
+      "id": "8qg7acn15zasg",
+      "type": "finance_in",
+      "text": "+4,500 UAH — за тиждень лідгену",
+      "ts": "2026-09-16T16:44:27.616Z"
+    },
+    {
+      "id": "6nr0rxq33xtu9",
+      "type": "finance_out",
+      "text": "−200 UAH — шампунь",
+      "ts": "2026-09-16T16:43:18.993Z"
+    },
+    {
+      "id": "cbrg2wdz8xaia",
+      "type": "finance_out",
+      "text": "−40 UAH — пиріжок",
+      "ts": "2026-09-16T16:42:53.938Z"
+    },
     {
       "id": "rsmp742p450of",
       "type": "finance_out",
@@ -5117,28 +5155,10 @@
       "type": "finance_out",
       "text": "−40 UAH — автомат",
       "ts": "2026-08-02T20:39:56.881Z"
-    },
-    {
-      "id": "pzkmj9fnmjt4e",
-      "type": "finance_out",
-      "text": "−50 UAH — енергос",
-      "ts": "2026-08-02T20:39:10.382Z"
-    },
-    {
-      "id": "3nhi090oyhscz",
-      "type": "finance_out",
-      "text": "−119 UAH — таксі",
-      "ts": "2026-08-02T20:37:36.083Z"
-    },
-    {
-      "id": "kk5mpzgc0h983",
-      "type": "finance_out",
-      "text": "−416 UAH — більярд",
-      "ts": "2026-08-02T20:37:11.283Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-14T20:03:21.889Z"
+    "lastSync": "2026-09-16T16:47:26.004Z"
   }
 }
