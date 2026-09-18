@@ -4342,6 +4342,20 @@
         ],
         "expenses": [
           {
+            "id": "es8bhq5vdmvhr",
+            "amount": 400,
+            "date": "2026-09-18T12:00:00.000Z",
+            "desc": "Вікусі",
+            "category": ""
+          },
+          {
+            "id": "k656gl72hmnel",
+            "amount": 20,
+            "date": "2026-09-18T12:00:00.000Z",
+            "desc": "квиток",
+            "category": ""
+          },
+          {
             "id": "dm18r43ypxtu8",
             "amount": 200,
             "date": "2026-09-16T12:00:00.000Z",
@@ -4556,6 +4570,18 @@
     }
   ],
   "activity": [
+    {
+      "id": "5w15nuufymvhs",
+      "type": "finance_out",
+      "text": "−400 UAH — Вікусі",
+      "ts": "2026-09-18T19:26:06.064Z"
+    },
+    {
+      "id": "5b9ly86ejmnem",
+      "type": "finance_out",
+      "text": "−20 UAH — квиток",
+      "ts": "2026-09-18T19:25:55.582Z"
+    },
     {
       "id": "8qg7acn15zasg",
       "type": "finance_in",
@@ -5143,22 +5169,10 @@
       "type": "finance_in",
       "text": "+106 UAH — кешбек",
       "ts": "2026-08-02T20:41:45.046Z"
-    },
-    {
-      "id": "myl62wjy2lwo9",
-      "type": "finance_out",
-      "text": "−280 UAH — піца",
-      "ts": "2026-08-02T20:40:48.297Z"
-    },
-    {
-      "id": "47gsf8btvkt01",
-      "type": "finance_out",
-      "text": "−40 UAH — автомат",
-      "ts": "2026-08-02T20:39:56.881Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-16T16:47:26.004Z"
+    "lastSync": "2026-09-18T19:26:12.691Z"
   }
 }
