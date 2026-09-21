@@ -4342,6 +4342,41 @@
         ],
         "expenses": [
           {
+            "id": "sa1iqgfbrcqf1",
+            "amount": 300,
+            "date": "2026-09-21T12:00:00.000Z",
+            "desc": "стрижка",
+            "category": ""
+          },
+          {
+            "id": "9i18llt50allb",
+            "amount": 175,
+            "date": "2026-09-21T12:00:00.000Z",
+            "desc": "полуниця в шоколаді",
+            "category": ""
+          },
+          {
+            "id": "bcvi9lzhpa9si",
+            "amount": 370,
+            "date": "2026-09-21T12:00:00.000Z",
+            "desc": "жижа",
+            "category": ""
+          },
+          {
+            "id": "1l6gpgp0t9uji",
+            "amount": 721,
+            "date": "2026-09-21T12:00:00.000Z",
+            "desc": "мак",
+            "category": ""
+          },
+          {
+            "id": "w6gdw9ney8hv3",
+            "amount": 400,
+            "date": "2026-09-21T12:00:00.000Z",
+            "desc": "п'янка",
+            "category": ""
+          },
+          {
             "id": "es8bhq5vdmvhr",
             "amount": 400,
             "date": "2026-09-18T12:00:00.000Z",
@@ -4570,6 +4605,36 @@
     }
   ],
   "activity": [
+    {
+      "id": "lk8a16j7zcqf1",
+      "type": "finance_out",
+      "text": "−300 UAH — стрижка",
+      "ts": "2026-09-21T20:05:13.021Z"
+    },
+    {
+      "id": "q6whrc254allc",
+      "type": "finance_out",
+      "text": "−175 UAH — полуниця в шоколаді",
+      "ts": "2026-09-21T20:03:33.456Z"
+    },
+    {
+      "id": "llbznuif6a9sj",
+      "type": "finance_out",
+      "text": "−370 UAH — жижа",
+      "ts": "2026-09-21T20:03:18.163Z"
+    },
+    {
+      "id": "zqyum5zym9uji",
+      "type": "finance_out",
+      "text": "−721 UAH — мак",
+      "ts": "2026-09-21T20:02:58.398Z"
+    },
+    {
+      "id": "6tr3jurgn8hv4",
+      "type": "finance_out",
+      "text": "−400 UAH — п'янка",
+      "ts": "2026-09-21T20:01:55.312Z"
+    },
     {
       "id": "5w15nuufymvhs",
       "type": "finance_out",
@@ -5139,40 +5204,10 @@
       "type": "finance_out",
       "text": "−203 UAH — рукавичка",
       "ts": "2026-08-02T20:48:54.556Z"
-    },
-    {
-      "id": "nfoo166mvvpbf",
-      "type": "finance_out",
-      "text": "−200 UAH — моб інтернет",
-      "ts": "2026-08-02T20:48:25.323Z"
-    },
-    {
-      "id": "sr1htu3iptrci",
-      "type": "finance_out",
-      "text": "−95 UAH — 23/7",
-      "ts": "2026-08-02T20:46:54.642Z"
-    },
-    {
-      "id": "h3nz4mol9s777",
-      "type": "finance_out",
-      "text": "−300 UAH — не пам'ятаю",
-      "ts": "2026-08-02T20:45:41.875Z"
-    },
-    {
-      "id": "iad7owjejoh0q",
-      "type": "finance_out",
-      "text": "−728 UAH — піца+хотдог",
-      "ts": "2026-08-02T20:42:47.978Z"
-    },
-    {
-      "id": "dx1jedfjjn4gm",
-      "type": "finance_in",
-      "text": "+106 UAH — кешбек",
-      "ts": "2026-08-02T20:41:45.046Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-18T19:26:12.691Z"
+    "lastSync": "2026-09-21T20:05:32.799Z"
   }
 }
