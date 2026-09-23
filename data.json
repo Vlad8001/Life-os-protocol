@@ -4342,6 +4342,27 @@
         ],
         "expenses": [
           {
+            "id": "k3n16mf99fzxu",
+            "amount": 600,
+            "date": "2026-09-24T12:00:00.000Z",
+            "desc": "підписка Claude",
+            "category": ""
+          },
+          {
+            "id": "743oor7nmf86a",
+            "amount": 37,
+            "date": "2026-09-24T12:00:00.000Z",
+            "desc": "багет",
+            "category": ""
+          },
+          {
+            "id": "vhzmuwbwxf1yb",
+            "amount": 140,
+            "date": "2026-09-24T12:00:00.000Z",
+            "desc": "дезік",
+            "category": ""
+          },
+          {
             "id": "vxkhakb2k990z",
             "amount": 200,
             "date": "2026-09-23T12:00:00.000Z",
@@ -4633,6 +4654,24 @@
     }
   ],
   "activity": [
+    {
+      "id": "ofoizc3xqfzxv",
+      "type": "finance_out",
+      "text": "−600 UAH — підписка Claude",
+      "ts": "2026-09-23T22:03:04.243Z"
+    },
+    {
+      "id": "3svmb8evnf86b",
+      "type": "finance_out",
+      "text": "−37 UAH — багет",
+      "ts": "2026-09-23T22:02:28.259Z"
+    },
+    {
+      "id": "fr42vcfogf1yc",
+      "type": "finance_out",
+      "text": "−140 UAH — дезік",
+      "ts": "2026-09-23T22:02:20.196Z"
+    },
     {
       "id": "5fmhg190x9910",
       "type": "finance_out",
@@ -5214,28 +5253,10 @@
       "type": "finance_out",
       "text": "−26 UAH — квиток",
       "ts": "2026-08-02T20:55:11.012Z"
-    },
-    {
-      "id": "gvngrtiuo3x53",
-      "type": "finance_out",
-      "text": "−287 UAH — чохол для маку",
-      "ts": "2026-08-02T20:54:48.711Z"
-    },
-    {
-      "id": "o3dm4sxcy3ccy",
-      "type": "finance_out",
-      "text": "−250 UAH — урок фно",
-      "ts": "2026-08-02T20:54:21.778Z"
-    },
-    {
-      "id": "ok1s9gwow2hyi",
-      "type": "finance_out",
-      "text": "−132 UAH — атб",
-      "ts": "2026-08-02T20:53:42.378Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-22T22:10:17.624Z"
+    "lastSync": "2026-09-23T22:06:58.134Z"
   }
 }
