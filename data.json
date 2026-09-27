@@ -4342,6 +4342,13 @@
         ],
         "expenses": [
           {
+            "id": "i80uvdn0ape4u",
+            "amount": 900,
+            "date": "2026-09-27T12:00:00.000Z",
+            "desc": "квіти",
+            "category": ""
+          },
+          {
             "id": "bfbr5niynruvk",
             "amount": 26,
             "date": "2026-09-27T12:00:00.000Z",
@@ -4611,7 +4618,7 @@
         "transfers": []
       }
     },
-    "limit": 8000,
+    "limit": 9000,
     "currency": "UAH",
     "expenseCategories": [
       "Food",
@@ -4668,6 +4675,12 @@
     }
   ],
   "activity": [
+    {
+      "id": "p9jq8toznpe4v",
+      "type": "finance_out",
+      "text": "−900 UAH — квіти",
+      "ts": "2026-09-27T19:01:06.127Z"
+    },
     {
       "id": "v3tmd0pxfruvk",
       "type": "finance_out",
@@ -5261,16 +5274,10 @@
       "type": "finance_out",
       "text": "−260 UAH — атб",
       "ts": "2026-08-02T20:57:06.561Z"
-    },
-    {
-      "id": "yi88r02zv5b7w",
-      "type": "finance_out",
-      "text": "−169 UAH — таксі",
-      "ts": "2026-08-02T20:55:53.612Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-27T09:15:38.637Z"
+    "lastSync": "2026-09-27T19:01:16.844Z"
   }
 }
