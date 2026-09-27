@@ -4342,6 +4342,20 @@
         ],
         "expenses": [
           {
+            "id": "bfbr5niynruvk",
+            "amount": 26,
+            "date": "2026-09-27T12:00:00.000Z",
+            "desc": "квиток",
+            "category": ""
+          },
+          {
+            "id": "trmt26ft7rmg6",
+            "amount": 244,
+            "date": "2026-09-27T12:00:00.000Z",
+            "desc": "?",
+            "category": ""
+          },
+          {
             "id": "k3n16mf99fzxu",
             "amount": 600,
             "date": "2026-09-24T12:00:00.000Z",
@@ -4597,7 +4611,7 @@
         "transfers": []
       }
     },
-    "limit": 12000,
+    "limit": 8000,
     "currency": "UAH",
     "expenseCategories": [
       "Food",
@@ -4654,6 +4668,18 @@
     }
   ],
   "activity": [
+    {
+      "id": "v3tmd0pxfruvk",
+      "type": "finance_out",
+      "text": "−26 UAH — квиток",
+      "ts": "2026-09-27T09:15:09.200Z"
+    },
+    {
+      "id": "0v321rg13rmg9",
+      "type": "finance_out",
+      "text": "−244 UAH — ?",
+      "ts": "2026-09-27T09:14:58.281Z"
+    },
     {
       "id": "ofoizc3xqfzxv",
       "type": "finance_out",
@@ -5241,22 +5267,10 @@
       "type": "finance_out",
       "text": "−169 UAH — таксі",
       "ts": "2026-08-02T20:55:53.612Z"
-    },
-    {
-      "id": "hb3j6v8fa4x33",
-      "type": "finance_out",
-      "text": "−219 UAH — таксі",
-      "ts": "2026-08-02T20:55:35.295Z"
-    },
-    {
-      "id": "dgl29n7fg4eck",
-      "type": "finance_out",
-      "text": "−26 UAH — квиток",
-      "ts": "2026-08-02T20:55:11.012Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-23T22:06:58.134Z"
+    "lastSync": "2026-09-27T09:15:38.637Z"
   }
 }
