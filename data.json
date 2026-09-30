@@ -4342,6 +4342,13 @@
         ],
         "expenses": [
           {
+            "id": "gj8f2ig4yxbh0",
+            "amount": 200,
+            "date": "2026-09-30T12:00:00.000Z",
+            "desc": "перекуси",
+            "category": ""
+          },
+          {
             "id": "i80uvdn0ape4u",
             "amount": 900,
             "date": "2026-09-27T12:00:00.000Z",
@@ -4675,6 +4682,12 @@
     }
   ],
   "activity": [
+    {
+      "id": "2j73yqmh9xbh1",
+      "type": "finance_out",
+      "text": "−200 UAH — перекуси",
+      "ts": "2026-09-30T15:42:19.477Z"
+    },
     {
       "id": "p9jq8toznpe4v",
       "type": "finance_out",
@@ -5268,16 +5281,10 @@
       "type": "finance_out",
       "text": "−108 UAH — атб",
       "ts": "2026-08-02T20:59:09.379Z"
-    },
-    {
-      "id": "3k4nx32y56vi9",
-      "type": "finance_out",
-      "text": "−260 UAH — атб",
-      "ts": "2026-08-02T20:57:06.561Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-27T19:01:16.844Z"
+    "lastSync": "2026-09-30T15:42:35.013Z"
   }
 }
