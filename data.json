@@ -4628,6 +4628,13 @@
         "income": [],
         "expenses": [
           {
+            "id": "70f4a8tz88x0w",
+            "amount": 58,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "випічка",
+            "category": ""
+          },
+          {
             "id": "4d7trngqx03mj",
             "amount": 90,
             "date": "2026-10-12T12:00:00.000Z",
@@ -4814,6 +4821,12 @@
     }
   ],
   "activity": [
+    {
+      "id": "vw918ipe58x0w",
+      "type": "finance_out",
+      "text": "−58 UAH — випічка",
+      "ts": "2026-10-12T11:03:27.536Z"
+    },
     {
       "id": "vz39q7k4t03mk",
       "type": "finance_out",
@@ -5407,16 +5420,10 @@
       "type": "habit_check",
       "text": "🥗 Calorie Track",
       "ts": "2026-08-07T01:20:26.093Z"
-    },
-    {
-      "id": "i4uklbsc5cwa7",
-      "type": "habit_check",
-      "text": "💪 Gym",
-      "ts": "2026-08-07T01:20:24.943Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-10-12T10:56:49.929Z"
+    "lastSync": "2026-10-12T11:03:29.980Z"
   }
 }
