@@ -4623,6 +4623,138 @@
           }
         ],
         "transfers": []
+      },
+      "2026-10": {
+        "income": [],
+        "expenses": [
+          {
+            "id": "4d7trngqx03mj",
+            "amount": 90,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "проїзд і перекус",
+            "category": ""
+          },
+          {
+            "id": "efz5oy5gazhd8",
+            "amount": 188,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "тортик",
+            "category": ""
+          },
+          {
+            "id": "snwbi0glhytpu",
+            "amount": 32,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "піца",
+            "category": ""
+          },
+          {
+            "id": "xdgjhgberyhf3",
+            "amount": 567,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "ночівка",
+            "category": ""
+          },
+          {
+            "id": "l0bxrypoky2fq",
+            "amount": 350,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "жижа",
+            "category": ""
+          },
+          {
+            "id": "wftq0vu6pxr8j",
+            "amount": 900,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "атракціони",
+            "category": ""
+          },
+          {
+            "id": "wxf1xwgmuxmhj",
+            "amount": 26,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "проїзд",
+            "category": ""
+          },
+          {
+            "id": "rdr288z0cxjs1",
+            "amount": 58,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "uqc2cmixlx8tj",
+            "amount": 115,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "moioelpjvvit3",
+            "amount": 53,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "проїзд",
+            "category": ""
+          },
+          {
+            "id": "3mh5ci7bvv707",
+            "amount": 120,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "gzlnera1kuuft",
+            "amount": 160,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "uea826ke4ujbu",
+            "amount": 180,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "домашній інет",
+            "category": ""
+          },
+          {
+            "id": "qvta2uckvu8lf",
+            "amount": 240,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "їжа",
+            "category": ""
+          },
+          {
+            "id": "9ntww94qktfmj",
+            "amount": 318,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "упа",
+            "category": ""
+          },
+          {
+            "id": "nkedk5h2ssrkb",
+            "amount": 434,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "мак",
+            "category": ""
+          },
+          {
+            "id": "lbnvtqu8ysdwl",
+            "amount": 95,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "mpe1nfs45s0oi",
+            "amount": 125,
+            "date": "2026-10-12T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          }
+        ],
+        "transfers": []
       }
     },
     "limit": 9000,
@@ -4682,6 +4814,114 @@
     }
   ],
   "activity": [
+    {
+      "id": "vz39q7k4t03mk",
+      "type": "finance_out",
+      "text": "−90 UAH — проїзд і перекус",
+      "ts": "2026-10-12T10:56:36.188Z"
+    },
+    {
+      "id": "vdzbnhsmlzhd9",
+      "type": "finance_out",
+      "text": "−188 UAH — тортик",
+      "ts": "2026-10-12T10:56:07.341Z"
+    },
+    {
+      "id": "n1z5c02thytpv",
+      "type": "finance_out",
+      "text": "−32 UAH — піца",
+      "ts": "2026-10-12T10:55:36.691Z"
+    },
+    {
+      "id": "c6cmhehlgyhf4",
+      "type": "finance_out",
+      "text": "−567 UAH — ночівка",
+      "ts": "2026-10-12T10:55:20.752Z"
+    },
+    {
+      "id": "vizuqkxjsy2fr",
+      "type": "finance_out",
+      "text": "−350 UAH — жижа",
+      "ts": "2026-10-12T10:55:01.335Z"
+    },
+    {
+      "id": "mthldiiu3xr8k",
+      "type": "finance_out",
+      "text": "−900 UAH — атракціони",
+      "ts": "2026-10-12T10:54:46.820Z"
+    },
+    {
+      "id": "wmxvntva3xmhk",
+      "type": "finance_out",
+      "text": "−26 UAH — проїзд",
+      "ts": "2026-10-12T10:54:40.664Z"
+    },
+    {
+      "id": "b6il55vrtxjs2",
+      "type": "finance_out",
+      "text": "−58 UAH — перекус",
+      "ts": "2026-10-12T10:54:37.154Z"
+    },
+    {
+      "id": "jrf636kuwx8tl",
+      "type": "finance_out",
+      "text": "−115 UAH — перекус",
+      "ts": "2026-10-12T10:54:22.953Z"
+    },
+    {
+      "id": "vejxpzxzyvit4",
+      "type": "finance_out",
+      "text": "−53 UAH — проїзд",
+      "ts": "2026-10-12T10:53:02.584Z"
+    },
+    {
+      "id": "un5qaqb6vv708",
+      "type": "finance_out",
+      "text": "−120 UAH — перекус",
+      "ts": "2026-10-12T10:52:47.288Z"
+    },
+    {
+      "id": "gy1bwhh6xuufu",
+      "type": "finance_out",
+      "text": "−160 UAH — перекус",
+      "ts": "2026-10-12T10:52:31.002Z"
+    },
+    {
+      "id": "qeluyuxskujbv",
+      "type": "finance_out",
+      "text": "−180 UAH — домашній інет",
+      "ts": "2026-10-12T10:52:16.603Z"
+    },
+    {
+      "id": "l47ik2j4tu8lg",
+      "type": "finance_out",
+      "text": "−240 UAH — їжа",
+      "ts": "2026-10-12T10:52:02.692Z"
+    },
+    {
+      "id": "omkjf56h4tfml",
+      "type": "finance_out",
+      "text": "−318 UAH — упа",
+      "ts": "2026-10-12T10:51:25.149Z"
+    },
+    {
+      "id": "7gys15267srkc",
+      "type": "finance_out",
+      "text": "−434 UAH — мак",
+      "ts": "2026-10-12T10:50:53.964Z"
+    },
+    {
+      "id": "ozlzivpuqsdwm",
+      "type": "finance_out",
+      "text": "−95 UAH — перекус",
+      "ts": "2026-10-12T10:50:36.262Z"
+    },
+    {
+      "id": "n3rgrijyjs0oi",
+      "type": "finance_out",
+      "text": "−125 UAH — перекус",
+      "ts": "2026-10-12T10:50:19.123Z"
+    },
     {
       "id": "2j73yqmh9xbh1",
       "type": "finance_out",
@@ -5173,118 +5413,10 @@
       "type": "habit_check",
       "text": "💪 Gym",
       "ts": "2026-08-07T01:20:24.943Z"
-    },
-    {
-      "id": "nc7173b5hcu08",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-08-07T01:20:21.992Z"
-    },
-    {
-      "id": "he1u6piyscr7p",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-08-07T01:20:18.373Z"
-    },
-    {
-      "id": "clf5fv3kjcjuy",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-08-07T01:20:08.842Z"
-    },
-    {
-      "id": "ryfanl3s4cfh4",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-08-07T01:20:03.160Z"
-    },
-    {
-      "id": "muafu49k6c5r6",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-08-07T01:19:50.562Z"
-    },
-    {
-      "id": "1zfpy9mjkto8y",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-08-05T23:53:48.802Z"
-    },
-    {
-      "id": "tntv0czqjtlgf",
-      "type": "habit_check",
-      "text": "📚 English",
-      "ts": "2026-08-05T23:53:45.183Z"
-    },
-    {
-      "id": "qko2hstduvdg5",
-      "type": "habit_check",
-      "text": "📖 Reading",
-      "ts": "2026-08-02T21:16:09.557Z"
-    },
-    {
-      "id": "cbaffu0zllckq",
-      "type": "finance_out",
-      "text": "−324 UAH — піца",
-      "ts": "2026-08-02T21:08:21.866Z"
-    },
-    {
-      "id": "z8l4cwm4bkyq9",
-      "type": "finance_out",
-      "text": "−60 UAH — дорога",
-      "ts": "2026-08-02T21:08:03.921Z"
-    },
-    {
-      "id": "tf06tr75zkrey",
-      "type": "finance_out",
-      "text": "−185 UAH — інтернет",
-      "ts": "2026-08-02T21:07:54.442Z"
-    },
-    {
-      "id": "cfmwwdylvjfrc",
-      "type": "finance_out",
-      "text": "−260 UAH — озеро",
-      "ts": "2026-08-02T21:06:52.680Z"
-    },
-    {
-      "id": "qm0v4vaw5j96j",
-      "type": "finance_out",
-      "text": "−300 UAH — озеро",
-      "ts": "2026-08-02T21:06:44.155Z"
-    },
-    {
-      "id": "guax7b6jqibly",
-      "type": "finance_in",
-      "text": "+260 UAH — озеро",
-      "ts": "2026-08-02T21:06:00.646Z"
-    },
-    {
-      "id": "1oy429rvffmjy",
-      "type": "finance_in",
-      "text": "+15,600 UAH — зп друга пол липня від Nova",
-      "ts": "2026-08-02T21:03:54.862Z"
-    },
-    {
-      "id": "hhgj3si0ld806",
-      "type": "finance_in",
-      "text": "+15,600 UAH — зп перша пол липня від Nova",
-      "ts": "2026-08-02T21:02:02.694Z"
-    },
-    {
-      "id": "3dmbhfs21byzu",
-      "type": "finance_in",
-      "text": "+15,600 UAH — зп друга пол липня від Nova",
-      "ts": "2026-08-02T21:01:04.362Z"
-    },
-    {
-      "id": "lz81qt5sk9i9v",
-      "type": "finance_out",
-      "text": "−108 UAH — атб",
-      "ts": "2026-08-02T20:59:09.379Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-09-30T15:42:35.013Z"
+    "lastSync": "2026-10-12T10:56:49.929Z"
   }
 }
