@@ -4625,8 +4625,50 @@
         "transfers": []
       },
       "2026-10": {
-        "income": [],
+        "income": [
+          {
+            "id": "xjncxiomct1t0",
+            "amount": 1500,
+            "date": "2026-10-14T12:00:00.000Z",
+            "source": "проект(ще з максом)"
+          }
+        ],
         "expenses": [
+          {
+            "id": "2frzsy5ezrr96",
+            "amount": 1070,
+            "date": "2026-10-14T12:00:00.000Z",
+            "desc": "поїли з вікусьою",
+            "category": ""
+          },
+          {
+            "id": "xwewhqdvfrb8b",
+            "amount": 28,
+            "date": "2026-10-14T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
+            "id": "r3pe1f81xr1wv",
+            "amount": 575,
+            "date": "2026-10-14T12:00:00.000Z",
+            "desc": "абонемент на проїзд",
+            "category": ""
+          },
+          {
+            "id": "cluppjpw6qi5i",
+            "amount": 37,
+            "date": "2026-10-14T12:00:00.000Z",
+            "desc": "проїзд",
+            "category": ""
+          },
+          {
+            "id": "l650tvaxbq8nm",
+            "amount": 55,
+            "date": "2026-10-14T12:00:00.000Z",
+            "desc": "випічка",
+            "category": ""
+          },
           {
             "id": "70f4a8tz88x0w",
             "amount": 58,
@@ -4821,6 +4863,42 @@
     }
   ],
   "activity": [
+    {
+      "id": "kw893net0t1t1",
+      "type": "finance_in",
+      "text": "+1,500 UAH — проект(ще з максом)",
+      "ts": "2026-10-14T19:18:20.773Z"
+    },
+    {
+      "id": "fcfpig6mbrr97",
+      "type": "finance_out",
+      "text": "−1,070 UAH — поїли з вікусьою",
+      "ts": "2026-10-14T19:17:20.443Z"
+    },
+    {
+      "id": "m3ulbmi6qrb8c",
+      "type": "finance_out",
+      "text": "−28 UAH — перекус",
+      "ts": "2026-10-14T19:16:59.676Z"
+    },
+    {
+      "id": "az5beg0sur1ww",
+      "type": "finance_out",
+      "text": "−575 UAH — абонемент на проїзд",
+      "ts": "2026-10-14T19:16:47.600Z"
+    },
+    {
+      "id": "li9kqig1vqi5j",
+      "type": "finance_out",
+      "text": "−37 UAH — проїзд",
+      "ts": "2026-10-14T19:16:21.991Z"
+    },
+    {
+      "id": "mg5av5qvdq8nn",
+      "type": "finance_out",
+      "text": "−55 UAH — випічка",
+      "ts": "2026-10-14T19:16:09.683Z"
+    },
     {
       "id": "vw918ipe58x0w",
       "type": "finance_out",
@@ -5384,46 +5462,10 @@
       "type": "finance_out",
       "text": "−109 UAH — близенько",
       "ts": "2026-08-24T22:17:07.621Z"
-    },
-    {
-      "id": "uk3ciw1zcq8bz",
-      "type": "finance_out",
-      "text": "−66 UAH — атб",
-      "ts": "2026-08-24T22:16:54.191Z"
-    },
-    {
-      "id": "ogcwn6ls1q24e",
-      "type": "finance_out",
-      "text": "−110 UAH — картридж",
-      "ts": "2026-08-24T22:16:46.142Z"
-    },
-    {
-      "id": "dquztfe4vpvuz",
-      "type": "finance_out",
-      "text": "−71 UAH — сімі",
-      "ts": "2026-08-24T22:16:38.027Z"
-    },
-    {
-      "id": "k7dilsfp1pows",
-      "type": "finance_out",
-      "text": "−202 UAH — атб",
-      "ts": "2026-08-24T22:16:29.020Z"
-    },
-    {
-      "id": "auxasy0hpowx2",
-      "type": "finance_out",
-      "text": "−182 UAH — продукти",
-      "ts": "2026-08-24T22:15:52.742Z"
-    },
-    {
-      "id": "kd2r6m33ucx65",
-      "type": "habit_check",
-      "text": "🥗 Calorie Track",
-      "ts": "2026-08-07T01:20:26.093Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-10-12T11:03:29.980Z"
+    "lastSync": "2026-10-14T19:18:30.038Z"
   }
 }
