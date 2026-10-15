@@ -4627,6 +4627,12 @@
       "2026-10": {
         "income": [
           {
+            "id": "2sds1a7fptpf4",
+            "amount": 8900,
+            "date": "2026-10-16T12:00:00.000Z",
+            "source": "два тижні лідгену"
+          },
+          {
             "id": "xjncxiomct1t0",
             "amount": 1500,
             "date": "2026-10-14T12:00:00.000Z",
@@ -4634,6 +4640,13 @@
           }
         ],
         "expenses": [
+          {
+            "id": "i9e15w74ss3bh",
+            "amount": 162,
+            "date": "2026-10-16T12:00:00.000Z",
+            "desc": "перекуси",
+            "category": ""
+          },
           {
             "id": "2frzsy5ezrr96",
             "amount": 1070,
@@ -4863,6 +4876,18 @@
     }
   ],
   "activity": [
+    {
+      "id": "h7ouljmf5tpf4",
+      "type": "finance_in",
+      "text": "+8,900 UAH — два тижні лідгену",
+      "ts": "2026-10-15T21:26:29.872Z"
+    },
+    {
+      "id": "uz1lc3rvcs3bi",
+      "type": "finance_out",
+      "text": "−162 UAH — перекуси",
+      "ts": "2026-10-15T21:25:14.574Z"
+    },
     {
       "id": "kw893net0t1t1",
       "type": "finance_in",
@@ -5450,22 +5475,10 @@
       "type": "finance_out",
       "text": "−326 UAH — атб",
       "ts": "2026-08-24T22:18:11.062Z"
-    },
-    {
-      "id": "f2918shetrhbf",
-      "type": "finance_out",
-      "text": "−400 UAH — кіно",
-      "ts": "2026-08-24T22:17:52.491Z"
-    },
-    {
-      "id": "ndomuglntqip1",
-      "type": "finance_out",
-      "text": "−109 UAH — близенько",
-      "ts": "2026-08-24T22:17:07.621Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-10-14T19:18:30.038Z"
+    "lastSync": "2026-10-15T21:26:45.516Z"
   }
 }
