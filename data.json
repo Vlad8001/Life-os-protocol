@@ -4627,6 +4627,12 @@
       "2026-10": {
         "income": [
           {
+            "id": "yuvhi8n75q50b",
+            "amount": 305,
+            "date": "2026-10-17T12:00:00.000Z",
+            "source": "мама за ліки"
+          },
+          {
             "id": "2sds1a7fptpf4",
             "amount": 8900,
             "date": "2026-10-16T12:00:00.000Z",
@@ -4640,6 +4646,13 @@
           }
         ],
         "expenses": [
+          {
+            "id": "7biddgscamgqg",
+            "amount": 145,
+            "date": "2026-10-17T12:00:00.000Z",
+            "desc": "16.10",
+            "category": ""
+          },
           {
             "id": "i9e15w74ss3bh",
             "amount": 162,
@@ -4876,6 +4889,18 @@
     }
   ],
   "activity": [
+    {
+      "id": "n2ca5qvupq50c",
+      "type": "finance_in",
+      "text": "+305 UAH — мама за ліки",
+      "ts": "2026-10-16T22:07:23.100Z"
+    },
+    {
+      "id": "u5bp03a3rmgqh",
+      "type": "finance_out",
+      "text": "−145 UAH — 16.10",
+      "ts": "2026-10-16T22:04:31.673Z"
+    },
     {
       "id": "h7ouljmf5tpf4",
       "type": "finance_in",
@@ -5463,22 +5488,10 @@
       "type": "finance_out",
       "text": "−584 UAH — атб",
       "ts": "2026-08-24T22:18:39.553Z"
-    },
-    {
-      "id": "hzugta4q7s4ig",
-      "type": "finance_out",
-      "text": "−73 UAH — ?",
-      "ts": "2026-08-24T22:18:22.552Z"
-    },
-    {
-      "id": "40wr8azdzrvna",
-      "type": "finance_out",
-      "text": "−326 UAH — атб",
-      "ts": "2026-08-24T22:18:11.062Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-10-15T21:26:45.516Z"
+    "lastSync": "2026-10-16T22:08:02.095Z"
   }
 }
