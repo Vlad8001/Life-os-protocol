@@ -4647,6 +4647,20 @@
         ],
         "expenses": [
           {
+            "id": "l2x8371y68n97",
+            "amount": 200,
+            "date": "2026-10-21T12:00:00.000Z",
+            "desc": "мобільний інтернет",
+            "category": ""
+          },
+          {
+            "id": "uvt1w49vj8b8y",
+            "amount": 113,
+            "date": "2026-10-21T12:00:00.000Z",
+            "desc": "перекус",
+            "category": ""
+          },
+          {
             "id": "1f4qwnys9k5xj",
             "amount": 200,
             "date": "2026-10-19T12:00:00.000Z",
@@ -4903,6 +4917,18 @@
     }
   ],
   "activity": [
+    {
+      "id": "zlr4ou8rk8n98",
+      "type": "finance_out",
+      "text": "−200 UAH — мобільний інтернет",
+      "ts": "2026-10-20T22:28:27.452Z"
+    },
+    {
+      "id": "ii5o77a2j8b8z",
+      "type": "finance_out",
+      "text": "−113 UAH — перекус",
+      "ts": "2026-10-20T22:28:11.891Z"
+    },
     {
       "id": "iiw6jcl8yk5xj",
       "type": "finance_out",
@@ -5490,22 +5516,10 @@
       "type": "finance_out",
       "text": "−211 UAH — ?",
       "ts": "2026-08-24T22:19:36.989Z"
-    },
-    {
-      "id": "232uj8jy6tghz",
-      "type": "finance_out",
-      "text": "−24 UAH — водичка",
-      "ts": "2026-08-24T22:19:24.743Z"
-    },
-    {
-      "id": "vo8qxn3mctb7o",
-      "type": "finance_out",
-      "text": "−100 UAH — сімі",
-      "ts": "2026-08-24T22:19:17.892Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-10-19T20:57:54.398Z"
+    "lastSync": "2026-10-20T22:28:33.874Z"
   }
 }
