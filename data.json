@@ -4647,6 +4647,13 @@
         ],
         "expenses": [
           {
+            "id": "qq24x7kyr2zti",
+            "amount": 183,
+            "date": "2026-10-22T12:00:00.000Z",
+            "desc": "перекуси атб",
+            "category": ""
+          },
+          {
             "id": "gxzv47r4zf9p9",
             "amount": 59,
             "date": "2026-10-21T12:00:00.000Z",
@@ -4924,6 +4931,12 @@
     }
   ],
   "activity": [
+    {
+      "id": "i66tdzlb92ztj",
+      "type": "finance_out",
+      "text": "−183 UAH — перекуси атб",
+      "ts": "2026-10-22T20:07:26.167Z"
+    },
     {
       "id": "tvdxotbdbf9pc",
       "type": "finance_out",
@@ -5517,16 +5530,10 @@
       "type": "finance_out",
       "text": "−26 UAH — проїзд",
       "ts": "2026-08-24T22:21:46.042Z"
-    },
-    {
-      "id": "7a5hn7dptuetv",
-      "type": "finance_in",
-      "text": "+15,720 UAH — перші два тижні серпня зп від Nova",
-      "ts": "2026-08-24T22:20:09.235Z"
     }
   ],
   "settings": {
     "githubRepo": "Vlad8001/Life-os-protocol",
-    "lastSync": "2026-10-21T18:37:24.625Z"
+    "lastSync": "2026-10-22T20:07:29.555Z"
   }
 }
