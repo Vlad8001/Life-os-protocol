@@ -4228,6 +4228,20 @@ function Finance({ data, setData, showToast, openBulkImport }) {
   })();
   const avgDaily = totalExpenses > 0 ? Math.round(totalExpenses / (daysSoFar || 1)) : 0;
 
+  // Daily budget: what's left of the monthly limit ÷ days left in the month (today included)
+  const limitRemaining = limit - totalExpenses;
+  const daysLeft = (() => {
+    const [y, m] = monthKey.split('-').map(Number);
+    const daysInMonth = new Date(y, m, 0).getDate();
+    if (isCurrentMonth) return daysInMonth - today.getDate() + 1;
+    return monthKey > getMonthKey() ? daysInMonth : 0; // future month: whole month, past month: none
+  })();
+  const dailyBudget = limit > 0 && daysLeft > 0 ? Math.max(0, limitRemaining) / daysLeft : null;
+  const dailyColor =
+    limit <= 0 || dailyBudget === null ? 'text-zinc-400' :
+    limitRemaining <= 0 ? 'text-red-600' :
+    dailyBudget < avgDaily ? 'text-amber-600' : 'text-emerald-600';
+
   return (
     <PageFrame
       index={5}
@@ -4311,6 +4325,34 @@ function Finance({ data, setData, showToast, openBulkImport }) {
             <span className="text-zinc-500">{fmtNum(Math.max(0, limit - totalExpenses))} {cur} remaining</span>
           )}
         </div>
+
+        {/* Daily budget — remaining limit ÷ days left in the month */}
+        <div className="mt-3 pt-3 border-t border-zinc-200/60 grid grid-cols-3 gap-3">
+          <div>
+            <div className="font-mono text-[10px] uppercase tracking-wider text-zinc-400">Remaining</div>
+            <div className={cls('font-mono text-[15px] font-bold tabular-nums', limitRemaining < 0 ? 'text-red-600' : 'text-zinc-800')}>
+              {limit > 0 ? fmtNum(limitRemaining) : '—'} <span className="text-[10px] font-normal text-zinc-400">{cur}</span>
+            </div>
+          </div>
+          <div>
+            <div className="font-mono text-[10px] uppercase tracking-wider text-zinc-400">Days left</div>
+            <div className="font-mono text-[15px] font-bold tabular-nums text-zinc-800">
+              {daysLeft}
+            </div>
+          </div>
+          <div>
+            <div className="font-mono text-[10px] uppercase tracking-wider text-zinc-400">Can spend / day</div>
+            <div className={cls('font-mono text-[15px] font-bold tabular-nums', dailyColor)}>
+              {dailyBudget === null ? '—' : fmtNum(dailyBudget)} <span className="text-[10px] font-normal text-zinc-400">{cur}</span>
+            </div>
+          </div>
+        </div>
+        {limit <= 0 && (
+          <div className="mt-2 font-mono text-[10px] text-zinc-400">Set a monthly limit above to see the daily budget.</div>
+        )}
+        {limit > 0 && daysLeft === 0 && (
+          <div className="mt-2 font-mono text-[10px] text-zinc-400">This month is over — no days left.</div>
+        )}
       </Panel>
 
       {/* QUICK CAPTURE — main input */}
